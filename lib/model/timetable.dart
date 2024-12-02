@@ -1,3 +1,4 @@
+import 'package:utrack/constants.dart';
 import 'package:utrack/model/class.dart';
 
 class TimetableModel {
@@ -19,7 +20,7 @@ class TimetableModel {
 
     // 各クラスを対応する曜日とコマに配置
     for (var classModel in classes) {
-      timetable[classModel.dayOfWeek]?[classModel.period] = classModel;
+      timetable[classModel.dayOfWeek]?[classModel.period.number] = classModel;
     }
 
     return timetable;

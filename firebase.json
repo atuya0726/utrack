@@ -1,0 +1,30 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "utrack-dev",
+                    "appId": "1:619931495891:android:91bf3a580fa9eae59e1326",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "ios": {
+                "default": {
+                    "projectId": "utrack-dev",
+                    "appId": "1:619931495891:ios:0cabf9b12806fd819e1326",
+                    "uploadDebugSymbols": false,
+                    "fileOutput": "ios/Runner/GoogleService-Info.plist"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "utrack-dev",
+                    "configurations": {
+                        "android": "1:619931495891:android:91bf3a580fa9eae59e1326",
+                        "ios": "1:619931495891:ios:0cabf9b12806fd819e1326"
+                    }
+                }
+            }
+        }
+    }
+}

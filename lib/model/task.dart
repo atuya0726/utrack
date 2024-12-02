@@ -6,9 +6,9 @@ enum TaskState {
 }
 
 class TaskModel {
-  final int id;
-  final int classId;
-  final int userId;
+  final String id;
+  final String classId;
+  final String userId;
   final String name;
   final DateTime deadline;
   final String howToSubmit;

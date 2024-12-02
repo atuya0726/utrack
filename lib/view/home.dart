@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:utrack/view/list_task.dart';
-import 'package:utrack/view/timetable.dart';
+import 'package:utrack/view/Task/list_task.dart';
+import 'package:utrack/view/Timetable/timetable.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -21,10 +21,12 @@ class Home extends StatelessWidget {
           ),
         ),
       ),
-      body: Column(
+      body: const Column(
         children: [
           Timetable(),
-          ListTask(),
+          ListTask(
+            classId: '',
+          ),
         ],
       ),
     );
