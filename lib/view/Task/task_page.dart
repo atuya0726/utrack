@@ -1,34 +1,82 @@
 import 'package:flutter/material.dart';
-import 'package:utrack/constants.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:utrack/model/class.dart';
 import 'package:utrack/view/Task/add_task.dart';
 import 'package:utrack/view/Task/list_task.dart';
+import 'package:utrack/viewmodel/task.dart';
+import 'package:utrack/viewmodel/timetable.dart';
 
-class TaskPage extends StatelessWidget {
+class TaskPage extends ConsumerWidget {
   const TaskPage({
     super.key,
-    required this.classId,
-    required this.period,
-    required this.dayOfWeek,
+    required this.cls,
   });
-  final String classId;
-  final Period period;
-  final Week dayOfWeek;
+  final ClassModel cls;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.primary,
         title: const Center(
           child: Text('Task List'),
         ),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () => Navigator.pop(context),
+        ),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.delete),
+            onPressed: () => _showDeleteConfirmationDialog(context, cls, ref),
+          ),
+        ],
       ),
       body: Column(
         children: [
-          AddTask(classId: classId, period: period, dayOfWeek: dayOfWeek),
-          ListTask(classId: classId),
+          AddTask(cls: cls),
+          ListTask(classId: cls.id),
         ],
       ),
+    );
+  }
+
+  Future<void> _showDeleteConfirmationDialog(
+    BuildContext context,
+    ClassModel cls,
+    WidgetRef ref,
+  ) async {
+    return showDialog<void>(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('授業の削除'),
+          content: Text('${cls.name}を削除してよろしいですか？\n関連する課題も全て削除されます。'),
+          actions: <Widget>[
+            TextButton(
+              child: const Text('キャンセル'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+            TextButton(
+              child: const Text('削除'),
+              onPressed: () async {
+                final result = await ref
+                    .read(timetableProvider.notifier)
+                    .deleteTimetable(cls: cls);
+                if (result) {
+                  ref.read(taskProvider.notifier).deleteTasks(classId: cls.id);
+                }
+                if (context.mounted) {
+                  Navigator.of(context).pop();
+                  Navigator.of(context).pop();
+                }
+              },
+            ),
+          ],
+        );
+      },
     );
   }
 }

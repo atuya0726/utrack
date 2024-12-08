@@ -59,7 +59,7 @@ class _ClassesListState extends State<ClassesList> {
         cls.name,
         style: TextStyle(color: Theme.of(context).colorScheme.onSurface),
       ),
-      subtitle: const Text('朝ごはんはとても大事'),
+      subtitle: Text(cls.professor),
       tileColor: Theme.of(context).colorScheme.surface,
       trailing: IconButton(
         onPressed: () {

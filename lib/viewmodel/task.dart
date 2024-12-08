@@ -1,29 +1,33 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:utrack/model/task.dart';
 import 'package:utrack/constants.dart';
-import 'package:utrack/viewmodel/mock_variables.dart';
-import 'package:uuid/uuid.dart';
+import 'package:utrack/repository/task.dart';
 
-final taskProvider =
-    StateNotifierProvider<TaskNotifier, Map<String, List<TaskModel>>>(
+final taskProvider = StateNotifierProvider<TaskNotifier, List<TaskModel>>(
   (ref) => TaskNotifier(),
 );
 
-class TaskNotifier extends StateNotifier<Map<String, List<TaskModel>>> {
-  TaskNotifier() : super({}) {
+class TaskNotifier extends StateNotifier<List<TaskModel>> {
+  TaskNotifier() : super([]) {
     fetchTasks();
   }
+  TaskRepository taskRepository = TaskRepository();
+  final Completer<void> _completer = Completer<void>();
+  final String userId = 'SrnN1kD4PPyTiqVRwFhl';
+  List<TaskModel> originTasks = [];
 
   void fetchTasks() async {
     try {
-      Map<String, List<TaskModel>> tasks = {};
-      for (var cls in mockClasses) {
-        tasks[cls.id] = mockTasks;
-      }
-      state = tasks;
+      originTasks = await taskRepository.getTasks(userId: userId);
+      state = originTasks;
+      _completer.complete();
     } catch (e) {
       debugPrint(e.toString());
+      _completer.completeError(e);
+      throw Exception('Failed to fetch tasks in ViewModel: $e');
     }
   }
 
@@ -39,46 +43,98 @@ class TaskNotifier extends StateNotifier<Map<String, List<TaskModel>>> {
     }
   }
 
-  void addTasks({required Map taskData}) {
-    const uuid = Uuid();
-    final classId = taskData['classId'] as String;
+  Future<void> addTasks({
+    required String classId,
+    required String name,
+    required DateTime deadline,
+    required HowToSubmit howToSubmit,
+  }) async {
+    final task = TaskModel.addTask(
+      classId: classId,
+      name: name,
+      userId: userId,
+      deadline: deadline,
+      howToSubmit: howToSubmit,
+      status: TaskStatus.inProgress,
+    );
 
-    // 修正: 新しいタスクリストを作成
-    final updatedTasks = {...state};
-    final currentTasks = updatedTasks[classId] ?? [];
-    updatedTasks[classId] = [
-      ...currentTasks,
-      TaskModel(
-        id: uuid.v4(),
-        classId: classId,
-        userId: taskData['userId'],
-        name: taskData['name'],
-        deadline: taskData['deadline'],
-        howToSubmit: taskData['howToSubmit'],
-        state: TaskState.pending,
-      )
-    ];
+    state = [...state, task];
+    originTasks.add(task);
 
-    state = updatedTasks;
+    try {
+      await taskRepository.addTask(task: task);
+    } catch (e) {
+      // エラー時は状態を元に戻す
+      originTasks.removeLast();
+      state = originTasks;
+      debugPrint(e.toString());
+      throw Exception('タスクの保存に失敗しました: $e');
+    }
   }
 
-  void deleteTask({required String id, required String classId}) {
-    state = {
-      ...state,
-      classId: state[classId]!.where((element) => element.id != id).toList(),
-    };
+  Future<void> deleteTask(
+      {required String taskId, required String classId}) async {
+    final deleteTask =
+        originTasks.firstWhere((element) => element.id == taskId);
+    originTasks.remove(deleteTask);
+    state = originTasks;
+    try {
+      await taskRepository.deleteTask(taskId: taskId);
+    } catch (e) {
+      debugPrint(e.toString());
+      // エラー時は状態を元に戻す
+      originTasks.add(deleteTask);
+      state = originTasks;
+      throw Exception('タスクの削除に失敗しました: $e');
+    }
   }
 
-  List<TaskModel> allTasks() {
-    var tasks = state.values.expand((list) => list).toList();
-    tasks.sort((a, b) => a.deadline.compareTo(b.deadline));
-    return tasks;
+  Future<void> updateTaskStatus({
+    required String taskId,
+    required TaskStatus status,
+  }) async {
+    final updateTask =
+        originTasks.firstWhere((element) => element.id == taskId);
+    final originStatus = updateTask.status;
+    originTasks.remove(updateTask);
+    updateTask.status = status;
+    originTasks.add(updateTask);
+    state = originTasks;
+    try {
+      await taskRepository.updateTaskStatus(taskId: taskId, status: status);
+    } catch (e) {
+      debugPrint(e.toString());
+      // エラー時は状態を元に戻す
+      originTasks.remove(updateTask);
+      updateTask.status = originStatus;
+      originTasks.add(updateTask);
+      state = originTasks;
+      throw Exception('タスクのステータス更新に失敗しました: $e');
+    }
   }
 
-  List<TaskModel> tasksByClassId({required String classId}) {
-    var tasks = state[classId] ?? [];
-    tasks.sort((a, b) => a.deadline.compareTo(b.deadline));
-    return tasks;
+  void deleteTasks({required String classId}) {
+    originTasks.removeWhere((element) => element.classId == classId);
+    state = originTasks;
+  }
+
+  Future<void> filterTasks({String? classId, TaskStatus? status}) async {
+    await _completer.future;
+    if (originTasks.isEmpty) {
+      return;
+    }
+
+    for (var task in originTasks) {
+      if (task.deadline.isBefore(DateTime.now())) {
+        task.status = TaskStatus.expired;
+      }
+    }
+    state = originTasks
+        .where((task) =>
+            (classId == null || task.classId == classId) &&
+            (status == null || task.status == status))
+        .toList()
+      ..sort((a, b) => a.deadline.compareTo(b.deadline));
   }
 
   DateTime nextWeekAt2359({required Week dayOfWeek}) {

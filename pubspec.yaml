@@ -42,6 +42,7 @@ dependencies:
   flutter_datetime_picker_plus: ^2.2.0
   intl: ^0.19.0
   firebase_core: ^3.8.0
+  cloud_firestore: ^5.5.0
 
 dev_dependencies:
   flutter_test:
@@ -53,6 +54,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  html: ^0.15.5
+  http: ^1.2.2
+  dart_firebase_admin: ^0.4.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

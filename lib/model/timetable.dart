@@ -1,33 +1,57 @@
 import 'package:utrack/constants.dart';
 import 'package:utrack/model/class.dart';
 
+typedef Timetable = Map<Week, Map<Period, ClassModel?>>;
+
 class TimetableModel {
-  final Map<String, Map<int, ClassModel?>> timetable;
+  Timetable generateTimetable(List<ClassModel> classes) {
+    // すべての曜日とコマの組み合わせを生成
+    final timetable = Map<Week, Map<Period, ClassModel?>>.fromEntries(
+      Week.values.map((week) => MapEntry(
+            week,
+            Map<Period, ClassModel?>.fromEntries(
+              Period.values.map((period) => MapEntry(period, null)),
+            ),
+          )),
+    );
 
-  TimetableModel(List<ClassModel> classes)
-      : timetable = _generateTimetable(classes);
-
-  static Map<String, Map<int, ClassModel?>> _generateTimetable(
-      List<ClassModel> classes) {
-    // 曜日ごとの初期値 (すべてのコマが null)
-    Map<String, Map<int, ClassModel?>> timetable = {
-      'mon': {1: null, 2: null, 3: null, 4: null, 5: null},
-      'tue': {1: null, 2: null, 3: null, 4: null, 5: null},
-      'wed': {1: null, 2: null, 3: null, 4: null, 5: null},
-      'thu': {1: null, 2: null, 3: null, 4: null, 5: null},
-      'fri': {1: null, 2: null, 3: null, 4: null, 5: null},
-    };
-
-    // 各クラスを対応する曜日とコマに配置
-    for (var classModel in classes) {
-      timetable[classModel.dayOfWeek]?[classModel.period.number] = classModel;
+    // 各クラスを配置
+    for (final classModel in classes) {
+      for (final period in classModel.period) {
+        timetable[classModel.dayOfWeek]![period] = classModel;
+      }
     }
 
     return timetable;
   }
 
-  // 特定の曜日と時間のクラスを取得するメソッド
-  ClassModel? getClass(String day, int period) {
-    return timetable[day]?[period];
+  Timetable add({required ClassModel cls, required Timetable timetable}) {
+    final updatedClasses = <ClassModel>[];
+
+    for (final week in Week.values) {
+      for (final period in Period.values) {
+        final classModel = timetable[week]?[period];
+        if (classModel != null) {
+          updatedClasses.add(classModel);
+        }
+      }
+    }
+    updatedClasses.add(cls);
+
+    return generateTimetable(updatedClasses);
+  }
+
+  Timetable delete(
+      {required String classId,
+      required Timetable timetable,
+      required Week dayOfWeek,
+      required List<Period> periods}) {
+    return {
+      ...timetable,
+      dayOfWeek: {
+        ...timetable[dayOfWeek]!,
+        for (final period in periods) period: null,
+      },
+    };
   }
 }

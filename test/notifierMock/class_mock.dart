@@ -6,21 +6,23 @@ class MockClassNotifier extends ClassNotifier {
   Map<String, dynamic>? lastArgs;
 
   @override
-  void filterClasses(
-      {Grade? grade, required Period period, required Week dayOfWeek}) {
+  Future<void> filterClasses(
+      {Grade? grade, required Period period, required Week dayOfWeek}) async {
     isCalled = true;
     lastArgs = {'grade': grade, 'period': period, 'dayOfWeek': dayOfWeek};
   }
 
   @override
-  void searchClasses(
-      {required String text, required Week dayOfWeek, required Period period}) {
+  Future<void> searchClasses(
+      {required String text,
+      required Week dayOfWeek,
+      required Period period}) async {
     isCalled = true;
     lastArgs = {'text': text, 'dayOfWeek': dayOfWeek, 'period': period};
   }
 
   @override
-  String getNameById({required String classId}) {
+  Future<String> getNameById({required String classId}) async {
     return 'class';
   }
 }

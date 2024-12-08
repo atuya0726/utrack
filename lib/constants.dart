@@ -1,4 +1,4 @@
-const dateFormat = 'y年M月d日 hh:mm';
+const dateFormat = 'y年M月d日 H:mm';
 
 enum Grade {
   firstYear,
@@ -47,6 +47,16 @@ extension WeekExtension on Week {
         return '金';
     }
   }
+
+  // ラベルからWeekを取得するヘルパーメソッド
+  static Week fromJson(int number) {
+    return Week.values
+        .firstWhere((week) => week.number == number, orElse: () => Week.mon);
+  }
+
+  static Week fromLabel(String label) {
+    return Week.values.firstWhere((week) => week.label == label);
+  }
 }
 
 enum Period {
@@ -65,11 +75,22 @@ extension PeriodExtension on Period {
   String get label => '$number限';
 
   // ラベルからPeriodを取得するヘルパーメソッド
-  static Period fromLabel(String label) {
-    return Period.values.firstWhere(
-      (period) => period.label == label,
-      orElse: () => Period.first,
-    );
+  static List<Period> fromJson(List<int> numbers) {
+    return numbers
+        .map(
+          (number) => Period.values.firstWhere(
+            (period) => period.number == number,
+          ),
+        )
+        .toList();
+  }
+
+  static Period fromNumber(int number) {
+    return Period.values.firstWhere((period) => period.number == number);
+  }
+
+  static Period fromString(String p) {
+    return Period.values.firstWhere((period) => period.number == p as num);
   }
 
   // 時限ごとの開始時刻（時）を返すプロパティ
@@ -111,7 +132,7 @@ enum HowToSubmit {
   posting,
 }
 
-extension HowToSubmitExtensiton on HowToSubmit {
+extension HowToSubmitExtension on HowToSubmit {
   String get label {
     switch (this) {
       case HowToSubmit.online:
@@ -120,6 +141,81 @@ extension HowToSubmitExtensiton on HowToSubmit {
         return '手渡し';
       case HowToSubmit.posting:
         return '投函';
+    }
+  }
+
+  static HowToSubmit fromLabel(String label) {
+    return HowToSubmit.values
+        .firstWhere((howToSubmit) => howToSubmit.label == label);
+  }
+}
+
+enum TaskType {
+  report,
+  exercise,
+  presentation,
+  test,
+}
+
+extension TaskTypeExtension on TaskType {
+  String get label {
+    switch (this) {
+      case TaskType.report:
+        return 'レポート';
+      case TaskType.exercise:
+        return '演習';
+      case TaskType.presentation:
+        return '発表準備';
+      case TaskType.test:
+        return 'テスト';
+    }
+  }
+}
+
+enum TimeSpent {
+  lessThanHour, // 1時間未満
+  oneToFour, // 1-4時間
+  moreThanFour // 4時間以上
+}
+
+extension TimeSpentExtension on TimeSpent {
+  String get label {
+    switch (this) {
+      case TimeSpent.lessThanHour:
+        return '1時間未満';
+      case TimeSpent.oneToFour:
+        return '1-4時間';
+      case TimeSpent.moreThanFour:
+        return '4時間以上';
+    }
+  }
+
+  static TimeSpent fromLabel(String label) {
+    return TimeSpent.values.firstWhere(
+      (timeSpent) => timeSpent.label == label,
+      orElse: () => TimeSpent.lessThanHour,
+    );
+  }
+}
+
+enum TaskStatus {
+  canceled,
+  expired,
+  inProgress,
+  completed,
+}
+
+extension TaskStatusExtension on TaskStatus {
+  String get label {
+    switch (this) {
+      case TaskStatus.canceled:
+        return '諦めた';
+      case TaskStatus.expired:
+        return '期限切れ';
+      case TaskStatus.inProgress:
+        return '進行中';
+      case TaskStatus.completed:
+        return '完了';
     }
   }
 }

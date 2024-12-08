@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:utrack/constants.dart';
+import 'package:utrack/model/class.dart';
 import 'package:utrack/viewmodel/task.dart';
 import 'package:flutter_datetime_picker_plus/flutter_datetime_picker_plus.dart'
     as picker;
@@ -9,28 +10,22 @@ import 'package:flutter_datetime_picker_plus/flutter_datetime_picker_plus.dart'
 class AddTask extends StatefulWidget {
   const AddTask({
     super.key,
-    required this.classId,
-    required this.period,
-    required this.dayOfWeek,
+    required this.cls,
   });
-  final String classId;
-  final Period period;
-  final Week dayOfWeek;
+  final ClassModel cls;
 
   @override
   State<AddTask> createState() => _AddTaskState();
 }
 
 class _AddTaskState extends State<AddTask> {
-  HowToSubmit _selectedSubmitMethod = HowToSubmit.online;
+  HowToSubmit? _selectedSubmitMethod;
+  TaskType? _selectedTaskType;
   final TextEditingController _dateController = TextEditingController();
-  final TextEditingController _nameController = TextEditingController();
 
   @override
   void dispose() {
-    // 必ずdispose()でコントローラーを破棄
     _dateController.dispose();
-    _nameController.dispose();
     super.dispose();
   }
 
@@ -61,18 +56,32 @@ class _AddTaskState extends State<AddTask> {
             ),
             OutlinedButton(
               onPressed: () {
+                if (_selectedTaskType == null ||
+                    _selectedSubmitMethod == null ||
+                    _dateController.text.isEmpty) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text('全ての項目を入力してください'),
+                    ),
+                  );
+                  return;
+                }
+
                 final ref = ProviderScope.containerOf(context);
-                final taskData = {
-                  'classId': widget.classId,
-                  'userId': '',
-                  'name': _nameController.text,
-                  'deadline': dateFormatter.parse(_dateController.text),
-                  'howToSubmit': _selectedSubmitMethod.name
-                };
-                ref.read(taskProvider.notifier).addTasks(taskData: taskData);
+                ref.read(taskProvider.notifier).addTasks(
+                      classId: widget.cls.id,
+                      name: _selectedTaskType!.label,
+                      deadline: dateFormatter.parse(_dateController.text),
+                      howToSubmit: _selectedSubmitMethod!,
+                    );
+                setState(() {
+                  _selectedTaskType = null;
+                  _selectedSubmitMethod = null;
+                });
+                _dateController.clear();
                 _snackBar();
               },
-              child: Text('追加'),
+              child: const Text('追加'),
             ),
           ],
         ),
@@ -101,24 +110,13 @@ class _AddTaskState extends State<AddTask> {
               selected: _selectedSubmitMethod == howToSubmit,
               onSelected: (isSelected) {
                 setState(() {
-                  _selectedSubmitMethod = howToSubmit;
+                  _selectedSubmitMethod = isSelected ? howToSubmit : null;
                 });
               },
             );
           }).toList(),
         ),
       ],
-    );
-  }
-
-  TextField _buildInputTaskName() {
-    return TextField(
-      controller: _nameController,
-      decoration: const InputDecoration(
-        suffixIcon: Icon(Icons.clear),
-        labelText: '課題の名前',
-        border: OutlineInputBorder(),
-      ),
     );
   }
 
@@ -134,6 +132,27 @@ class _AddTaskState extends State<AddTask> {
           fontWeight: FontWeight.bold,
         ),
       ),
+    );
+  }
+
+  Widget _buildInputTaskName() {
+    return DropdownButtonFormField<TaskType>(
+      value: _selectedTaskType,
+      decoration: const InputDecoration(
+        labelText: '課題の種類',
+        border: OutlineInputBorder(),
+      ),
+      items: TaskType.values.map((type) {
+        return DropdownMenuItem(
+          value: type,
+          child: Text(type.label),
+        );
+      }).toList(),
+      onChanged: (value) {
+        setState(() {
+          _selectedTaskType = value;
+        });
+      },
     );
   }
 
@@ -156,7 +175,7 @@ class _AddTaskState extends State<AddTask> {
                   setState(() {
                     DateTime date = ref
                         .read(taskProvider.notifier)
-                        .nextWeekAt2359(dayOfWeek: widget.dayOfWeek);
+                        .nextWeekAt2359(dayOfWeek: widget.cls.dayOfWeek);
                     _dateController.text = dateFormatter.format(date);
                   });
                 },
@@ -181,7 +200,8 @@ class _AddTaskState extends State<AddTask> {
                   DateTime date = ref
                       .read(taskProvider.notifier)
                       .nextWeekClassStartTime(
-                          dayOfWeek: widget.dayOfWeek, period: widget.period);
+                          dayOfWeek: widget.cls.dayOfWeek,
+                          period: widget.cls.period.first);
                   _dateController.text = dateFormatter.format(date);
                 },
                 child: const Text(
@@ -220,9 +240,6 @@ class _AddTaskState extends State<AddTask> {
             ),
           ],
         ),
-        const SizedBox(
-          height: 10,
-        ),
         TextField(
           readOnly: true,
           controller: _dateController,
@@ -237,7 +254,7 @@ class _AddTaskState extends State<AddTask> {
 
   _snackBar() {
     return ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
+      const SnackBar(
         content: Text('追加完了'),
       ),
     );

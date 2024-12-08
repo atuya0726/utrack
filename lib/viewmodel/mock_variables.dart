@@ -7,10 +7,11 @@ final classmodel = ClassModel(
   name: "キャリア教育基礎",
   professor: "test",
   place: "東A-404",
-  period: Period.fourth,
+  period: [Period.fourth],
   dayOfWeek: Week.wed,
   semester: "test",
-  year: 3,
+  year: [3],
+  users: [],
 );
 
 final classmodel_2 = ClassModel(
@@ -18,10 +19,11 @@ final classmodel_2 = ClassModel(
   name: "Academic English for the Second Year Ⅰ（Ⅱ類・E）",
   professor: "test",
   place: "東A-4046666666",
-  period: Period.fourth,
+  period: [Period.fourth],
   dayOfWeek: Week.mon,
   semester: "test",
-  year: 3,
+  year: [3],
+  users: [],
 );
 
 final classmodel_3 = ClassModel(
@@ -29,10 +31,11 @@ final classmodel_3 = ClassModel(
   name: 'データベース',
   professor: 'test',
   place: '西2-501',
-  period: Period.third,
+  period: [Period.third],
   dayOfWeek: Week.mon,
   semester: 'test',
-  year: 2,
+  year: [2],
+  users: [],
 );
 
 final classmodel_4 = ClassModel(
@@ -40,10 +43,11 @@ final classmodel_4 = ClassModel(
   name: 'ネットワーク工学',
   professor: 'test',
   place: '東3-201',
-  period: Period.fourth,
+  period: [Period.fourth],
   dayOfWeek: Week.tue,
   semester: 'test',
-  year: 3,
+  year: [3],
+  users: [],
 );
 
 final classmodel_5 = ClassModel(
@@ -51,10 +55,11 @@ final classmodel_5 = ClassModel(
   name: '情報セキュリティ',
   professor: 'test',
   place: '西5-201',
-  period: Period.first,
+  period: [Period.first],
   dayOfWeek: Week.wed,
   semester: 'test',
-  year: 4,
+  year: [4],
+  users: [],
 );
 
 final classmodel_6 = ClassModel(
@@ -62,10 +67,11 @@ final classmodel_6 = ClassModel(
   name: 'アルゴリズム',
   professor: 'test',
   place: '東2-301',
-  period: Period.fifth,
+  period: [Period.fifth],
   dayOfWeek: Week.thu,
   semester: 'test',
-  year: 2,
+  year: [2],
+  users: [],
 );
 
 final classmodel_7 = ClassModel(
@@ -73,10 +79,11 @@ final classmodel_7 = ClassModel(
   name: '人工知能',
   professor: 'test',
   place: '西3-401',
-  period: Period.third,
+  period: [Period.third],
   dayOfWeek: Week.fri,
   semester: 'test',
-  year: 3,
+  year: [3],
+  users: [],
 );
 
 final classmodel_8 = ClassModel(
@@ -84,10 +91,11 @@ final classmodel_8 = ClassModel(
   name: '人工知能基礎',
   professor: 'test',
   place: '西3-402',
-  period: Period.third,
+  period: [Period.third],
   dayOfWeek: Week.fri,
   semester: 'test',
-  year: 1,
+  year: [1],
+  users: [],
 );
 
 final classmodel_9 = ClassModel(
@@ -95,10 +103,11 @@ final classmodel_9 = ClassModel(
   name: '応用人工知能',
   professor: 'test',
   place: '西3-403',
-  period: Period.third,
+  period: [Period.third],
   dayOfWeek: Week.fri,
   semester: 'test',
-  year: 2,
+  year: [1],
+  users: [],
 );
 
 final classmodel_10 = ClassModel(
@@ -106,10 +115,11 @@ final classmodel_10 = ClassModel(
   name: '人工知能特論',
   professor: 'test',
   place: '西3-404',
-  period: Period.third,
+  period: [Period.third],
   dayOfWeek: Week.fri,
   semester: 'test',
-  year: 4,
+  year: [4],
+  users: [],
 );
 
 List<ClassModel> mockClasses = [
@@ -131,8 +141,8 @@ final task = TaskModel(
   userId: '123',
   name: "レポート",
   deadline: DateTime(2024, 12, 02),
-  howToSubmit: "online",
-  state: TaskState.inProgress,
+  howToSubmit: HowToSubmit.online,
+  status: TaskStatus.inProgress,
 );
 
 final task1 = TaskModel(
@@ -141,8 +151,8 @@ final task1 = TaskModel(
   userId: '123',
   name: "期末レポート",
   deadline: DateTime(2024, 11, 31),
-  howToSubmit: "classroom",
-  state: TaskState.pending,
+  howToSubmit: HowToSubmit.offline,
+  status: TaskStatus.inProgress,
 );
 
 final task2 = TaskModel(
@@ -151,8 +161,8 @@ final task2 = TaskModel(
   userId: '123',
   name: "Presentation Slides",
   deadline: DateTime(2024, 11, 26, 23, 59),
-  howToSubmit: "email",
-  state: TaskState.completed,
+  howToSubmit: HowToSubmit.posting,
+  status: TaskStatus.inProgress,
 );
 
 final task3 = TaskModel(
@@ -161,8 +171,8 @@ final task3 = TaskModel(
   userId: '123',
   name: "グループワーク資料作成",
   deadline: DateTime(2024, 11, 30),
-  howToSubmit: "inPerson",
-  state: TaskState.inProgress,
+  howToSubmit: HowToSubmit.offline,
+  status: TaskStatus.inProgress,
 );
 
 Map<Week, Map<Period, ClassModel?>> mockTimetable = {

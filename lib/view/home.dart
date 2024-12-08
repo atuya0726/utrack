@@ -25,7 +25,7 @@ class Home extends StatelessWidget {
         children: [
           Timetable(),
           ListTask(
-            classId: '',
+            classId: null,
           ),
         ],
       ),

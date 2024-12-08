@@ -15,10 +15,11 @@ void main() {
       name: "キャリア教育基礎",
       professor: "test",
       place: "東A-404",
-      period: Period.fourth,
+      period: [Period.fourth],
       dayOfWeek: Week.wed,
       semester: "test",
-      year: 3,
+      year: [3],
+      users: [],
     );
 
     // Act 1: Render TimetableCell with cls = null

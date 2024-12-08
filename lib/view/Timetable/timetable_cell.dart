@@ -49,9 +49,7 @@ class TimetableCell extends StatelessWidget {
         },
         openBuilder: (BuildContext context, _) {
           return TaskPage(
-            classId: cls!.id,
-            period: period,
-            dayOfWeek: dayOfWeek,
+            cls: cls!,
           );
         },
       );
