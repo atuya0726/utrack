@@ -64,6 +64,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '619931495891',
     projectId: 'utrack-dev',
     storageBucket: 'utrack-dev.firebasestorage.app',
-    iosBundleId: 'com.example.utrack',
+    iosBundleId: 'com.nagasunari.utrack',
   );
 }

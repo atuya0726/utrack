@@ -1,4 +1,4 @@
-package com.example.utrack
+package com.nagasunari.utrack
 
 import io.flutter.embedding.android.FlutterActivity
 

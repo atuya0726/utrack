@@ -10,7 +10,7 @@ workflows:
   #       key_alias: $CM_KEY_ALIAS
   #       key_password: $CM_KEY_PASSWORD
   #     vars:
-  #       PACKAGE_NAME: "com.example.yourapp" # あなたのアプリのパッケージ名に置き換えてください
+  #       PACKAGE_NAME: "com.nagasunari.yourapp" # あなたのアプリのパッケージ名に置き換えてください
   #       GOOGLE_PLAY_TRACK: "internal" # デプロイするトラック（internal、alpha、beta、productionなど）
   #   scripts:
   #     - name: Install dependencies
