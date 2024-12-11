@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:utrack/model/task.dart';
@@ -11,13 +12,17 @@ final taskProvider = StateNotifierProvider<TaskNotifier, List<TaskModel>>(
 );
 
 class TaskNotifier extends StateNotifier<List<TaskModel>> {
-  TaskNotifier() : super([]) {
-    fetchTasks();
-  }
   TaskRepository taskRepository = TaskRepository();
   final Completer<void> _completer = Completer<void>();
-  final String userId = 'SrnN1kD4PPyTiqVRwFhl';
+  late final User? user;
+  late final String userId;
   List<TaskModel> originTasks = [];
+
+  TaskNotifier() : super([]) {
+    fetchTasks();
+    user = FirebaseAuth.instance.currentUser;
+    userId = FirebaseAuth.instance.currentUser?.uid ?? '';
+  }
 
   void fetchTasks() async {
     try {

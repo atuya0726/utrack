@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:utrack/constants.dart';
@@ -5,7 +6,8 @@ import 'package:utrack/viewmodel/timetable.dart';
 import 'package:utrack/view/Timetable/timetable_cell.dart';
 
 class Timetable extends ConsumerWidget {
-  const Timetable({super.key});
+  const Timetable({super.key, required this.user});
+  final User? user;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

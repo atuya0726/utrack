@@ -13,6 +13,11 @@ class UserRepository {
         );
   }
 
+  Future<void> makeUser({required String userId}) async {
+    final newUser = UserModel.empty();
+    await docRef.doc(userId).set(newUser);
+  }
+
   Future<List<String>> userClasses({required String userId}) async {
     try {
       final querySnapshot = await docRef.doc(userId).get();

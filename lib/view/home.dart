@@ -1,14 +1,17 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:utrack/view/Task/list_task.dart';
 import 'package:utrack/view/Timetable/timetable.dart';
+import 'package:utrack/view/drawer.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
 
   final title = "utrack";
-
   @override
   Widget build(BuildContext context) {
+    final user = FirebaseAuth.instance.currentUser;
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.primary,
@@ -21,9 +24,10 @@ class Home extends StatelessWidget {
           ),
         ),
       ),
-      body: const Column(
+      drawer: CustomDrawer(userEmail: user?.uid),
+      body: Column(
         children: [
-          Timetable(),
+          Timetable(user: user),
           ListTask(
             classId: null,
           ),

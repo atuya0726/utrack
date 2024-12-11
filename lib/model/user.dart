@@ -6,6 +6,10 @@ class UserModel {
 
   UserModel({required this.id, required this.classes});
 
+  static UserModel empty() {
+    return UserModel(id: '', classes: []);
+  }
+
   factory UserModel.fromFirestore(
       DocumentSnapshot<Map<String, dynamic>> snapshot,
       SnapshotOptions? options) {

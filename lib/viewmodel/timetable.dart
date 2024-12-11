@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:utrack/model/class.dart';
@@ -12,12 +13,15 @@ final timetableProvider = StateNotifierProvider<TimetableNotifier, Timetable>(
 );
 
 class TimetableNotifier extends StateNotifier<Timetable> {
-  TimetableNotifier() : super(Timetable()) {
-    fetchTimetable();
-  }
   final UserRepository userRepository = UserRepository();
   final ClassRepository classRepository = ClassRepository();
-  final String userId = 'SrnN1kD4PPyTiqVRwFhl';
+  final User? user;
+  final String userId;
+
+  TimetableNotifier()
+      : user = FirebaseAuth.instance.currentUser,
+        userId = FirebaseAuth.instance.currentUser?.uid ?? '',
+        super(Timetable());
 
   void fetchTimetable() async {
     try {
@@ -25,6 +29,7 @@ class TimetableNotifier extends StateNotifier<Timetable> {
       state = await classRepository.fetchTimetableByClassIds(userClasses);
     } catch (e) {
       debugPrint(e.toString());
+      throw Exception('Failed to fetch timetable: $e');
     }
   }
 
@@ -41,6 +46,7 @@ class TimetableNotifier extends StateNotifier<Timetable> {
         dayOfWeek: cls.dayOfWeek,
         periods: cls.period,
       );
+      throw Exception('Failed to add timetable: $e');
     }
   }
 

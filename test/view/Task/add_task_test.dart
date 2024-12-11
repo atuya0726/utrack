@@ -1,4 +1,3 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -9,18 +8,7 @@ import 'package:utrack/constants.dart';
 
 import '../../notifierMock/task_mock.dart';
 
-void main() async {
-  TestWidgetsFlutterBinding.ensureInitialized();
-
-  await Firebase.initializeApp(
-    options: const FirebaseOptions(
-      apiKey: 'test',
-      appId: 'test',
-      messagingSenderId: 'test',
-      projectId: 'test',
-    ),
-  );
-
+void main() {
   testWidgets('AddTask allows task creation and updates state',
       (WidgetTester tester) async {
     // モックプロバイダーを作成
@@ -45,7 +33,7 @@ void main() async {
               period: [Period.first],
               place: 'Test Room',
               semester: '1',
-              year: [2024],
+              year: ['2024'],
               users: [],
             ),
           ),
