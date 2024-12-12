@@ -19,9 +19,9 @@ class TaskNotifier extends StateNotifier<List<TaskModel>> {
   List<TaskModel> originTasks = [];
 
   TaskNotifier() : super([]) {
-    fetchTasks();
     user = FirebaseAuth.instance.currentUser;
     userId = FirebaseAuth.instance.currentUser?.uid ?? '';
+    fetchTasks();
   }
 
   void fetchTasks() async {

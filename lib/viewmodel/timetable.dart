@@ -15,13 +15,14 @@ final timetableProvider = StateNotifierProvider<TimetableNotifier, Timetable>(
 class TimetableNotifier extends StateNotifier<Timetable> {
   final UserRepository userRepository = UserRepository();
   final ClassRepository classRepository = ClassRepository();
-  final User? user;
-  final String userId;
+  late final User? user;
+  late final String userId;
 
-  TimetableNotifier()
-      : user = FirebaseAuth.instance.currentUser,
-        userId = FirebaseAuth.instance.currentUser?.uid ?? '',
-        super(Timetable());
+  TimetableNotifier() : super(Timetable()) {
+    user = FirebaseAuth.instance.currentUser;
+    userId = FirebaseAuth.instance.currentUser?.uid ?? '';
+    fetchTimetable();
+  }
 
   void fetchTimetable() async {
     try {
