@@ -8,11 +8,15 @@ import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
 void main() async {
+  print("main");
   WidgetsFlutterBinding.ensureInitialized();
+  print("main2");
   await dotenv.load(fileName: ".env");
+  print("main3");
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  print("main4");
   runApp(const ProviderScope(
     child: MyApp(),
   ));
