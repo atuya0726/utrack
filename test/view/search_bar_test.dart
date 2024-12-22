@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:mockito/mockito.dart';
 import 'package:utrack/view/Class/search_bar.dart';
 import 'package:utrack/viewmodel/class.dart';
 import 'package:utrack/constants.dart';
 
-import '../notifierMock/class_mock.dart';
+import '../mock/notifier.mocks.dart';
 
 void main() {
   testWidgets('RealTimeSearchBar calls searchClasses on text input',
@@ -42,11 +43,10 @@ void main() {
     // モックプロバイダーのメソッドが呼び出されたことを確認
     final mockNotifier =
         container.read(classProvider.notifier) as MockClassNotifier;
-    expect(mockNotifier.isCalled, true);
-    expect(mockNotifier.lastArgs, {
-      'text': testInput,
-      'dayOfWeek': Week.mon,
-      'period': Period.first,
-    });
+    verify(mockNotifier.searchClasses(
+      text: testInput,
+      dayOfWeek: Week.mon,
+      period: Period.first,
+    )).called(1);
   });
 }

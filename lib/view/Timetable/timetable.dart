@@ -1,4 +1,3 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:utrack/constants.dart';
@@ -6,8 +5,7 @@ import 'package:utrack/viewmodel/timetable.dart';
 import 'package:utrack/view/Timetable/timetable_cell.dart';
 
 class Timetable extends ConsumerWidget {
-  const Timetable({super.key, required this.user});
-  final User? user;
+  const Timetable({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -35,28 +33,21 @@ class Timetable extends ConsumerWidget {
   // ヘッダー行（曜日と時限）の作成
   // ヘッダー行（曜日）の作成
   TableRow _buildHeaderRow(timetable) {
-    List<TableCell> tableCells = [
-      const TableCell(
-        child: Center(
-          child: SizedBox(),
-        ),
-      ),
-    ];
-
-    tableCells.addAll(
-      Week.values.map(
-        (day) => TableCell(
-          child: Center(
-            child: Text(
-              day.label,
-              style: const TextStyle(fontWeight: FontWeight.bold),
+    return TableRow(
+      children: [
+        const SizedBox(),
+        ...WeekExtension.getWeekdays().map(
+          (day) => TableCell(
+            child: Center(
+              child: Text(
+                day.label,
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
             ),
           ),
         ),
-      ),
+      ],
     );
-
-    return TableRow(children: tableCells);
   }
 
   // 時限ごとのデータ行を作成
@@ -65,15 +56,13 @@ class Timetable extends ConsumerWidget {
         .map(
           (period) => TableRow(
             children: [
-              TableCell(
-                child: Center(
-                  child: Text(
-                    period.label,
-                    style: const TextStyle(fontWeight: FontWeight.bold),
-                  ),
+              Center(
+                child: Text(
+                  period.label,
+                  style: const TextStyle(fontWeight: FontWeight.bold),
                 ),
               ),
-              ...Week.values.map(
+              ...WeekExtension.getWeekdays().map(
                 (dayOfWeek) => TimetableCell(
                   cls: timetable[dayOfWeek]?[period],
                   dayOfWeek: dayOfWeek,

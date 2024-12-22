@@ -62,13 +62,11 @@ class TaskPage extends ConsumerWidget {
             TextButton(
               child: const Text('削除'),
               onPressed: () async {
-                final result = await ref
+                await ref
                     .read(timetableProvider.notifier)
                     .deleteTimetable(cls: cls);
-                if (result) {
-                  ref.read(taskProvider.notifier).deleteTasks(classId: cls.id);
-                }
                 if (context.mounted) {
+                  ref.invalidate(taskProvider);
                   Navigator.of(context).pop();
                   Navigator.of(context).pop();
                 }

@@ -8,7 +8,8 @@ import 'firestore.dart';
 // main関数。非同期処理(await)を使用するのでasync。
 void main() async {
   // 取得先のURLを元にして、Uriオブジェクトを生成する。
-  const baseUrl = 'https://kyoumu.office.uec.ac.jp/syllabus/2024/';
+  const year = '2024';
+  const baseUrl = 'https://kyoumu.office.uec.ac.jp/syllabus/$year/';
   const url = '${baseUrl}GakkiIchiran_31_0.html';
   final target = Uri.parse(url);
 
@@ -45,7 +46,7 @@ void main() async {
         .expand((e) => e)
         .toList();
     data['name'] = result[3];
-    data['year'] = result[7].replaceAll(RegExp(r'\s+'), '');
+    data['grade'] = result[7].replaceAll(RegExp(r'\s+'), '');
     data['semester'] = result[8];
     data['professor'] = result[14].replaceAll(RegExp(r'\s+'), '');
     data['place'] = '';
@@ -58,40 +59,54 @@ void main() async {
       'period': data['period'],
       'dayOfWeek': data['week'],
       'semester': data['semester'],
-      'year': getYear(data['year']),
+      'grade': getGrade(data['grade']),
       'users': [],
     };
 
-    await addClass(cls);
+    await addClass(cls, year);
     count++;
-    if (count == 10) {
-      break;
-    }
+    print(count);
+    // if (count == 3) {
+    //   break;
+    // }
+
+    await Future.delayed(Duration(seconds: 5)); // 5秒待つ
   }
 }
 
 Map getPeriod(String period) {
-  Map data = {};
-  if (period.length == 2) {
-    // 単一の時限の場合（例：「月1」）
-    final week = WeekExtension.fromLabel(period[0]).number;
-    final p = PeriodExtension.fromNumber(int.parse(period[1])).number;
-    data['week'] = week;
-    data['period'] = [p];
-  } else {
-    // 複数の時限の場合（例：「月1,月2」）
-    final periods = period.split(',').map((e) => e.trim());
-    final week = WeekExtension.fromLabel(periods.first[0]).number;
-    final periodNumbers = periods
-        .map((e) => PeriodExtension.fromNumber(int.parse(e[1])).number)
-        .toList();
+  final periods = period.split(',').map((e) => e.trim()).toList();
 
-    data['week'] = week;
-    data['period'] = periodNumbers;
-  }
-  return data;
+  // 曜日の取得
+  final firstDay = periods[0][0];
+  final week = firstDay == '他'
+      ? 7 // '他'の場合は7として扱う
+      : WeekExtension.fromLabel(firstDay).number;
+
+  // 時限の取得
+  final periodNumbers = periods.map((e) {
+    final timeStr = e.substring(1);
+    // '他'の場合は0として扱う
+    if (timeStr == '他') return 7;
+    try {
+      return PeriodExtension.fromNumber(int.parse(timeStr)).number;
+    } catch (e) {
+      print('時限の解析でエラーが発生しました: $timeStr');
+      return 7; // エラーの場合は0として扱う
+    }
+  }).toList();
+
+  return {
+    'week': week,
+    'period': periodNumbers,
+  };
 }
 
-List<int> getYear(String year) {
-  return year.split('/').map((e) => int.parse(e.trim())).toList();
+List<int> getGrade(String grade) {
+  try {
+    return grade.split('/').map((e) => int.parse(e.trim())).toList();
+  } catch (e) {
+    print('学年データの解析でエラーが発生しました: $grade');
+    return [0]; // デフォルト値としてその他
+  }
 }

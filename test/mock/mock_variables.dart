@@ -10,7 +10,7 @@ final classmodel = ClassModel(
   period: [Period.fourth],
   dayOfWeek: Week.wed,
   semester: "test",
-  year: [3],
+  grade: [3],
   users: [],
 );
 
@@ -22,7 +22,7 @@ final classmodel_2 = ClassModel(
   period: [Period.fourth],
   dayOfWeek: Week.mon,
   semester: "test",
-  year: [3],
+  grade: [3],
   users: [],
 );
 
@@ -34,7 +34,7 @@ final classmodel_3 = ClassModel(
   period: [Period.third],
   dayOfWeek: Week.mon,
   semester: 'test',
-  year: [2],
+  grade: [2],
   users: [],
 );
 
@@ -46,7 +46,7 @@ final classmodel_4 = ClassModel(
   period: [Period.fourth],
   dayOfWeek: Week.tue,
   semester: 'test',
-  year: [3],
+  grade: [3],
   users: [],
 );
 
@@ -58,7 +58,7 @@ final classmodel_5 = ClassModel(
   period: [Period.first],
   dayOfWeek: Week.wed,
   semester: 'test',
-  year: [4],
+  grade: [4],
   users: [],
 );
 
@@ -70,7 +70,7 @@ final classmodel_6 = ClassModel(
   period: [Period.fifth],
   dayOfWeek: Week.thu,
   semester: 'test',
-  year: [2],
+  grade: [2],
   users: [],
 );
 
@@ -82,7 +82,7 @@ final classmodel_7 = ClassModel(
   period: [Period.third],
   dayOfWeek: Week.fri,
   semester: 'test',
-  year: [3],
+  grade: [3],
   users: [],
 );
 
@@ -94,7 +94,7 @@ final classmodel_8 = ClassModel(
   period: [Period.third],
   dayOfWeek: Week.fri,
   semester: 'test',
-  year: [1],
+  grade: [1],
   users: [],
 );
 
@@ -106,7 +106,7 @@ final classmodel_9 = ClassModel(
   period: [Period.third],
   dayOfWeek: Week.fri,
   semester: 'test',
-  year: [1],
+  grade: [1],
   users: [],
 );
 
@@ -118,7 +118,7 @@ final classmodel_10 = ClassModel(
   period: [Period.third],
   dayOfWeek: Week.fri,
   semester: 'test',
-  year: [4],
+  grade: [4],
   users: [],
 );
 
@@ -181,35 +181,40 @@ Map<Week, Map<Period, ClassModel?>> mockTimetable = {
     Period.second: classmodel,
     Period.third: null,
     Period.fourth: classmodel,
-    Period.fifth: null
+    Period.fifth: null,
+    Period.other: null,
   },
   Week.tue: {
     Period.first: null,
     Period.second: null,
     Period.third: classmodel_2,
     Period.fourth: null,
-    Period.fifth: null
+    Period.fifth: null,
+    Period.other: null,
   },
   Week.wed: {
     Period.first: null,
     Period.second: null,
     Period.third: classmodel,
     Period.fourth: classmodel,
-    Period.fifth: null
+    Period.fifth: null,
+    Period.other: null,
   },
   Week.thu: {
     Period.first: classmodel,
     Period.second: null,
     Period.third: classmodel,
     Period.fourth: null,
-    Period.fifth: classmodel
+    Period.fifth: classmodel,
+    Period.other: null,
   },
   Week.fri: {
     Period.first: null,
     Period.second: classmodel,
     Period.third: null,
     Period.fourth: null,
-    Period.fifth: null
+    Period.fifth: null,
+    Period.other: null,
   },
 };
 

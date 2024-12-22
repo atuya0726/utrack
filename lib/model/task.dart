@@ -76,4 +76,24 @@ class TaskModel {
       },
     );
   }
+
+  TaskModel copyWith({
+    String? id,
+    String? classId,
+    String? userId,
+    String? name,
+    DateTime? deadline,
+    HowToSubmit? howToSubmit,
+    TaskStatus? status,
+  }) {
+    return TaskModel(
+      id: id ?? this.id,
+      classId: classId ?? this.classId,
+      userId: userId ?? this.userId,
+      name: name ?? this.name,
+      deadline: deadline ?? this.deadline,
+      howToSubmit: howToSubmit ?? this.howToSubmit,
+      status: status ?? this.status,
+    );
+  }
 }

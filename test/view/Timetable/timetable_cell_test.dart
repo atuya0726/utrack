@@ -2,65 +2,78 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:utrack/constants.dart';
 import 'package:utrack/model/class.dart';
-import 'package:utrack/view/Class/class_page.dart';
-import 'package:utrack/view/Task/task_page.dart';
 import 'package:utrack/view/Timetable/timetable_cell.dart';
 
 void main() {
-  testWidgets('TimetableCell handles cls null and non-null cases correctly',
-      (WidgetTester tester) async {
-    // Arrange: Set up test variables
-    final classModel = ClassModel(
-      id: "test",
-      name: "キャリア教育基礎",
-      professor: "test",
-      place: "東A-404",
-      period: [Period.fourth],
-      dayOfWeek: Week.wed,
-      semester: "test",
-      year: [3],
-      users: [],
-    );
-
-    // Act 1: Render TimetableCell with cls = null
-    await tester.pumpWidget(
-      const MaterialApp(
-        home: Scaffold(
-          body: TimetableCell(
-            cls: null,
-            dayOfWeek: Week.mon,
-            period: Period.first,
-          ),
+  Widget createWidget(classModel) {
+    return MaterialApp(
+      home: Scaffold(
+        body: TimetableCell(
+          cls: classModel,
+          dayOfWeek: Week.mon,
+          period: Period.first,
         ),
       ),
     );
+  }
 
-    // Assert 1: Verify UI for cls = null
-    expect(find.byType(Card), findsOneWidget); // Card should be present
-    expect(
-        find.text('キャリア教育基礎'), findsNothing); // Class name should not be shown
-    expect(find.byType(ClassPage),
-        findsNothing); // ClassPage should not be shown initially
+  group('時間割セルのテスト', () {
+    testWidgets('授業が設定されていない場合の表示テスト', (WidgetTester tester) async {
+      await tester.pumpWidget(createWidget(null));
 
-    // Act 3: Render TimetableCell with cls = classModel
-    await tester.pumpWidget(
-      MaterialApp(
-        home: Scaffold(
-          body: TimetableCell(
-            cls: classModel,
-            dayOfWeek: Week.tue,
-            period: Period.second,
-          ),
-        ),
-      ),
-    );
+      // 空のカードが表示されることを確認
+      expect(find.byType(Card), findsOneWidget);
+      expect(find.byType(Text), findsNothing);
 
-    // Assert 3: Verify UI for cls = classModel
-    expect(find.text('キャリア教育基礎'),
-        findsOneWidget); // Class name should be displayed
-    expect(
-        find.text('東A-404'), findsOneWidget); // Class place should be displayed
-    expect(find.byType(TaskPage),
-        findsNothing); // TaskPage should not be shown initially
+      // カードの高さが100であることを確認
+      final SizedBox sizedBox = tester.widget(find.byType(SizedBox));
+      expect(sizedBox.height, 100.0);
+    });
+
+    testWidgets('授業が設定されている場合の表示テスト', (WidgetTester tester) async {
+      final classModel = ClassModel(
+        id: "test-id",
+        name: "プログラミング基礎",
+        professor: "山田太郎",
+        place: "情報棟201",
+        period: [Period.first],
+        dayOfWeek: Week.mon,
+        semester: "前期",
+        grade: [1],
+        users: [],
+      );
+
+      await tester.pumpWidget(createWidget(classModel));
+
+      // 授業名と教室が表示されることを確認
+      expect(find.text('プログラミング基礎'), findsOneWidget);
+      expect(find.text('情報棟201'), findsOneWidget);
+
+      // カードの色が設定されていることを確認
+      final Card card = tester.widget(find.byType(Card).first);
+      expect(card.color, isNotNull);
+    });
+
+    testWidgets('テキストオーバーフローの処理テスト', (WidgetTester tester) async {
+      final classModel = ClassModel(
+        id: "test-id",
+        name: "とても長い授業名のプログラミング基礎演習実践応用発展講座",
+        professor: "山田太郎",
+        place: "とても長い教室名の情報教育研究実践センター第一実習室",
+        period: [Period.first],
+        dayOfWeek: Week.mon,
+        semester: "前期",
+        grade: [1],
+        users: [],
+      );
+
+      await tester.pumpWidget(createWidget(classModel));
+
+      // テキストが表示されていることを確認
+      expect(find.byType(Text), findsNWidgets(2));
+
+      // オーバーフローが発生していても例外が発生しないことを確認
+      expect(() => tester.pumpAndSettle(), returnsNormally);
+    });
   });
 }

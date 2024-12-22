@@ -1,3 +1,4 @@
+import 'package:clock/clock.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
@@ -68,7 +69,7 @@ class _AddTaskState extends State<AddTask> {
                 }
 
                 final ref = ProviderScope.containerOf(context);
-                ref.read(taskProvider.notifier).addTasks(
+                ref.read(taskProvider.notifier).addTask(
                       classId: widget.cls.id,
                       name: _selectedTaskType!.label,
                       deadline: dateFormatter.parse(_dateController.text),
@@ -137,6 +138,7 @@ class _AddTaskState extends State<AddTask> {
 
   Widget _buildInputTaskName() {
     return DropdownButtonFormField<TaskType>(
+      key: const Key('taskTypeDropdown'),
       value: _selectedTaskType,
       decoration: const InputDecoration(
         labelText: '課題の種類',
@@ -225,7 +227,7 @@ class _AddTaskState extends State<AddTask> {
                   picker.DatePicker.showDateTimePicker(
                     context,
                     showTitleActions: true,
-                    minTime: DateTime.now(),
+                    minTime: clock.now(),
                     onChanged: (datetime) =>
                         _dateController.text = dateFormatter.format(datetime),
                     locale: picker.LocaleType.jp,

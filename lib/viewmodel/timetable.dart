@@ -1,89 +1,62 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'dart:async';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:utrack/model/class.dart';
-import 'package:utrack/repository/class.dart';
 import 'package:utrack/model/timetable.dart';
-import 'package:utrack/repository/task.dart';
-import 'package:utrack/repository/user.dart';
+import 'package:utrack/usecase/timetable_usecase.dart';
 
 final timetableProvider = StateNotifierProvider<TimetableNotifier, Timetable>(
   (ref) => TimetableNotifier(),
 );
 
 class TimetableNotifier extends StateNotifier<Timetable> {
-  final UserRepository userRepository = UserRepository();
-  final ClassRepository classRepository = ClassRepository();
+  late TimetableUsecase timetableUsecase;
+  late FirebaseAuth firebaseAuth;
   late final User? user;
   late final String userId;
+  final _completer = Completer<void>();
 
-  TimetableNotifier() : super(Timetable()) {
-    user = FirebaseAuth.instance.currentUser;
-    userId = FirebaseAuth.instance.currentUser?.uid ?? '';
+  TimetableNotifier({
+    TimetableUsecase? timetableUsecase,
+    FirebaseAuth? firebaseAuth,
+  }) : super(Timetable()) {
+    this.timetableUsecase = timetableUsecase ?? TimetableUsecase();
+    this.firebaseAuth = firebaseAuth ?? FirebaseAuth.instance;
+    user = this.firebaseAuth.currentUser;
+    userId = this.firebaseAuth.currentUser?.uid ?? '';
     fetchTimetable();
   }
 
+  Future<void> waitForInitialization() => _completer.future;
+
   void fetchTimetable() async {
     try {
-      final userClasses = await userRepository.userClasses(userId: userId);
-      state = await classRepository.fetchTimetableByClassIds(userClasses);
+      final timetable = await timetableUsecase.getTimetable(userId: userId);
+      state = timetable;
+      _completer.complete();
     } catch (e) {
       debugPrint(e.toString());
-      throw Exception('Failed to fetch timetable: $e');
+      _completer.completeError(e);
     }
+  }
+
+  Future<void> deleteTimetable({required ClassModel cls}) async {
+    await waitForInitialization();
+    state = await timetableUsecase.deleteTimetable(
+      userId: userId,
+      cls: cls,
+      currentTimetable: state,
+    );
   }
 
   Future<void> addTimetable({required ClassModel cls}) async {
-    state = TimetableModel().add(cls: cls, timetable: state);
-    try {
-      await userRepository.addUserClass(userId: userId, classId: cls.id);
-    } catch (e) {
-      debugPrint(e.toString());
-      // エラー時は状態を元に戻す
-      state = TimetableModel().delete(
-        classId: cls.id,
-        timetable: state,
-        dayOfWeek: cls.dayOfWeek,
-        periods: cls.period,
-      );
-      throw Exception('Failed to add timetable: $e');
-    }
-  }
-
-  Future<bool> deleteTimetable({
-    required ClassModel cls,
-  }) async {
-    final previousState = state;
-
-    state = TimetableModel().delete(
-      classId: cls.id,
-      timetable: state,
-      dayOfWeek: cls.dayOfWeek,
-      periods: cls.period,
+    await waitForInitialization();
+    state = await timetableUsecase.addTimetable(
+      userId: userId,
+      cls: cls,
+      currentTimetable: state,
     );
-
-    try {
-      await FirebaseFirestore.instance.runTransaction((transaction) async {
-        // ユーザーのクラス登録を削除
-        await userRepository.deleteUserClass(
-          userId: userId,
-          classId: cls.id,
-          transaction: transaction,
-        );
-
-        // クラスに関連するタスクを削除
-        await TaskRepository().deleteTasks(
-          userId: userId,
-          classId: cls.id,
-          transaction: transaction,
-        );
-      });
-      return true;
-    } catch (e) {
-      debugPrint(e.toString());
-      state = previousState;
-      return false;
-    }
   }
 }

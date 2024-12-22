@@ -7,7 +7,7 @@ class TimetableModel {
   Timetable generateTimetable(List<ClassModel> classes) {
     // すべての曜日とコマの組み合わせを生成
     final timetable = Map<Week, Map<Period, ClassModel?>>.fromEntries(
-      Week.values.map((week) => MapEntry(
+      WeekExtension.getWeekdays().map((week) => MapEntry(
             week,
             Map<Period, ClassModel?>.fromEntries(
               Period.values.map((period) => MapEntry(period, null)),
@@ -26,19 +26,21 @@ class TimetableModel {
   }
 
   Timetable add({required ClassModel cls, required Timetable timetable}) {
-    final updatedClasses = <ClassModel>[];
+    final newTimetable = Map<Week, Map<Period, ClassModel?>>.from(
+      timetable.map(
+        (week, periods) => MapEntry(
+          week,
+          Map<Period, ClassModel?>.from(periods),
+        ),
+      ),
+    );
 
-    for (final week in Week.values) {
-      for (final period in Period.values) {
-        final classModel = timetable[week]?[period];
-        if (classModel != null) {
-          updatedClasses.add(classModel);
-        }
-      }
+    // 新しい授業を追加
+    for (final period in cls.period) {
+      newTimetable[cls.dayOfWeek]![period] = cls;
     }
-    updatedClasses.add(cls);
 
-    return generateTimetable(updatedClasses);
+    return newTimetable;
   }
 
   Timetable delete(

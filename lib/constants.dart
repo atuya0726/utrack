@@ -5,10 +5,24 @@ enum Grade {
   secondYear,
   thirdYear,
   fourthYear,
+  other,
 }
 
 extension GradeExtension on Grade {
-  String get label => '$number年生';
+  String get label {
+    switch (this) {
+      case Grade.firstYear:
+        return '1年生';
+      case Grade.secondYear:
+        return '2年生';
+      case Grade.thirdYear:
+        return '3年生';
+      case Grade.fourthYear:
+        return '4年生';
+      case Grade.other:
+        return 'その他';
+    }
+  }
 
   int get number => index + 1;
 
@@ -26,6 +40,7 @@ enum Week {
   wed,
   thu,
   fri,
+  other,
 }
 
 extension WeekExtension on Week {
@@ -45,7 +60,19 @@ extension WeekExtension on Week {
         return '木';
       case Week.fri:
         return '金';
+      case Week.other:
+        return '他';
     }
+  }
+
+  static List<Week> getWeekdays() {
+    return [
+      Week.mon,
+      Week.tue,
+      Week.wed,
+      Week.thu,
+      Week.fri,
+    ];
   }
 
   // ラベルからWeekを取得するヘルパーメソッド
@@ -55,7 +82,8 @@ extension WeekExtension on Week {
   }
 
   static Week fromLabel(String label) {
-    return Week.values.firstWhere((week) => week.label == label);
+    return Week.values
+        .firstWhere((week) => week.label == label, orElse: () => Week.mon);
   }
 }
 
@@ -65,6 +93,7 @@ enum Period {
   third,
   fourth,
   fifth,
+  other,
 }
 
 extension PeriodExtension on Period {
@@ -72,7 +101,12 @@ extension PeriodExtension on Period {
   int get number => index + 1;
 
   // ラベル文字列を取得するプロパティ
-  String get label => '$number限';
+  String get label {
+    if (this == Period.other) {
+      return '他';
+    }
+    return '$number限';
+  }
 
   // ラベルからPeriodを取得するヘルパーメソッド
   static List<Period> fromJson(List<int> numbers) {
@@ -80,17 +114,24 @@ extension PeriodExtension on Period {
         .map(
           (number) => Period.values.firstWhere(
             (period) => period.number == number,
+            orElse: () => Period.other,
           ),
         )
         .toList();
   }
 
   static Period fromNumber(int number) {
-    return Period.values.firstWhere((period) => period.number == number);
+    return Period.values.firstWhere(
+      (period) => period.number == number,
+      orElse: () => Period.other,
+    );
   }
 
   static Period fromString(String p) {
-    return Period.values.firstWhere((period) => period.number == p as num);
+    return Period.values.firstWhere(
+      (period) => period.number == p as num,
+      orElse: () => Period.other,
+    );
   }
 
   // 時限ごとの開始時刻（時）を返すプロパティ
@@ -106,6 +147,8 @@ extension PeriodExtension on Period {
         return 14;
       case Period.fifth:
         return 16;
+      case Period.other:
+        return 0;
     }
   }
 
@@ -122,6 +165,8 @@ extension PeriodExtension on Period {
         return 40;
       case Period.fifth:
         return 15;
+      case Period.other:
+        return 0;
     }
   }
 }
@@ -145,8 +190,10 @@ extension HowToSubmitExtension on HowToSubmit {
   }
 
   static HowToSubmit fromLabel(String label) {
-    return HowToSubmit.values
-        .firstWhere((howToSubmit) => howToSubmit.label == label);
+    return HowToSubmit.values.firstWhere(
+      (howToSubmit) => howToSubmit.label == label,
+      orElse: () => HowToSubmit.online,
+    );
   }
 }
 

@@ -21,38 +21,29 @@ class SelectFilterState extends State<SelectFilter> {
     return SingleChildScrollView(
       child: Column(
         children: [
-          Row(
-            children: [
-              Text(
-                '学年',
-                style: TextStyle(
-                  color: Theme.of(context).colorScheme.onSurfaceVariant,
-                  fontSize: Theme.of(context).textTheme.titleMedium?.fontSize,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const SizedBox(width: 8),
-              Wrap(
-                spacing: 8.0,
-                runSpacing: 8.0,
-                children: Grade.values.map((grade) {
-                  return FilterChip(
-                    label: Text(grade.label),
-                    selected: selectedGrade == grade,
-                    onSelected: (isSelected) {
-                      setState(() {
-                        selectedGrade = isSelected ? grade : null;
-                        ref.read(classProvider.notifier).filterClasses(
-                              grade: selectedGrade,
-                              period: widget.period,
-                              dayOfWeek: widget.dayOfWeek,
-                            );
-                      });
-                    },
-                  );
-                }).toList(),
-              ),
-            ],
+          Wrap(
+            spacing: 8.0,
+            runSpacing: 8.0,
+            alignment: WrapAlignment.start,
+            runAlignment: WrapAlignment.start,
+            children: Grade.values.map(
+              (grade) {
+                return FilterChip(
+                  label: Text(grade.label),
+                  selected: selectedGrade == grade,
+                  onSelected: (isSelected) {
+                    setState(() {
+                      selectedGrade = isSelected ? grade : null;
+                      ref.read(classProvider.notifier).filterClasses(
+                            grade: selectedGrade,
+                            period: widget.period,
+                            dayOfWeek: widget.dayOfWeek,
+                          );
+                    });
+                  },
+                );
+              },
+            ).toList(),
           ),
         ],
       ),

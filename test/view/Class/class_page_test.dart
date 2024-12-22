@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -6,8 +7,16 @@ import 'package:utrack/view/Class/class_page.dart';
 import 'package:utrack/view/Class/filter_class.dart';
 import 'package:utrack/view/Class/list_classes.dart';
 import 'package:utrack/view/Class/search_bar.dart';
+import 'package:utrack/viewmodel/class.dart';
 
-void main() {
+import '../../mock/firebase_mock.dart';
+import '../../mock/notifier.mocks.dart';
+
+void main() async {
+  setupFirebaseAuthMocks();
+  setUpAll(() async {
+    await Firebase.initializeApp();
+  });
   testWidgets('ClassPage should render all components correctly',
       (WidgetTester tester) async {
     // テスト用のパラメータを設定
@@ -16,8 +25,13 @@ void main() {
 
     // ウィジェットをビルド
     await tester.pumpWidget(
-      const ProviderScope(
-        child: MaterialApp(
+      ProviderScope(
+        overrides: [
+          classProvider.overrideWith(
+            (ref) => MockClassNotifier(),
+          ),
+        ],
+        child: const MaterialApp(
           home: ClassPage(
             dayOfWeek: dayOfWeek,
             period: period,

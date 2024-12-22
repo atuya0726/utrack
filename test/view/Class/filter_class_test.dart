@@ -1,13 +1,20 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:mockito/mockito.dart';
 import 'package:utrack/view/Class/filter_class.dart';
 import 'package:utrack/viewmodel/class.dart';
 import 'package:utrack/constants.dart';
 
-import '../../notifierMock/class_mock.dart';
+import '../../mock/firebase_mock.dart';
+import '../../mock/notifier.mocks.dart';
 
 void main() {
+  setupFirebaseAuthMocks();
+  setUpAll(() async {
+    await Firebase.initializeApp();
+  });
   testWidgets('SelectFilter changes selected grade and calls filterClasses',
       (WidgetTester tester) async {
     final mockClassNotifier = MockClassNotifier();
@@ -33,14 +40,9 @@ void main() {
 
     await tester.pumpWidget(widget);
 
-    // 初期状態を確認（FilterChipが存在し、未選択状態であること）
-    expect(find.text('学年'), findsOneWidget);
-    expect(find.byType(FilterChip), findsNWidgets(Grade.values.length));
+    // すべての学年のFilterChipが表示されていることを確認
     for (var grade in Grade.values) {
-      final chip = find.widgetWithText(FilterChip, grade.label);
-      expect(chip, findsOneWidget);
-      final FilterChip filterChip = tester.widget(chip);
-      expect(filterChip.selected, false);
+      expect(find.text(grade.label), findsOneWidget);
     }
 
     // FilterChipをタップして選択
@@ -55,11 +57,16 @@ void main() {
     // MockClassNotifierでfilterClassesが呼び出されたことを確認
     final mockNotifier =
         mockClassProvider.read(classProvider.notifier) as MockClassNotifier;
-    expect(mockNotifier.isCalled, true);
-    expect(mockNotifier.lastArgs, {
-      'grade': Grade.values.first,
-      'period': Period.first,
-      'dayOfWeek': Week.mon,
-    });
+    verify(mockNotifier.filterClasses(
+      grade: Grade.values.first,
+      period: Period.first,
+      dayOfWeek: Week.mon,
+    )).called(1);
+
+    // 同じFilterChipを再度タップして選択解除
+    await tester.tap(firstChip);
+    await tester.pump();
+    final FilterChip unselectedChip = tester.widget(firstChip);
+    expect(unselectedChip.selected, false);
   });
 }

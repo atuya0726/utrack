@@ -16,7 +16,7 @@ class AuthWrapper extends StatelessWidget {
 
         if (snapshot.hasData) {
           // ユーザーがログインしている場合
-          return const Home();
+          return const HomePage();
         }
 
         // ユーザーがログインしていない場合

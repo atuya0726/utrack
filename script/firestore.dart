@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:dart_firebase_admin/dart_firebase_admin.dart';
 import 'package:dart_firebase_admin/firestore.dart';
 
-Future<void> addClass(Map<String, dynamic> data) async {
+Future<void> addClass(Map<String, dynamic> data, String year) async {
   final admin = FirebaseAdminApp.initializeApp(
     'utrack-dev',
     Credential.fromServiceAccount(
@@ -12,7 +12,7 @@ Future<void> addClass(Map<String, dynamic> data) async {
   );
 
   final firestore = Firestore(admin);
-  final collection = firestore.collection('classes');
+  final collection = firestore.collection('classes/uec/$year');
 
   await collection.doc().set(data);
 

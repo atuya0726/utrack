@@ -50,3 +50,4 @@ credential.json
 memo.txt
 utrack_keystore.jks
 .env
+.env.stg

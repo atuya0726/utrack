@@ -1,14 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:utrack/model/class.dart';
 import 'package:flutter/foundation.dart';
-import 'package:utrack/model/timetable.dart';
 
 class ClassRepository {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   late final CollectionReference<ClassModel> docRef;
 
   ClassRepository() {
-    docRef = _firestore.collection('classes').withConverter(
+    docRef = _firestore.collection('classes/uec/2024').withConverter(
           fromFirestore: ClassModel.fromFirestore,
           toFirestore: (ClassModel cls, options) => cls.toFirestore(),
         );
@@ -27,12 +26,12 @@ class ClassRepository {
     }
   }
 
-  Future<Timetable> fetchTimetableByClassIds(List<String> classIds) async {
+  Future<List<ClassModel>> fetchClassesByIds({
+    required List<String> classIds,
+  }) async {
     final querySnapshot =
         await docRef.where(FieldPath.documentId, whereIn: classIds).get();
-    final classes = querySnapshot.docs.map((doc) => doc.data()).toList();
-
-    return TimetableModel().generateTimetable(classes);
+    return querySnapshot.docs.map((doc) => doc.data()).toList();
   }
 
   Future<void> add(ClassModel cls) async {

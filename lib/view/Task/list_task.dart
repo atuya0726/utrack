@@ -29,11 +29,11 @@ class _ListTaskState extends ConsumerState<ListTask> {
   @override
   Widget build(BuildContext context) {
     final taskList = ref.watch(taskProvider);
-    return Flexible(
+    return Expanded(
       child: Column(
         children: [
           _buildFilterChips(),
-          Flexible(
+          Expanded(
             child: ListView.builder(
               itemCount: taskList.length,
               itemBuilder: (context, index) {
@@ -162,7 +162,6 @@ class _ListTaskState extends ConsumerState<ListTask> {
       onPressed: () {
         ref.read(taskProvider.notifier).deleteTask(
               taskId: task.id,
-              classId: task.classId,
             );
         Navigator.pop(context);
         _snackBar(context);
