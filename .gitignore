@@ -47,6 +47,7 @@ android/app/google-services.json
 android/app/google-services-stg.json
 android/app/google-services.json.old
 ios/Runner/GoogleService-Info.plist
+ios/Runner/GoogleService-Info-stg.plist
 credential.json
 memo.txt
 utrack_keystore.jks
