@@ -32,6 +32,7 @@ class _LoginPageState extends ConsumerState<LoginPage> {
             .read(userProvider.notifier)
             .fetchUser(userId: _auth.currentUser!.uid);
       } on FirebaseAuthException catch (e) {
+        print(e);
         String message = "";
         switch (e.code) {
           case 'invalid-email':
