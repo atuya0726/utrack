@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 import 'package:utrack/model/class.dart';
 import 'package:utrack/usecase/class_usecase.dart';
 
@@ -54,6 +54,8 @@ class ClassNotifier extends StateNotifier<List<ClassModel>> {
 
   Future<void> filterClasses({
     required Grade? grade,
+    required Major? major,
+    required Semester? semester,
     required Period period,
     required Week dayOfWeek,
   }) async {
@@ -61,6 +63,8 @@ class ClassNotifier extends StateNotifier<List<ClassModel>> {
     state = await classUsecase.filterClasses(
       classes: originClasses,
       grade: grade,
+      semester: semester,
+      major: major,
       period: period,
       dayOfWeek: dayOfWeek,
     );

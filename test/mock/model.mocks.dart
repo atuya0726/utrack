@@ -4,7 +4,7 @@
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:mockito/mockito.dart' as _i1;
-import 'package:utrack/constants.dart' as _i3;
+import 'package:utrack/model/constants.dart' as _i3;
 import 'package:utrack/model/class.dart' as _i4;
 import 'package:utrack/model/timetable.dart' as _i2;
 

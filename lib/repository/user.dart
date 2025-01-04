@@ -13,9 +13,13 @@ class UserRepository {
         );
   }
 
-  Future<void> makeUser({required String userId}) async {
-    final newUser = UserModel.empty();
-    await docRef.doc(userId).set(newUser);
+  Future<void> makeUser({required UserModel user}) async {
+    await docRef.doc(user.id).set(user);
+  }
+
+  Future<UserModel> getUser({required String userId}) async {
+    final querySnapshot = await docRef.doc(userId).get();
+    return querySnapshot.data() ?? UserModel.empty();
   }
 
   Future<List<String>> userClasses({required String userId}) async {
@@ -50,5 +54,12 @@ class UserRepository {
         'classes': FieldValue.arrayRemove([classId])
       },
     );
+  }
+
+  Future<void> updateUser({required UserModel user}) async {
+    await docRef.doc(user.id).update({
+      'grade': user.grade?.index,
+      'major': user.major?.index,
+    });
   }
 }

@@ -1,13 +1,18 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:utrack/repository/user.dart';
+import 'package:utrack/view/Auth/register.dart';
+import 'package:utrack/viewmodel/user_provider.dart';
 
-class LoginPage extends StatefulWidget {
+class LoginPage extends ConsumerStatefulWidget {
+  const LoginPage({super.key});
+
   @override
-  _LoginPageState createState() => _LoginPageState();
+  ConsumerState<LoginPage> createState() => _LoginPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _LoginPageState extends ConsumerState<LoginPage> {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final UserRepository userRepository = UserRepository();
   final _formKey = GlobalKey<FormState>();
@@ -15,34 +20,20 @@ class _LoginPageState extends State<LoginPage> {
   String infoText = '';
   String email = '';
   String password = '';
-  bool isLogin = true;
 
-  Future<void> _handleAuthAction() async {
+  Future<void> _handleLogin() async {
     if (_formKey.currentState!.validate()) {
       try {
-        if (isLogin) {
-          // ログイン処理
-          await _auth.signInWithEmailAndPassword(
-            email: email,
-            password: password,
-          );
-        } else {
-          // ユーザー登録処理
-          final user = await _auth.createUserWithEmailAndPassword(
-            email: email,
-            password: password,
-          );
-          await userRepository.makeUser(userId: user.user!.uid);
-        }
+        await _auth.signInWithEmailAndPassword(
+          email: email,
+          password: password,
+        );
+        ref
+            .read(userProvider.notifier)
+            .fetchUser(userId: _auth.currentUser!.uid);
       } on FirebaseAuthException catch (e) {
         String message = "";
         switch (e.code) {
-          case 'weak-password':
-            message = 'パスワードが弱すぎます';
-            break;
-          case 'email-already-in-use':
-            message = 'このメールアドレスは既に使用されています';
-            break;
           case 'invalid-email':
             message = '無効なメールアドレスです';
             break;
@@ -66,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(isLogin ? 'ログイン' : 'アカウント作成'),
+        title: const Text('ログイン'),
       ),
       body: Center(
         child: SingleChildScrollView(
@@ -135,25 +126,25 @@ class _LoginPageState extends State<LoginPage> {
                     style: ElevatedButton.styleFrom(
                       padding: const EdgeInsets.symmetric(vertical: 16),
                     ),
-                    onPressed: _handleAuthAction,
-                    child: Text(
-                      isLogin ? 'ログイン' : 'アカウント作成',
-                      style: const TextStyle(fontSize: 16),
+                    onPressed: _handleLogin,
+                    child: const Text(
+                      'ログイン',
+                      style: TextStyle(fontSize: 16),
                     ),
                   ),
                 ),
                 const SizedBox(height: 16),
                 TextButton(
                   onPressed: () {
-                    setState(() {
-                      isLogin = !isLogin;
-                      infoText = '';
-                      _formKey.currentState?.reset();
-                    });
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => const RegisterScreen(),
+                      ),
+                    );
                   },
-                  child: Text(
-                    isLogin ? 'アカウントを作成' : 'ログインに戻る',
-                    style: const TextStyle(fontSize: 16),
+                  child: const Text(
+                    'アカウントを作成',
+                    style: TextStyle(fontSize: 16),
                   ),
                 ),
               ],

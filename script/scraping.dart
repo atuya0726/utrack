@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:html/parser.dart' show parse;
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 import 'firestore.dart';
 
 // main関数。非同期処理(await)を使用するのでasync。
@@ -48,29 +48,34 @@ void main() async {
     data['name'] = result[3];
     data['grade'] = result[7].replaceAll(RegExp(r'\s+'), '');
     data['semester'] = result[8];
+    data['major'] = result[13].replaceAll(RegExp(r'\s+'), '');
     data['professor'] = result[14].replaceAll(RegExp(r'\s+'), '');
     data['place'] = '';
     data['users'] = [];
+
+    // print(result);
 
     final cls = {
       'name': data['name'],
       'professor': data['professor'],
       'place': '',
       'period': data['period'],
+      'major': data['major'],
       'dayOfWeek': data['week'],
       'semester': data['semester'],
       'grade': getGrade(data['grade']),
       'users': [],
     };
 
-    await addClass(cls, year);
+    // await addClass(cls, year);
+    print(cls);
     count++;
     print(count);
-    // if (count == 3) {
-    //   break;
-    // }
+    if (count == 3) {
+      break;
+    }
 
-    await Future.delayed(Duration(seconds: 5)); // 5秒待つ
+    await Future.delayed(Duration(seconds: 3)); // 3秒待つ
   }
 }
 

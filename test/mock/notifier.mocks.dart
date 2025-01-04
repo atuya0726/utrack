@@ -10,7 +10,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart' as _i9;
 import 'package:mockito/mockito.dart' as _i1;
 import 'package:mockito/src/dummies.dart' as _i7;
 import 'package:state_notifier/state_notifier.dart' as _i12;
-import 'package:utrack/constants.dart' as _i11;
+import 'package:utrack/model/constants.dart' as _i11;
 import 'package:utrack/model/class.dart' as _i14;
 import 'package:utrack/model/task.dart' as _i8;
 import 'package:utrack/usecase/class_usecase.dart' as _i4;

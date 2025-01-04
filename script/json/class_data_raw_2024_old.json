@@ -1,7 +1,6 @@
 [
   {
     "name": "キャリア教育基礎",
-    "major": "情報理工学域",
     "professor": "松木・皆川",
     "semester": "前学期",
     "grade": "1",
@@ -10,7 +9,6 @@
   },
   {
     "name": "キャリア教育リーダー",
-    "major": "情報理工学域",
     "professor": "皆川・松木",
     "semester": "前学期",
     "grade": "3",
@@ -19,7 +17,6 @@
   },
   {
     "name": "電気・電子回路",
-    "major": "Ⅰ類",
     "professor": "水戸和幸",
     "semester": "前学期",
     "grade": "2",
@@ -28,7 +25,6 @@
   },
   {
     "name": "電気・電子回路",
-    "major": "Ⅰ類",
     "professor": "板倉直明",
     "semester": "前学期",
     "grade": "2",
@@ -37,7 +33,6 @@
   },
   {
     "name": "基礎電磁気学および演習",
-    "major": "Ⅲ類",
     "professor": "斎藤弘樹",
     "semester": "前学期",
     "grade": "2",
@@ -46,7 +41,6 @@
   },
   {
     "name": "基礎電磁気学および演習",
-    "major": "Ⅲ類",
     "professor": "岸本哲夫",
     "semester": "前学期",
     "grade": "2",
@@ -55,7 +49,6 @@
   },
   {
     "name": "基礎電磁気学および演習",
-    "major": "Ⅲ類",
     "professor": "白川晃",
     "semester": "前学期",
     "grade": "2",
@@ -64,7 +57,6 @@
   },
   {
     "name": "基礎電磁気学および演習",
-    "major": "Ⅲ類",
     "professor": "中村淳",
     "semester": "前学期",
     "grade": "2",
@@ -73,7 +65,6 @@
   },
   {
     "name": "独語第一",
-    "major": "情報理工学域",
     "professor": "中山純一",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -82,7 +73,6 @@
   },
   {
     "name": "独語第一",
-    "major": "情報理工学域",
     "professor": "岡野宏",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -91,7 +81,6 @@
   },
   {
     "name": "独語第一",
-    "major": "情報理工学域",
     "professor": "白木和美",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -100,7 +89,6 @@
   },
   {
     "name": "仏語第一",
-    "major": "情報理工学域",
     "professor": "福島亮",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -109,7 +97,6 @@
   },
   {
     "name": "露語第一",
-    "major": "情報理工学域",
     "professor": "金沢友緒",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -118,7 +105,6 @@
   },
   {
     "name": "中国語第一",
-    "major": "情報理工学域",
     "professor": "中村孝子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -127,7 +113,6 @@
   },
   {
     "name": "中国語第一",
-    "major": "情報理工学域",
     "professor": "鷲巣益美",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -136,7 +121,6 @@
   },
   {
     "name": "中国語第一",
-    "major": "情報理工学域",
     "professor": "三浦雄城",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -145,7 +129,6 @@
   },
   {
     "name": "中国語第一",
-    "major": "情報理工学域",
     "professor": "木村奈津子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -154,7 +137,6 @@
   },
   {
     "name": "韓国朝鮮語第一",
-    "major": "情報理工学域",
     "professor": "張河林",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -163,7 +145,6 @@
   },
   {
     "name": "コンピュータリテラシー（クラス９）",
-    "major": "情報理工学域",
     "professor": "高木正則",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -172,7 +153,6 @@
   },
   {
     "name": "コンピュータリテラシー（クラス１０）",
-    "major": "情報理工学域",
     "professor": "田中基康",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -181,7 +161,6 @@
   },
   {
     "name": "線形代数学第一（クラス６）",
-    "major": "情報理工学域",
     "professor": "中野直人",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -190,7 +169,6 @@
   },
   {
     "name": "化学概論第一（クラス３）",
-    "major": "情報理工学域",
     "professor": "山北佳宏",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -199,7 +177,6 @@
   },
   {
     "name": "化学概論第一（クラス５）",
-    "major": "情報理工学域",
     "professor": "小林義男",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -208,7 +185,6 @@
   },
   {
     "name": "計算機通論",
-    "major": "Ⅰ類",
     "professor": "小宮常康",
     "semester": "前学期",
     "grade": "2",
@@ -217,7 +193,6 @@
   },
   {
     "name": "メディア分析法",
-    "major": "Ⅰ類",
     "professor": "坂本真樹",
     "semester": "前学期",
     "grade": "3",
@@ -226,7 +201,6 @@
   },
   {
     "name": "情報通信システム",
-    "major": "Ⅰ類",
     "professor": "八巻隼人",
     "semester": "前学期",
     "grade": "3",
@@ -235,7 +209,6 @@
   },
   {
     "name": "応用数学Ａ（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "萓野良樹",
     "semester": "前学期",
     "grade": "2",
@@ -244,7 +217,6 @@
   },
   {
     "name": "基礎電気回路（Mエリア）",
-    "major": "Ⅱ類",
     "professor": "内田雅文",
     "semester": "前学期",
     "grade": "2",
@@ -253,7 +225,6 @@
   },
   {
     "name": "基礎電磁気学（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "芳原容英",
     "semester": "前学期",
     "grade": "2",
@@ -262,7 +233,6 @@
   },
   {
     "name": "基礎演習Ａ（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "張（熙）・細川（敬）・田中（久）",
     "semester": "前学期",
     "grade": "2",
@@ -271,7 +241,6 @@
   },
   {
     "name": "設計基礎工学（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "結城宏信",
     "semester": "前学期",
     "grade": "3",
@@ -280,7 +249,6 @@
   },
   {
     "name": "設計基礎工学（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "結城宏信",
     "semester": "前学期",
     "grade": "3",
@@ -289,7 +257,6 @@
   },
   {
     "name": "プログラミング言語実験",
-    "major": "Ⅰ類",
     "professor": "柏原・織田・庄野・若月",
     "semester": "前学期",
     "grade": "3",
@@ -298,7 +265,6 @@
   },
   {
     "name": "独語第一",
-    "major": "情報理工学域",
     "professor": "中山純一",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -307,7 +273,6 @@
   },
   {
     "name": "独語第一",
-    "major": "情報理工学域",
     "professor": "岡野宏",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -316,7 +281,6 @@
   },
   {
     "name": "独語第一",
-    "major": "情報理工学域",
     "professor": "白木和美",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -325,7 +289,6 @@
   },
   {
     "name": "仏語第一",
-    "major": "情報理工学域",
     "professor": "福島亮",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -334,7 +297,6 @@
   },
   {
     "name": "露語第一",
-    "major": "情報理工学域",
     "professor": "鈴木佑梨",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -343,7 +305,6 @@
   },
   {
     "name": "中国語第一",
-    "major": "情報理工学域",
     "professor": "中村孝子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -352,7 +313,6 @@
   },
   {
     "name": "中国語第一",
-    "major": "情報理工学域",
     "professor": "鷲巣益美",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -361,7 +321,6 @@
   },
   {
     "name": "中国語第一",
-    "major": "情報理工学域",
     "professor": "三浦雄城",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -370,7 +329,6 @@
   },
   {
     "name": "中国語第一",
-    "major": "情報理工学域",
     "professor": "木村奈津子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -379,7 +337,6 @@
   },
   {
     "name": "韓国朝鮮語第一",
-    "major": "情報理工学域",
     "professor": "張河林",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -388,7 +345,6 @@
   },
   {
     "name": "健康論",
-    "major": "情報理工学域",
     "professor": "大河原・栃木・○竹内・○八百・○青木",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -397,7 +353,6 @@
   },
   {
     "name": "確率論",
-    "major": "Ⅰ類",
     "professor": "金路",
     "semester": "前学期",
     "grade": "2",
@@ -406,7 +361,6 @@
   },
   {
     "name": "確率論",
-    "major": "Ⅰ類",
     "professor": "天野友之",
     "semester": "前学期",
     "grade": "2",
@@ -415,7 +369,6 @@
   },
   {
     "name": "メディアリテラシー",
-    "major": "Ⅰ類",
     "professor": "兒玉幸子",
     "semester": "前学期",
     "grade": "3",
@@ -424,7 +377,6 @@
   },
   {
     "name": "応用数学Ａ（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "田中久陽",
     "semester": "前学期",
     "grade": "2",
@@ -433,7 +385,6 @@
   },
   {
     "name": "基礎電気回路（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "石川亮",
     "semester": "前学期",
     "grade": "2",
@@ -442,7 +393,6 @@
   },
   {
     "name": "基礎電磁気学（Mエリア）",
-    "major": "Ⅱ類",
     "professor": "村松大陸",
     "semester": "前学期",
     "grade": "2",
@@ -451,7 +401,6 @@
   },
   {
     "name": "基礎演習Ａ（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "西（一）・肖・萱野",
     "semester": "前学期",
     "grade": "2",
@@ -460,7 +409,6 @@
   },
   {
     "name": "情報理論",
-    "major": "Ⅱ類",
     "professor": "大濱靖匡",
     "semester": "前学期",
     "grade": "3",
@@ -469,7 +417,6 @@
   },
   {
     "name": "信号処理論",
-    "major": "Ⅱ類",
     "professor": "張熙",
     "semester": "前学期",
     "grade": "3",
@@ -478,7 +425,6 @@
   },
   {
     "name": "画像処理工学",
-    "major": "Ⅱ類",
     "professor": "小田弘",
     "semester": "前学期",
     "grade": "4",
@@ -487,7 +433,6 @@
   },
   {
     "name": "熱力学",
-    "major": "Ⅲ類",
     "professor": "尾関之康",
     "semester": "前学期",
     "grade": "2",
@@ -496,7 +441,6 @@
   },
   {
     "name": "熱力学",
-    "major": "Ⅲ類",
     "professor": "松林和幸",
     "semester": "前学期",
     "grade": "2",
@@ -505,7 +449,6 @@
   },
   {
     "name": "数値解析",
-    "major": "Ⅲ類",
     "professor": "久保木孝",
     "semester": "前学期",
     "grade": "2",
@@ -514,7 +457,6 @@
   },
   {
     "name": "熱力学応用",
-    "major": "Ⅲ類",
     "professor": "大川富雄",
     "semester": "前学期",
     "grade": "3",
@@ -523,7 +465,6 @@
   },
   {
     "name": "機器分析学",
-    "major": "Ⅲ類",
     "professor": "平野（誉）・安井・三瓶",
     "semester": "前学期",
     "grade": "3",
@@ -532,7 +473,6 @@
   },
   {
     "name": "熱力学および演習",
-    "major": "Ⅱ類",
     "professor": "正本和人",
     "semester": "前学期",
     "grade": "3",
@@ -541,7 +481,6 @@
   },
   {
     "name": "独語第一（再履）",
-    "major": "情報理工学域",
     "professor": "白木和美",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -550,7 +489,6 @@
   },
   {
     "name": "仏語第一（再履）",
-    "major": "情報理工学域",
     "professor": "平野奈津恵",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -559,7 +497,6 @@
   },
   {
     "name": "露語第一（再履）",
-    "major": "情報理工学域",
     "professor": "鈴木佑梨",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -568,7 +505,6 @@
   },
   {
     "name": "中国語第一（再履）",
-    "major": "情報理工学域",
     "professor": "鷲巣益美",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -577,7 +513,6 @@
   },
   {
     "name": "韓国朝鮮語第一（再履）",
-    "major": "情報理工学域",
     "professor": "姜勝薫",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -586,7 +521,6 @@
   },
   {
     "name": "英語演習（Advanced)",
-    "major": "情報理工学域",
     "professor": "HauserEric",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -595,7 +529,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "上原寿和子",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -604,7 +537,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "高坂洋史",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -613,7 +545,6 @@
   },
   {
     "name": "独語演習",
-    "major": "情報理工学域",
     "professor": "中橋誠",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -622,7 +553,6 @@
   },
   {
     "name": "露語演習",
-    "major": "情報理工学域",
     "professor": "金沢友緒",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -631,7 +561,6 @@
   },
   {
     "name": "中国語演習",
-    "major": "情報理工学域",
     "professor": "木村奈津子",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -640,7 +569,6 @@
   },
   {
     "name": "中国語演習",
-    "major": "情報理工学域",
     "professor": "小野響",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -649,7 +577,6 @@
   },
   {
     "name": "健康論",
-    "major": "情報理工学域",
     "professor": "大河原・栃木・○竹内・○八百・○青木",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -658,7 +585,6 @@
   },
   {
     "name": "日本の内政と外交",
-    "major": "情報理工学域",
     "professor": "渡部亮",
     "semester": "前学期",
     "grade": "3/4",
@@ -667,7 +593,6 @@
   },
   {
     "name": "コンピュータリテラシー（クラス５）",
-    "major": "情報理工学域",
     "professor": "柏原昭博",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -676,7 +601,6 @@
   },
   {
     "name": "コンピュータリテラシー（クラス６）",
-    "major": "情報理工学域",
     "professor": "須藤克弥",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -685,7 +609,6 @@
   },
   {
     "name": "微分積分学第一（クラス４）",
-    "major": "情報理工学域",
     "professor": "田原康之",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -694,7 +617,6 @@
   },
   {
     "name": "インタラクティブシステム",
-    "major": "Ⅰ類",
     "professor": "梶本裕之",
     "semester": "前学期",
     "grade": "3",
@@ -703,7 +625,6 @@
   },
   {
     "name": "メディアネットワーク",
-    "major": "Ⅱ類",
     "professor": "高田哲司",
     "semester": "前学期",
     "grade": "3",
@@ -712,7 +633,6 @@
   },
   {
     "name": "集積回路学",
-    "major": "Ⅱ類",
     "professor": "石川亮",
     "semester": "前学期",
     "grade": "4",
@@ -721,7 +641,6 @@
   },
   {
     "name": "量子と情報",
-    "major": "Ⅱ類",
     "professor": "小川朋宏",
     "semester": "前学期",
     "grade": "3",
@@ -730,7 +649,6 @@
   },
   {
     "name": "論理回路学",
-    "major": "Ⅲ類",
     "professor": "一色秀夫",
     "semester": "前学期",
     "grade": "3",
@@ -739,7 +657,6 @@
   },
   {
     "name": "生体計測工学",
-    "major": "Ⅲ類",
     "professor": "白川英樹",
     "semester": "前学期",
     "grade": "3",
@@ -748,7 +665,6 @@
   },
   {
     "name": "解析力学",
-    "major": "Ⅲ類",
     "professor": "松林和幸",
     "semester": "前学期",
     "grade": "3",
@@ -757,7 +673,6 @@
   },
   {
     "name": "環境工学",
-    "major": "Ⅲ類",
     "professor": "Choo・宮下",
     "semester": "前学期",
     "grade": "4",
@@ -766,7 +681,6 @@
   },
   {
     "name": "人間と外交",
-    "major": "情報理工学域",
     "professor": "渡部亮",
     "semester": "前学期",
     "grade": "3/4",
@@ -775,7 +689,6 @@
   },
   {
     "name": "Reading Scientific Research",
-    "major": "情報理工学域",
     "professor": "上原寿和子",
     "semester": "前学期",
     "grade": "3/4",
@@ -784,7 +697,6 @@
   },
   {
     "name": "外国語とその運用A 【独語】",
-    "major": "情報理工学域",
     "professor": "中橋誠",
     "semester": "前学期",
     "grade": "3/4",
@@ -793,7 +705,6 @@
   },
   {
     "name": "外国語とその運用A 【仏語】",
-    "major": "情報理工学域",
     "professor": "平野奈津恵",
     "semester": "前学期",
     "grade": "3/4",
@@ -802,7 +713,6 @@
   },
   {
     "name": "外国語とその運用A 【露語】",
-    "major": "情報理工学域",
     "professor": "金沢友緒",
     "semester": "前学期",
     "grade": "3/4",
@@ -811,7 +721,6 @@
   },
   {
     "name": "外国語とその運用A 【中国語】",
-    "major": "情報理工学域",
     "professor": "小野響",
     "semester": "前学期",
     "grade": "3/4",
@@ -820,7 +729,6 @@
   },
   {
     "name": "外国語とその運用A 【韓国朝鮮語】",
-    "major": "情報理工学域",
     "professor": "姜勝薫",
     "semester": "前学期",
     "grade": "3/4",
@@ -829,7 +737,6 @@
   },
   {
     "name": "日本語とコミュニケーションA",
-    "major": "情報理工学域",
     "professor": "笠原・内藤",
     "semester": "前学期",
     "grade": "3/4",
@@ -838,7 +745,6 @@
   },
   {
     "name": "身体運動のバイオメカニクス",
-    "major": "情報理工学域",
     "professor": "岡田英孝",
     "semester": "前学期",
     "grade": "3/4",
@@ -847,7 +753,6 @@
   },
   {
     "name": "Advanced Communication Engineering and Informatics Ⅱ（Optical Communication Engineering）（学域）",
-    "major": "Ⅰ類/Ⅱ類",
     "professor": "來住直人",
     "semester": "前学期",
     "grade": "3/4",
@@ -856,7 +761,6 @@
   },
   {
     "name": "教育心理学",
-    "major": "情報理工学域",
     "professor": "青山征彦",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -865,7 +769,6 @@
   },
   {
     "name": "教育制度論A",
-    "major": "情報理工学域",
     "professor": "山口晶子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -874,7 +777,6 @@
   },
   {
     "name": "地学実験（Ⅱ類・Ｍ）",
-    "major": "Ⅱ類",
     "professor": "○白井・○濱田",
     "semester": "前学期",
     "grade": "3",
@@ -883,7 +785,6 @@
   },
   {
     "name": "地学実験（Ⅲ類・Ｓ）",
-    "major": "Ⅲ類",
     "professor": "○白井・○濱田",
     "semester": "前学期",
     "grade": "3",
@@ -892,7 +793,6 @@
   },
   {
     "name": "情報数理工学実験第一",
-    "major": "Ⅰ類",
     "professor": "中山（泰）・赤池・成見・八巻・伊藤（毅）・小山・高橋（里）・李（傲）",
     "semester": "前学期",
     "grade": "3",
@@ -901,7 +801,6 @@
   },
   {
     "name": "コンピュータサイエンス実験第一",
-    "major": "Ⅰ類",
     "professor": "中山（泰）・赤池・成見・八巻・伊藤（毅）・小山・高橋（里）・李（傲）",
     "semester": "前学期",
     "grade": "3",
@@ -910,7 +809,6 @@
   },
   {
     "name": "日本語第一（１年）（月２・木２）",
-    "major": "情報理工学域",
     "professor": "内藤・笠原",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -919,7 +817,6 @@
   },
   {
     "name": "日本語第一（１年）（月３・木２）",
-    "major": "情報理工学域",
     "professor": "内藤・笠原",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -928,7 +825,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火1・A）",
-    "major": "情報理工学域",
     "professor": "HauserEric",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -937,7 +833,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火1・B）",
-    "major": "情報理工学域",
     "professor": "EliudKiprop",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -946,7 +841,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火1・C）",
-    "major": "情報理工学域",
     "professor": "DanielGeorgeDusza",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -955,7 +849,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火1・D）",
-    "major": "情報理工学域",
     "professor": "StephanieTunçay",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -964,7 +857,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火1・E）",
-    "major": "情報理工学域",
     "professor": "Derr,Jonathan",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -973,7 +865,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火1・F）",
-    "major": "情報理工学域",
     "professor": "SadieNitta",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -982,7 +873,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅰ類・A）",
-    "major": "情報理工学域",
     "professor": "大石由紀子",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -991,7 +881,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅰ類・C）",
-    "major": "情報理工学域",
     "professor": "FayyazKhan",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1000,7 +889,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅰ類・B）",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1009,7 +897,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅰ類・D）",
-    "major": "情報理工学域",
     "professor": "本多幸七郎",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1018,7 +905,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅰ類・E）",
-    "major": "情報理工学域",
     "professor": "HIGUCHISONIA",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1027,7 +913,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅰ類・F）",
-    "major": "情報理工学域",
     "professor": "岩崎峻一",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1036,7 +921,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅰ類・G）",
-    "major": "情報理工学域",
     "professor": "AdelaideVambe",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1045,7 +929,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅰ類・I）",
-    "major": "情報理工学域",
     "professor": "ScottMclellan",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1054,7 +937,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅰ類・H）",
-    "major": "情報理工学域",
     "professor": "HoaBaoLai",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1063,7 +945,6 @@
   },
   {
     "name": "UEC Academic Skills Ⅰ (Computer Literacy) （言語文化）",
-    "major": "情報理工学域",
     "professor": "ChooCheowKeong",
     "semester": "前学期",
     "grade": "2024/01/0200:00:00",
@@ -1072,7 +953,6 @@
   },
   {
     "name": "UEC Academic Skills Ⅰ (Computer Literacy) （上級科目）",
-    "major": "情報理工学域",
     "professor": "ChooCheowKeong",
     "semester": "前学期",
     "grade": "3/4",
@@ -1081,7 +961,6 @@
   },
   {
     "name": "微分積分学第一（クラス７）",
-    "major": "情報理工学域",
     "professor": "林誠",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1090,7 +969,6 @@
   },
   {
     "name": "物理学概論第一（クラス８）",
-    "major": "情報理工学域",
     "professor": "野村英之",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1099,7 +977,6 @@
   },
   {
     "name": "基礎物理学演習第一",
-    "major": "情報理工学域",
     "professor": "Hans-GeorgMatuttis",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1108,7 +985,6 @@
   },
   {
     "name": "ヒューマンインタフェース",
-    "major": "Ⅰ類",
     "professor": "南泰浩",
     "semester": "前学期",
     "grade": "3",
@@ -1117,7 +993,6 @@
   },
   {
     "name": "離散数学",
-    "major": "Ⅱ類",
     "professor": "山口和彦",
     "semester": "前学期",
     "grade": "2",
@@ -1126,7 +1001,6 @@
   },
   {
     "name": "波動と光",
-    "major": "Ⅱ類",
     "professor": "木寺正平",
     "semester": "前学期",
     "grade": "2",
@@ -1135,7 +1009,6 @@
   },
   {
     "name": "量子力学第一",
-    "major": "Ⅲ類",
     "professor": "斎藤弘樹",
     "semester": "前学期",
     "grade": "3",
@@ -1144,7 +1017,6 @@
   },
   {
     "name": "基礎制御工学および演習（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "金子修",
     "semester": "前学期",
     "grade": "3",
@@ -1153,7 +1025,6 @@
   },
   {
     "name": "基礎制御工学および演習（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "金子修",
     "semester": "前学期",
     "grade": "3",
@@ -1162,7 +1033,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火2・A）",
-    "major": "情報理工学域",
     "professor": "StephanieTunçay",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1171,7 +1041,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火2・B）",
-    "major": "情報理工学域",
     "professor": "HauserEric",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1180,7 +1049,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火2・C）",
-    "major": "情報理工学域",
     "professor": "AtsukoMarieJeffreys",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1189,7 +1057,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火2・D）",
-    "major": "情報理工学域",
     "professor": "Derr,Jonathan",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1198,7 +1065,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火2・E）",
-    "major": "情報理工学域",
     "professor": "立野悟",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1207,7 +1073,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火2・F）",
-    "major": "情報理工学域",
     "professor": "DanielGeorgeDusza",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1216,7 +1081,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅱ類・A）",
-    "major": "情報理工学域",
     "professor": "AdelaideVambe",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1225,7 +1089,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅱ類・B）",
-    "major": "情報理工学域",
     "professor": "大石由紀子",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1234,7 +1097,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅱ類・C）",
-    "major": "情報理工学域",
     "professor": "本多幸七郎",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1243,7 +1105,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅱ類・D）",
-    "major": "情報理工学域",
     "professor": "HIGUCHISONIA",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1252,7 +1113,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅱ類・E）",
-    "major": "情報理工学域",
     "professor": "EliudKiprop",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1261,7 +1121,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅱ類・F）",
-    "major": "情報理工学域",
     "professor": "FayyazKhan",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1270,7 +1129,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅱ類・G）",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1279,7 +1137,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅱ類・H）",
-    "major": "情報理工学域",
     "professor": "岩崎峻一",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1288,7 +1145,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅱ類・Ｉ）",
-    "major": "情報理工学域",
     "professor": "ScottMclellan",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1297,7 +1153,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅱ類・J）",
-    "major": "情報理工学域",
     "professor": "HoaBaoLai",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1306,7 +1161,6 @@
   },
   {
     "name": "生涯スポーツ演習Ａ（Ⅰ類）",
-    "major": "情報理工学域",
     "professor": "○田中（茂）・○金子・○宮崎・○大辻・○八幡",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1315,7 +1169,6 @@
   },
   {
     "name": "UEC Academic Skills II (Information Literacy and Research) （言語文化）",
-    "major": "情報理工学域",
     "professor": "ChooCheowKeong",
     "semester": "前学期",
     "grade": "2",
@@ -1324,7 +1177,6 @@
   },
   {
     "name": "UEC Academic Skills II (Information Literacy and Research) （上級科目）",
-    "major": "情報理工学域",
     "professor": "ChooCheowKeong",
     "semester": "前学期",
     "grade": "3/4",
@@ -1333,7 +1185,6 @@
   },
   {
     "name": "微分積分学第一（クラス８）",
-    "major": "情報理工学域",
     "professor": "林誠",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1342,7 +1193,6 @@
   },
   {
     "name": "微分積分学第一（クラス９）",
-    "major": "情報理工学域",
     "professor": "谷口淳子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1351,7 +1201,6 @@
   },
   {
     "name": "線形代数学第一（クラス４）",
-    "major": "情報理工学域",
     "professor": "大野真裕",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1360,7 +1209,6 @@
   },
   {
     "name": "物理学概論第一（クラス３）",
-    "major": "情報理工学域",
     "professor": "松浦基晴",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1369,7 +1217,6 @@
   },
   {
     "name": "物理学概論第一（クラス１０）",
-    "major": "情報理工学域",
     "professor": "清水亮介",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1378,7 +1225,6 @@
   },
   {
     "name": "物理学概論第一（クラス１１）",
-    "major": "情報理工学域",
     "professor": "小池卓二",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1387,7 +1233,6 @@
   },
   {
     "name": "物理学概論第一（クラス１２）",
-    "major": "情報理工学域",
     "professor": "田中一男",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1396,7 +1241,6 @@
   },
   {
     "name": "化学概論第一（クラス７）",
-    "major": "情報理工学域",
     "professor": "平野誉",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1405,7 +1249,6 @@
   },
   {
     "name": "化学概論第一（クラス６）",
-    "major": "情報理工学域",
     "professor": "山登正文",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1414,7 +1257,6 @@
   },
   {
     "name": "数値解析",
-    "major": "Ⅰ類",
     "professor": "山本野人",
     "semester": "前学期",
     "grade": "3",
@@ -1423,7 +1265,6 @@
   },
   {
     "name": "コンピュータネットワーク",
-    "major": "Ⅱ類",
     "professor": "大坐畠智",
     "semester": "前学期",
     "grade": "3",
@@ -1432,7 +1273,6 @@
   },
   {
     "name": "電磁気学第二",
-    "major": "Ⅱ類",
     "professor": "芳原容英",
     "semester": "前学期",
     "grade": "3",
@@ -1441,7 +1281,6 @@
   },
   {
     "name": "航空宇宙工学（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "○神田・○濱田",
     "semester": "前学期",
     "grade": "4",
@@ -1450,7 +1289,6 @@
   },
   {
     "name": "熱力学",
-    "major": "Ⅲ類",
     "professor": "安井正憲",
     "semester": "前学期",
     "grade": "2",
@@ -1459,7 +1297,6 @@
   },
   {
     "name": "熱力学",
-    "major": "Ⅲ類",
     "professor": "大川富雄",
     "semester": "前学期",
     "grade": "2",
@@ -1468,7 +1305,6 @@
   },
   {
     "name": "数値解析",
-    "major": "Ⅲ類",
     "professor": "舩戸徹郎",
     "semester": "前学期",
     "grade": "2",
@@ -1477,7 +1313,6 @@
   },
   {
     "name": "量子力学第一演習",
-    "major": "Ⅲ類",
     "professor": "森永・森下",
     "semester": "前学期",
     "grade": "3",
@@ -1486,7 +1321,6 @@
   },
   {
     "name": "基礎量子工学",
-    "major": "Ⅲ類",
     "professor": "桂川眞幸",
     "semester": "前学期",
     "grade": "3",
@@ -1495,7 +1329,6 @@
   },
   {
     "name": "物理化学第一",
-    "major": "Ⅲ類",
     "professor": "山北佳宏",
     "semester": "前学期",
     "grade": "3",
@@ -1504,7 +1337,6 @@
   },
   {
     "name": "航空宇宙工学（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "○神田・○濱田",
     "semester": "前学期",
     "grade": "4",
@@ -1513,7 +1345,6 @@
   },
   {
     "name": "プログラミング言語実験",
-    "major": "Ⅰ類",
     "professor": "柏原・織田・庄野・若月",
     "semester": "前学期",
     "grade": "3",
@@ -1522,7 +1353,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火3・A）",
-    "major": "情報理工学域",
     "professor": "立野悟",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1531,7 +1361,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火3・B）",
-    "major": "情報理工学域",
     "professor": "JosephRobertTabolt",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1540,7 +1369,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火3・C）",
-    "major": "情報理工学域",
     "professor": "HauserEric",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1549,7 +1377,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火3・D）",
-    "major": "情報理工学域",
     "professor": "JoshiRatalaDineshPrasad",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1558,7 +1385,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火3・E）",
-    "major": "情報理工学域",
     "professor": "StephanieTunçay",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1567,7 +1393,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火3・F）",
-    "major": "情報理工学域",
     "professor": "Derr,Jonathan",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1576,7 +1401,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火3・G）",
-    "major": "情報理工学域",
     "professor": "SadieNitta",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1585,7 +1409,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅲ類・A）",
-    "major": "情報理工学域",
     "professor": "EliudKiprop",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1594,7 +1417,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅲ類・C）",
-    "major": "情報理工学域",
     "professor": "大石由紀子",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1603,7 +1425,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅲ類・B）",
-    "major": "情報理工学域",
     "professor": "HoaBaoLai",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1612,7 +1433,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅲ類・D）",
-    "major": "情報理工学域",
     "professor": "本多幸七郎",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1621,7 +1441,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅲ類・E）",
-    "major": "情報理工学域",
     "professor": "AdelaideVambe",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1630,7 +1449,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅲ類・F）",
-    "major": "情報理工学域",
     "professor": "HIGUCHISONIA",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1639,7 +1457,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅲ類・G）",
-    "major": "情報理工学域",
     "professor": "唐琳",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1648,7 +1465,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅲ類・H）",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1657,7 +1473,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅰ（Ⅲ類・Ｉ）",
-    "major": "情報理工学域",
     "professor": "ScottMclellan",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1666,7 +1481,6 @@
   },
   {
     "name": "生涯スポーツ演習Ａ（Ⅱ類）",
-    "major": "情報理工学域",
     "professor": "○田中（茂）・○金子・○宮崎・○大辻・○八幡",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1675,7 +1489,6 @@
   },
   {
     "name": "コンピュータリテラシー（クラス２）",
-    "major": "情報理工学域",
     "professor": "廣田・*竹内",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1684,7 +1497,6 @@
   },
   {
     "name": "コンピュータリテラシー（クラス３）",
-    "major": "情報理工学域",
     "professor": "戸田貴久",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1693,7 +1505,6 @@
   },
   {
     "name": "微分積分学第一（クラス１）",
-    "major": "情報理工学域",
     "professor": "石田晴久",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1702,7 +1513,6 @@
   },
   {
     "name": "微分積分学第一（クラス５）",
-    "major": "情報理工学域",
     "professor": "天野友之",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1711,7 +1521,6 @@
   },
   {
     "name": "微分積分学第一（クラス１１）",
-    "major": "情報理工学域",
     "professor": "齋藤平和",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1720,7 +1529,6 @@
   },
   {
     "name": "物理学概論第一（クラス４）",
-    "major": "情報理工学域",
     "professor": "横井浩史",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1729,7 +1537,6 @@
   },
   {
     "name": "物理学概論第一（クラス６）",
-    "major": "情報理工学域",
     "professor": "伏屋雄紀",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1738,7 +1545,6 @@
   },
   {
     "name": "物理学概論第一（クラス９）",
-    "major": "情報理工学域",
     "professor": "來住直人",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1747,7 +1553,6 @@
   },
   {
     "name": "プログラミング通論",
-    "major": "Ⅰ類",
     "professor": "橋本直己",
     "semester": "前学期",
     "grade": "2",
@@ -1756,7 +1561,6 @@
   },
   {
     "name": "プログラミング通論",
-    "major": "Ⅰ類",
     "professor": "丸山一貴",
     "semester": "前学期",
     "grade": "2",
@@ -1765,7 +1569,6 @@
   },
   {
     "name": "データベース論",
-    "major": "Ⅰ類",
     "professor": "兼岩憲",
     "semester": "前学期",
     "grade": "3",
@@ -1774,7 +1577,6 @@
   },
   {
     "name": "情報理論",
-    "major": "Ⅱ類",
     "professor": "八木秀樹",
     "semester": "前学期",
     "grade": "3",
@@ -1783,7 +1585,6 @@
   },
   {
     "name": "信号処理論",
-    "major": "Ⅱ類",
     "professor": "高橋弘太",
     "semester": "前学期",
     "grade": "3",
@@ -1792,7 +1593,6 @@
   },
   {
     "name": "電気回路",
-    "major": "Ⅲ類",
     "professor": "酒井剛",
     "semester": "前学期",
     "grade": "3",
@@ -1801,7 +1601,6 @@
   },
   {
     "name": "電磁波工学（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "米田仁紀",
     "semester": "前学期",
     "grade": "3",
@@ -1810,7 +1609,6 @@
   },
   {
     "name": "マシンデザインＡ（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "増田・○私市・○西浦・○清水・○藤川",
     "semester": "前学期",
     "grade": "3",
@@ -1819,7 +1617,6 @@
   },
   {
     "name": "マシンデザインA（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "増田・○私市・○西浦・○清水・○藤川",
     "semester": "前学期",
     "grade": "3",
@@ -1828,7 +1625,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火4・B）",
-    "major": "情報理工学域",
     "professor": "立野悟",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1837,7 +1633,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火4・C）",
-    "major": "情報理工学域",
     "professor": "唐琳",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1846,7 +1641,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火4・A）",
-    "major": "情報理工学域",
     "professor": "JosephRobertTabolt",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1855,7 +1649,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火4・D）",
-    "major": "情報理工学域",
     "professor": "AtsukoMarieJeffreys",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1864,7 +1657,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火4・E）",
-    "major": "情報理工学域",
     "professor": "SadieNitta",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1873,7 +1665,6 @@
   },
   {
     "name": "Academic Spoken English Ⅰ（火4・F）",
-    "major": "情報理工学域",
     "professor": "JoshiRatalaDineshPrasad",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1882,7 +1673,6 @@
   },
   {
     "name": "生涯スポーツ演習Ａ（Ⅲ類）",
-    "major": "情報理工学域",
     "professor": "○田中（茂）・○金子・○宮崎・○大辻・○八幡",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -1891,7 +1681,6 @@
   },
   {
     "name": "現代の教育",
-    "major": "情報理工学域",
     "professor": "武石典史",
     "semester": "前学期",
     "grade": "3/4",
@@ -1900,7 +1689,6 @@
   },
   {
     "name": "物理学概論第一（クラス１）",
-    "major": "情報理工学域",
     "professor": "村中隆弘",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1909,7 +1697,6 @@
   },
   {
     "name": "物理学概論第一（クラス２）",
-    "major": "情報理工学域",
     "professor": "守裕也",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1918,7 +1705,6 @@
   },
   {
     "name": "物理学概論第一（クラス５）",
-    "major": "情報理工学域",
     "professor": "田中久陽",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1927,7 +1713,6 @@
   },
   {
     "name": "物理学概論第一（クラス７）",
-    "major": "情報理工学域",
     "professor": "古川裕介",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1936,7 +1721,6 @@
   },
   {
     "name": "化学概論第一（クラス８）",
-    "major": "情報理工学域",
     "professor": "牧昌次郎",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1945,7 +1729,6 @@
   },
   {
     "name": "化学概論第一（クラス９）",
-    "major": "情報理工学域",
     "professor": "安井正憲",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1954,7 +1737,6 @@
   },
   {
     "name": "化学概論第一（クラス１０）",
-    "major": "情報理工学域",
     "professor": "田仲真紀子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1963,7 +1745,6 @@
   },
   {
     "name": "化学概論第一（クラス１１）",
-    "major": "情報理工学域",
     "professor": "三輪寛子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1972,7 +1753,6 @@
   },
   {
     "name": "化学概論第一（クラス１２）",
-    "major": "情報理工学域",
     "professor": "桑原大介",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -1981,7 +1761,6 @@
   },
   {
     "name": "情報領域演習第二",
-    "major": "Ⅰ類",
     "professor": "三重野・関・中山（舜）",
     "semester": "前学期",
     "grade": "2",
@@ -1990,7 +1769,6 @@
   },
   {
     "name": "複素関数論（Ⅰ類）",
-    "major": "Ⅰ類",
     "professor": "南泰浩",
     "semester": "前学期",
     "grade": "2",
@@ -1999,7 +1777,6 @@
   },
   {
     "name": "オペレーティングシステム論",
-    "major": "Ⅰ類",
     "professor": "中山泰一",
     "semester": "前学期",
     "grade": "3",
@@ -2008,7 +1785,6 @@
   },
   {
     "name": "応用数学Ａ（Mエリア）",
-    "major": "Ⅱ類",
     "professor": "阪口豊",
     "semester": "前学期",
     "grade": "2",
@@ -2017,7 +1793,6 @@
   },
   {
     "name": "基礎電磁気学（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "細川敬祐",
     "semester": "前学期",
     "grade": "2",
@@ -2026,7 +1801,6 @@
   },
   {
     "name": "基礎演習Ａ（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "石川（亮）・芳原・佐藤（俊）",
     "semester": "前学期",
     "grade": "2",
@@ -2035,7 +1809,6 @@
   },
   {
     "name": "電気回路演習",
-    "major": "Ⅲ類",
     "professor": "酒井・渡辺（恵）",
     "semester": "前学期",
     "grade": "3",
@@ -2044,7 +1817,6 @@
   },
   {
     "name": "細胞生物工学",
-    "major": "Ⅲ類",
     "professor": "白川英樹",
     "semester": "前学期",
     "grade": "3",
@@ -2053,7 +1825,6 @@
   },
   {
     "name": "ドイツ倫理学",
-    "major": "情報理工学域",
     "professor": "加藤之敬",
     "semester": "前学期",
     "grade": "3/4",
@@ -2062,7 +1833,6 @@
   },
   {
     "name": "Research Presentation",
-    "major": "情報理工学域",
     "professor": "AtsukoMarieJeffreys",
     "semester": "前学期",
     "grade": "3/4",
@@ -2071,7 +1841,6 @@
   },
   {
     "name": "情報と職業",
-    "major": "情報理工学域",
     "professor": "赤澤紀子",
     "semester": "前学期",
     "grade": "3/4",
@@ -2080,7 +1849,6 @@
   },
   {
     "name": "日本の科学と技術A",
-    "major": "情報理工学域",
     "professor": "中井日佐司・ChooCheowKeong",
     "semester": "前学期",
     "grade": "3/4",
@@ -2089,7 +1857,6 @@
   },
   {
     "name": "運動と筋の科学",
-    "major": "情報理工学域",
     "professor": "狩野豊",
     "semester": "前学期",
     "grade": "3/4",
@@ -2098,7 +1865,6 @@
   },
   {
     "name": "日常生活の対人関係",
-    "major": "情報理工学域",
     "professor": "阿部朋典",
     "semester": "前学期",
     "grade": "3/4",
@@ -2107,7 +1873,6 @@
   },
   {
     "name": "コンピュータリテラシー（再履）",
-    "major": "情報理工学域",
     "professor": "江木・渡辺",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2116,7 +1881,6 @@
   },
   {
     "name": "物理学概論第二（再履）（学籍番号奇数）",
-    "major": "情報理工学域",
     "professor": "○阿部・小久保・伏屋",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2125,7 +1889,6 @@
   },
   {
     "name": "物理学概論第二（再履）（学籍番号偶数）",
-    "major": "情報理工学域",
     "professor": "○佐野・小久保・伏屋",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2134,7 +1897,6 @@
   },
   {
     "name": "教職論A",
-    "major": "情報理工学域",
     "professor": "武石典史",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2143,7 +1905,6 @@
   },
   {
     "name": "幾何学概論（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "山田裕一",
     "semester": "前学期",
     "grade": "3",
@@ -2152,7 +1913,6 @@
   },
   {
     "name": "心理学Ａ",
-    "major": "情報理工学域",
     "professor": "久野雅樹",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2161,7 +1921,6 @@
   },
   {
     "name": "音楽Ａ",
-    "major": "情報理工学域",
     "professor": "長岡英",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2170,7 +1929,6 @@
   },
   {
     "name": "経済学Ａ",
-    "major": "情報理工学域",
     "professor": "鈴木邦成",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2179,7 +1937,6 @@
   },
   {
     "name": "技術史",
-    "major": "情報理工学域",
     "professor": "佐藤賢一",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2188,7 +1945,6 @@
   },
   {
     "name": "言語学",
-    "major": "情報理工学域",
     "professor": "栗田岳",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2197,7 +1953,6 @@
   },
   {
     "name": "アジアの文化",
-    "major": "情報理工学域",
     "professor": "魏逸瑩",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2206,7 +1961,6 @@
   },
   {
     "name": "日本文化Ｃ",
-    "major": "情報理工学域",
     "professor": "小山慎治",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2215,7 +1969,6 @@
   },
   {
     "name": "生涯スポーツ演習Ａ（３年生以上・再履）",
-    "major": "情報理工学域",
     "professor": "安藤・○渡邊(裕)",
     "semester": "前学期",
     "grade": "3/4",
@@ -2224,7 +1977,6 @@
   },
   {
     "name": "Introduction to Computational Methods in Science and Engineering",
-    "major": "情報理工学域",
     "professor": "Hans-GeorgMatuttis",
     "semester": "前学期",
     "grade": "3/4",
@@ -2233,7 +1985,6 @@
   },
   {
     "name": "コンピュータリテラシー（クラス１）",
-    "major": "情報理工学域",
     "professor": "江木・*笹倉",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2242,7 +1993,6 @@
   },
   {
     "name": "コンピュータリテラシー（クラス１１）",
-    "major": "情報理工学域",
     "professor": "渡辺博芳",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2251,7 +2001,6 @@
   },
   {
     "name": "微分積分学第一（クラス２）",
-    "major": "情報理工学域",
     "professor": "羽賀淳一",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2260,7 +2009,6 @@
   },
   {
     "name": "基礎数学演習第一",
-    "major": "情報理工学域",
     "professor": "濱野哲子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2269,7 +2017,6 @@
   },
   {
     "name": "音響工学",
-    "major": "Ⅱ類",
     "professor": "野村英之",
     "semester": "前学期",
     "grade": "4",
@@ -2278,7 +2025,6 @@
   },
   {
     "name": "科学史Ａ",
-    "major": "情報理工学域",
     "professor": "佐藤賢一",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2287,7 +2033,6 @@
   },
   {
     "name": "文学Ａ",
-    "major": "情報理工学域",
     "professor": "栗田岳",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2296,7 +2041,6 @@
   },
   {
     "name": "美術Ａ",
-    "major": "情報理工学域",
     "professor": "櫻庭美咲",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2305,7 +2049,6 @@
   },
   {
     "name": "社会学Ａ",
-    "major": "情報理工学域",
     "professor": "渡辺彰規",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2314,7 +2057,6 @@
   },
   {
     "name": "法学Ａ",
-    "major": "情報理工学域",
     "professor": "植田俊太郎",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2323,7 +2065,6 @@
   },
   {
     "name": "文化人類学Ａ",
-    "major": "情報理工学域",
     "professor": "森雅文",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2332,7 +2073,6 @@
   },
   {
     "name": "生涯スポーツ演習Ａ（３年生以上・再履）",
-    "major": "情報理工学域",
     "professor": "狩野・○渡邊(裕)",
     "semester": "前学期",
     "grade": "3/4",
@@ -2341,7 +2081,6 @@
   },
   {
     "name": "コンピュータリテラシー（クラス４）",
-    "major": "情報理工学域",
     "professor": "若月光夫",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2350,7 +2089,6 @@
   },
   {
     "name": "コンピュータリテラシー（クラス１２）",
-    "major": "情報理工学域",
     "professor": "栗原正純",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2359,7 +2097,6 @@
   },
   {
     "name": "微分積分学第一（クラス３）",
-    "major": "情報理工学域",
     "professor": "羽賀淳一",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2368,7 +2105,6 @@
   },
   {
     "name": "微分積分学第一（クラス１０）",
-    "major": "情報理工学域",
     "professor": "榎本直也",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2377,7 +2113,6 @@
   },
   {
     "name": "線形代数学第一（クラス５）",
-    "major": "情報理工学域",
     "professor": "伊東裕也",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2386,7 +2121,6 @@
   },
   {
     "name": "基礎数学演習第一",
-    "major": "情報理工学域",
     "professor": "濱野哲子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2395,7 +2129,6 @@
   },
   {
     "name": "コミュニケーション論",
-    "major": "Ⅰ類",
     "professor": "大河原一憲",
     "semester": "前学期",
     "grade": "3",
@@ -2404,7 +2137,6 @@
   },
   {
     "name": "言語処理系論",
-    "major": "Ⅰ類",
     "professor": "佐藤重幸",
     "semester": "前学期",
     "grade": "3",
@@ -2413,7 +2145,6 @@
   },
   {
     "name": "回路システム学第二",
-    "major": "Ⅱ類",
     "professor": "小野哲",
     "semester": "前学期",
     "grade": "3",
@@ -2422,7 +2153,6 @@
   },
   {
     "name": "回路システム学第二",
-    "major": "Ⅱ類",
     "professor": "和田光司",
     "semester": "前学期",
     "grade": "3",
@@ -2431,7 +2161,6 @@
   },
   {
     "name": "加工学および演習（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "森重・久保木・梶川",
     "semester": "前学期",
     "grade": "3",
@@ -2440,7 +2169,6 @@
   },
   {
     "name": "加工学および演習（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "久保木・森重・梶川",
     "semester": "前学期",
     "grade": "3",
@@ -2449,7 +2177,6 @@
   },
   {
     "name": "電子工学実験第一（水曜）",
-    "major": "Ⅲ類",
     "professor": "宮本・酒井・島田・坂本・永井・早川・高田（亨）・大家（全担当者はその他欄に記載）",
     "semester": "前学期",
     "grade": "3",
@@ -2458,7 +2185,6 @@
   },
   {
     "name": "光工学実験第一（水曜）",
-    "major": "Ⅲ類",
     "professor": "宮本・白川（晃）・浅原・庄司・戸倉川・田渕・岡田（全担当者はその他欄に記載）",
     "semester": "前学期",
     "grade": "3",
@@ -2467,7 +2193,6 @@
   },
   {
     "name": "物理工学実験第一（水曜）",
-    "major": "Ⅲ類",
     "professor": "宮本・岩國・谷口・丹治・Nayak・池田・落合（全担当者はその他欄に記載）",
     "semester": "前学期",
     "grade": "3",
@@ -2476,7 +2201,6 @@
   },
   {
     "name": "化学生命工学実験第一",
-    "major": "Ⅲ類",
     "professor": "三瓶・牧・仲村・平田・中根・○手塚・*菅",
     "semester": "前学期",
     "grade": "3",
@@ -2485,7 +2209,6 @@
   },
   {
     "name": "数学演習第一（クラス１）",
-    "major": "情報理工学域",
     "professor": "伊藤賢一",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2494,7 +2217,6 @@
   },
   {
     "name": "数学演習第一（クラス２）",
-    "major": "情報理工学域",
     "professor": "丸亀泰二",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2503,7 +2225,6 @@
   },
   {
     "name": "数学演習第一（クラス３）",
-    "major": "情報理工学域",
     "professor": "工藤陸",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2512,7 +2233,6 @@
   },
   {
     "name": "数学演習第一（クラス９）",
-    "major": "情報理工学域",
     "professor": "齋藤平和",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2521,7 +2241,6 @@
   },
   {
     "name": "数学演習第一（クラス１１）",
-    "major": "情報理工学域",
     "professor": "関根正幸",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2530,7 +2249,6 @@
   },
   {
     "name": "数学演習第一（クラス１２）",
-    "major": "情報理工学域",
     "professor": "中村友哉",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2539,7 +2257,6 @@
   },
   {
     "name": "物理学演習第一",
-    "major": "情報理工学域",
     "professor": "鈴木（勝）・佐々木（成）・中村（仁）",
     "semester": "前学期",
     "grade": "1",
@@ -2548,7 +2265,6 @@
   },
   {
     "name": "プログラミング通論",
-    "major": "Ⅰ類",
     "professor": "古賀久志",
     "semester": "前学期",
     "grade": "2",
@@ -2557,7 +2273,6 @@
   },
   {
     "name": "複素関数論（Mエリア）",
-    "major": "Ⅱ類",
     "professor": "宮脇陽一",
     "semester": "前学期",
     "grade": "2",
@@ -2566,7 +2281,6 @@
   },
   {
     "name": "アルゴリズム論",
-    "major": "Ⅱ類",
     "professor": "石上嘉康",
     "semester": "前学期",
     "grade": "3",
@@ -2575,7 +2289,6 @@
   },
   {
     "name": "コンピュータネットワーク",
-    "major": "Ⅱ類",
     "professor": "KITSUWANNATTAPONG",
     "semester": "前学期",
     "grade": "3",
@@ -2584,7 +2297,6 @@
   },
   {
     "name": "電気電子計測（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "秋田学",
     "semester": "前学期",
     "grade": "3",
@@ -2593,7 +2305,6 @@
   },
   {
     "name": "暗号と符号化の数理",
-    "major": "Ⅱ類",
     "professor": "大濱靖匡",
     "semester": "前学期",
     "grade": "4",
@@ -2602,7 +2313,6 @@
   },
   {
     "name": "複素関数論（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "古川怜",
     "semester": "前学期",
     "grade": "2",
@@ -2611,7 +2321,6 @@
   },
   {
     "name": "複素関数論（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "遠藤晋平",
     "semester": "前学期",
     "grade": "2",
@@ -2620,7 +2329,6 @@
   },
   {
     "name": "電気電子計測（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "秋田学",
     "semester": "前学期",
     "grade": "3",
@@ -2629,7 +2337,6 @@
   },
   {
     "name": "数値解析およびプログラミング演習（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "劉志",
     "semester": "前学期",
     "grade": "2",
@@ -2638,7 +2345,6 @@
   },
   {
     "name": "数値解析およびプログラミング演習（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "大坐畠智",
     "semester": "前学期",
     "grade": "2",
@@ -2647,7 +2353,6 @@
   },
   {
     "name": "認知科学",
-    "major": "情報理工学域",
     "professor": "久野雅樹",
     "semester": "前学期",
     "grade": "3/4",
@@ -2656,7 +2361,6 @@
   },
   {
     "name": "数学演習第一（クラス４）",
-    "major": "情報理工学域",
     "professor": "伊藤賢一",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2665,7 +2369,6 @@
   },
   {
     "name": "数学演習第一（クラス５）",
-    "major": "情報理工学域",
     "professor": "関根正幸",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2674,7 +2377,6 @@
   },
   {
     "name": "数学演習第一（クラス６）",
-    "major": "情報理工学域",
     "professor": "齋藤平和",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2683,7 +2385,6 @@
   },
   {
     "name": "数学演習第一（クラス７）",
-    "major": "情報理工学域",
     "professor": "中村友哉",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2692,7 +2393,6 @@
   },
   {
     "name": "数学演習第一（クラス８）",
-    "major": "情報理工学域",
     "professor": "伊東裕也",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2701,7 +2401,6 @@
   },
   {
     "name": "数学演習第一（クラス１０）",
-    "major": "情報理工学域",
     "professor": "工藤陸",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2710,7 +2409,6 @@
   },
   {
     "name": "物理学演習第一",
-    "major": "情報理工学域",
     "professor": "鈴木（勝）・佐々木（成）・中村（仁）",
     "semester": "前学期",
     "grade": "1",
@@ -2719,7 +2417,6 @@
   },
   {
     "name": "複素関数論（Ⅰ類）",
-    "major": "Ⅰ類",
     "professor": "龍野智哉",
     "semester": "前学期",
     "grade": "2",
@@ -2728,7 +2425,6 @@
   },
   {
     "name": "基礎演習Ａ（Mエリア）",
-    "major": "Ⅱ類",
     "professor": "内田（雅）・村松（大）",
     "semester": "前学期",
     "grade": "2",
@@ -2737,7 +2433,6 @@
   },
   {
     "name": "離散数学応用",
-    "major": "Ⅱ類",
     "professor": "石上嘉康",
     "semester": "前学期",
     "grade": "3",
@@ -2746,7 +2441,6 @@
   },
   {
     "name": "機構要素設計（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "金森哉吏",
     "semester": "前学期",
     "grade": "3",
@@ -2755,7 +2449,6 @@
   },
   {
     "name": "自動車工学（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "青野俊宏",
     "semester": "前学期",
     "grade": "4",
@@ -2764,7 +2457,6 @@
   },
   {
     "name": "基礎電気回路",
-    "major": "Ⅲ類",
     "professor": "中村信行",
     "semester": "前学期",
     "grade": "2",
@@ -2773,7 +2465,6 @@
   },
   {
     "name": "機構要素設計（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "金森哉吏",
     "semester": "前学期",
     "grade": "3",
@@ -2782,7 +2473,6 @@
   },
   {
     "name": "自動車工学（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "青野俊宏",
     "semester": "前学期",
     "grade": "4",
@@ -2791,7 +2481,6 @@
   },
   {
     "name": "哲学Ａ",
-    "major": "情報理工学域",
     "professor": "秋吉亮太",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2800,7 +2489,6 @@
   },
   {
     "name": "倫理学Ａ",
-    "major": "情報理工学域",
     "professor": "中野愛理",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2809,7 +2497,6 @@
   },
   {
     "name": "歴史学Ａ",
-    "major": "情報理工学域",
     "professor": "倉橋良伸",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2818,7 +2505,6 @@
   },
   {
     "name": "政治学Ａ",
-    "major": "情報理工学域",
     "professor": "竹内桂",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2827,7 +2513,6 @@
   },
   {
     "name": "地理学Ａ",
-    "major": "情報理工学域",
     "professor": "戸田真夏",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2836,7 +2521,6 @@
   },
   {
     "name": "社会思想史Ａ",
-    "major": "情報理工学域",
     "professor": "庄司俊之",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2845,7 +2529,6 @@
   },
   {
     "name": "憲法",
-    "major": "情報理工学域",
     "professor": "荒邦啓介",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2854,7 +2537,6 @@
   },
   {
     "name": "外国文学",
-    "major": "情報理工学域",
     "professor": "西崎憲",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2863,7 +2545,6 @@
   },
   {
     "name": "江戸の社会と数学",
-    "major": "情報理工学域",
     "professor": "佐藤賢一",
     "semester": "前学期",
     "grade": "3/4",
@@ -2872,7 +2553,6 @@
   },
   {
     "name": "科学技術と人間",
-    "major": "情報理工学域",
     "professor": "○関谷・○田中（基）・○近藤・○高橋(幸)",
     "semester": "前学期",
     "grade": "3/4",
@@ -2881,7 +2561,6 @@
   },
   {
     "name": "比較文化論",
-    "major": "情報理工学域",
     "professor": "八木橋久実子",
     "semester": "前学期",
     "grade": "3/4",
@@ -2890,7 +2569,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（上級）",
-    "major": "情報理工学域",
     "professor": "ShiJie",
     "semester": "前学期",
     "grade": "3/4",
@@ -2899,7 +2577,6 @@
   },
   {
     "name": "基礎数学演習第一",
-    "major": "情報理工学域",
     "professor": "濱野哲子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2908,7 +2585,6 @@
   },
   {
     "name": "教育課程編成論A",
-    "major": "情報理工学域",
     "professor": "狩野浩二",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -2917,7 +2593,6 @@
   },
   {
     "name": "理科教育法I",
-    "major": "情報理工学域",
     "professor": "高橋典嗣",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2926,7 +2601,6 @@
   },
   {
     "name": "幾何学概論（Ⅰ類）",
-    "major": "Ⅰ類",
     "professor": "丸亀泰二",
     "semester": "前学期",
     "grade": "3",
@@ -2935,7 +2609,6 @@
   },
   {
     "name": "情報処理演習第一",
-    "major": "情報理工学域",
     "professor": "中井日佐司",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2944,7 +2617,6 @@
   },
   {
     "name": "日本語第三（２年）（水２・金４）",
-    "major": "情報理工学域",
     "professor": "○小山（水２）・○中嶋（金４）",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2953,7 +2625,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "AtsukoMarieJeffreys",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2962,7 +2633,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "大石由紀子",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2971,7 +2641,6 @@
   },
   {
     "name": "独語演習",
-    "major": "情報理工学域",
     "professor": "浜田郷史",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2980,7 +2649,6 @@
   },
   {
     "name": "仏語演習",
-    "major": "情報理工学域",
     "professor": "八木橋久実子",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2989,7 +2657,6 @@
   },
   {
     "name": "中国語演習",
-    "major": "情報理工学域",
     "professor": "千葉偉一",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -2998,7 +2665,6 @@
   },
   {
     "name": "中国語演習",
-    "major": "情報理工学域",
     "professor": "李偉",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -3007,7 +2673,6 @@
   },
   {
     "name": "韓国朝鮮語演習",
-    "major": "情報理工学域",
     "professor": "姜勝薫",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -3016,7 +2681,6 @@
   },
   {
     "name": "UEC Academic Skills III (Publishing Literacy and Research) ",
-    "major": "情報理工学域",
     "professor": "ChooCheowKeong",
     "semester": "前学期",
     "grade": "3/4",
@@ -3025,7 +2689,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I15ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "MikhailAlicChuaGo",
     "semester": "前学期",
     "grade": "3",
@@ -3034,7 +2697,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I16ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "DermotLonergan",
     "semester": "前学期",
     "grade": "3",
@@ -3043,7 +2705,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I17ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "HeleneKarmaYim",
     "semester": "前学期",
     "grade": "3",
@@ -3052,7 +2713,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I18ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "唐琳",
     "semester": "前学期",
     "grade": "3",
@@ -3061,7 +2721,6 @@
   },
   {
     "name": "化学概論第一（クラス４）",
-    "major": "情報理工学域",
     "professor": "池田佑美",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3070,7 +2729,6 @@
   },
   {
     "name": "マルチメディア処理（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "羽田・野嶋",
     "semester": "前学期",
     "grade": "3",
@@ -3079,7 +2737,6 @@
   },
   {
     "name": "人間機械システム（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "宮脇陽一",
     "semester": "前学期",
     "grade": "3",
@@ -3088,7 +2745,6 @@
   },
   {
     "name": "人間機械システム（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "宮脇陽一",
     "semester": "前学期",
     "grade": "3",
@@ -3097,7 +2753,6 @@
   },
   {
     "name": "固体電子論",
-    "major": "Ⅲ類",
     "professor": "水柿義直",
     "semester": "前学期",
     "grade": "3",
@@ -3106,7 +2761,6 @@
   },
   {
     "name": "固体電子論",
-    "major": "Ⅲ類",
     "professor": "中村淳",
     "semester": "前学期",
     "grade": "3",
@@ -3115,7 +2769,6 @@
   },
   {
     "name": "選択独語第一",
-    "major": "情報理工学域",
     "professor": "中橋誠",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3124,7 +2777,6 @@
   },
   {
     "name": "選択独語第一",
-    "major": "情報理工学域",
     "professor": "浜田郷史",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3133,7 +2785,6 @@
   },
   {
     "name": "選択仏語第一",
-    "major": "情報理工学域",
     "professor": "八木橋久実子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3142,7 +2793,6 @@
   },
   {
     "name": "選択露語第一",
-    "major": "情報理工学域",
     "professor": "金沢友緒",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3151,7 +2801,6 @@
   },
   {
     "name": "選択中国語第一",
-    "major": "情報理工学域",
     "professor": "小野響",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3160,7 +2809,6 @@
   },
   {
     "name": "選択中国語第一",
-    "major": "情報理工学域",
     "professor": "李偉",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3169,7 +2817,6 @@
   },
   {
     "name": "選択中国語第一",
-    "major": "情報理工学域",
     "professor": "千葉偉一",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3178,7 +2825,6 @@
   },
   {
     "name": "選択韓国朝鮮語第一",
-    "major": "情報理工学域",
     "professor": "姜勝薫",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3187,7 +2833,6 @@
   },
   {
     "name": "物理学概論第三",
-    "major": "情報理工学域",
     "professor": "鈴木勝",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -3196,7 +2841,6 @@
   },
   {
     "name": "化学とエネルギー",
-    "major": "情報理工学域",
     "professor": "小林（義）・三輪（寛）",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -3205,7 +2849,6 @@
   },
   {
     "name": "現代数学入門Ａ",
-    "major": "情報理工学域",
     "professor": "伊東裕也",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -3214,7 +2857,6 @@
   },
   {
     "name": "現代数学入門Ｂ",
-    "major": "情報理工学域",
     "professor": "大野真裕",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -3223,7 +2865,6 @@
   },
   {
     "name": "Advanced Engineering Science Ⅰ（Polymer Photonics）（学域）",
-    "major": "Ⅲ類",
     "professor": "古川怜",
     "semester": "前学期",
     "grade": "3/4",
@@ -3232,7 +2873,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I13ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "前学期",
     "grade": "3",
@@ -3241,7 +2881,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I14ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "唐琳",
     "semester": "前学期",
     "grade": "3",
@@ -3250,7 +2889,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E31ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "MikhailAlicChuaGo",
     "semester": "前学期",
     "grade": "3",
@@ -3259,7 +2897,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E32ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "DermotLonergan",
     "semester": "前学期",
     "grade": "3",
@@ -3268,7 +2905,6 @@
   },
   {
     "name": "ビジュアル情報処理",
-    "major": "Ⅰ類",
     "professor": "高橋裕樹",
     "semester": "前学期",
     "grade": "3",
@@ -3277,7 +2913,6 @@
   },
   {
     "name": "プログラム言語論",
-    "major": "Ⅰ類",
     "professor": "沼尾雅之",
     "semester": "前学期",
     "grade": "3",
@@ -3286,7 +2921,6 @@
   },
   {
     "name": "電磁気学第二",
-    "major": "Ⅱ類",
     "professor": "細川敬祐",
     "semester": "前学期",
     "grade": "3",
@@ -3295,7 +2929,6 @@
   },
   {
     "name": "データベース論",
-    "major": "Ⅱ類",
     "professor": "大森・新谷",
     "semester": "前学期",
     "grade": "3",
@@ -3304,7 +2937,6 @@
   },
   {
     "name": "電子工学実験第一（木曜）",
-    "major": "Ⅲ類",
     "professor": "宮本・酒井・島田・坂本・永井・早川・高田（亨）・大家（全担当者はその他欄に記載）",
     "semester": "前学期",
     "grade": "3",
@@ -3313,7 +2945,6 @@
   },
   {
     "name": "光工学実験第一（木曜）",
-    "major": "Ⅲ類",
     "professor": "宮本・白川（晃）・浅原・庄司・戸倉川・田渕・岡田（全担当者はその他欄に記載）",
     "semester": "前学期",
     "grade": "3",
@@ -3322,7 +2953,6 @@
   },
   {
     "name": "物理工学実験第一（木曜）",
-    "major": "Ⅲ類",
     "professor": "宮本・岩國・谷口・丹治・Nayak・池田・落合（全担当者はその他欄に記載）",
     "semester": "前学期",
     "grade": "3",
@@ -3331,7 +2961,6 @@
   },
   {
     "name": "健康論",
-    "major": "情報理工学域",
     "professor": "岡田（英）・栃木・○今野・○服部・○小泉",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3340,7 +2969,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I24ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "前学期",
     "grade": "3",
@@ -3349,7 +2977,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I23ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "DermotLonergan",
     "semester": "前学期",
     "grade": "3",
@@ -3358,7 +2985,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I25ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "DabrowskiAdam",
     "semester": "前学期",
     "grade": "3",
@@ -3367,7 +2993,6 @@
   },
   {
     "name": "線形代数学第一（クラス２）",
-    "major": "情報理工学域",
     "professor": "陸名雄一",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3376,7 +3001,6 @@
   },
   {
     "name": "線形代数学第一（クラス１０）",
-    "major": "情報理工学域",
     "professor": "三好啓也",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3385,7 +3009,6 @@
   },
   {
     "name": "化学概論第一（クラス１）",
-    "major": "情報理工学域",
     "professor": "加固昌寛",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3394,7 +3017,6 @@
   },
   {
     "name": "情報領域演習第二",
-    "major": "Ⅰ類",
     "professor": "佐藤(光)・高橋(裕)・工藤・織田・中鹿",
     "semester": "前学期",
     "grade": "2",
@@ -3403,7 +3025,6 @@
   },
   {
     "name": "オペレーションズ・リサーチ第一",
-    "major": "Ⅰ類",
     "professor": "岡本一志",
     "semester": "前学期",
     "grade": "3",
@@ -3412,7 +3033,6 @@
   },
   {
     "name": "応用数学第二",
-    "major": "Ⅰ類",
     "professor": "山本有作",
     "semester": "前学期",
     "grade": "3",
@@ -3421,7 +3041,6 @@
   },
   {
     "name": "複素関数論（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "安達宏一",
     "semester": "前学期",
     "grade": "2",
@@ -3430,7 +3049,6 @@
   },
   {
     "name": "複素関数論（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "小木曽公尚",
     "semester": "前学期",
     "grade": "2",
@@ -3439,7 +3057,6 @@
   },
   {
     "name": "オペレーティングシステム",
-    "major": "Ⅱ類",
     "professor": "菅原健",
     "semester": "前学期",
     "grade": "3",
@@ -3448,7 +3065,6 @@
   },
   {
     "name": "ロボットの機構と力学（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "明愛国",
     "semester": "前学期",
     "grade": "3",
@@ -3457,7 +3073,6 @@
   },
   {
     "name": "確率統計",
-    "major": "Ⅲ類",
     "professor": "榎木光治",
     "semester": "前学期",
     "grade": "2",
@@ -3466,7 +3081,6 @@
   },
   {
     "name": "ロボットの機構と力学（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "明愛国",
     "semester": "前学期",
     "grade": "3",
@@ -3475,7 +3089,6 @@
   },
   {
     "name": "生物化学",
-    "major": "Ⅲ類",
     "professor": "三瓶嚴一",
     "semester": "前学期",
     "grade": "3",
@@ -3484,7 +3097,6 @@
   },
   {
     "name": "数値解析およびプログラミング演習（Mエリア）",
-    "major": "Ⅱ類",
     "professor": "舩戸徹郎",
     "semester": "前学期",
     "grade": "2",
@@ -3493,7 +3105,6 @@
   },
   {
     "name": "健康論",
-    "major": "情報理工学域",
     "professor": "岡田（英）・栃木・○今野・○服部・○小泉",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3502,7 +3113,6 @@
   },
   {
     "name": "数学の哲学",
-    "major": "情報理工学域",
     "professor": "秋吉亮太",
     "semester": "前学期",
     "grade": "3/4",
@@ -3511,7 +3121,6 @@
   },
   {
     "name": "文化形態論",
-    "major": "情報理工学域",
     "professor": "小野響",
     "semester": "前学期",
     "grade": "3/4",
@@ -3520,7 +3129,6 @@
   },
   {
     "name": "Topics in Informatics Ⅱ（Sustainable Supply Chain Management）（学域）",
-    "major": "Ⅰ類/Ⅱ類",
     "professor": "山田哲男",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -3529,7 +3137,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E26ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "前学期",
     "grade": "3",
@@ -3538,7 +3145,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E27ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "DabrowskiAdam",
     "semester": "前学期",
     "grade": "3",
@@ -3547,7 +3153,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E28ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "DermotLonergan",
     "semester": "前学期",
     "grade": "3",
@@ -3556,7 +3161,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E29ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "于燕（YuYan）",
     "semester": "前学期",
     "grade": "3",
@@ -3565,7 +3169,6 @@
   },
   {
     "name": "線形代数学第一（クラス１）",
-    "major": "情報理工学域",
     "professor": "三好啓也",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3574,7 +3177,6 @@
   },
   {
     "name": "線形代数学第一（クラス９）",
-    "major": "情報理工学域",
     "professor": "陸名雄一",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3583,7 +3185,6 @@
   },
   {
     "name": "計算機通論",
-    "major": "Ⅰ類",
     "professor": "鈴木貢",
     "semester": "前学期",
     "grade": "2",
@@ -3592,7 +3193,6 @@
   },
   {
     "name": "論理設計学",
-    "major": "Ⅰ類",
     "professor": "吉永努",
     "semester": "前学期",
     "grade": "2",
@@ -3601,7 +3201,6 @@
   },
   {
     "name": "情報通信システム",
-    "major": "Ⅰ類",
     "professor": "内海彰",
     "semester": "前学期",
     "grade": "3",
@@ -3610,7 +3209,6 @@
   },
   {
     "name": "データサイエンス",
-    "major": "Ⅰ類",
     "professor": "宇都雅輝",
     "semester": "前学期",
     "grade": "3",
@@ -3619,7 +3217,6 @@
   },
   {
     "name": "情報通信システム",
-    "major": "Ⅱ類",
     "professor": "山口和彦",
     "semester": "前学期",
     "grade": "3",
@@ -3628,7 +3225,6 @@
   },
   {
     "name": "計測工学概論",
-    "major": "Ⅲ類",
     "professor": "中村仁",
     "semester": "前学期",
     "grade": "2",
@@ -3637,7 +3233,6 @@
   },
   {
     "name": "計測工学概論",
-    "major": "Ⅲ類",
     "professor": "結城宏信",
     "semester": "前学期",
     "grade": "2",
@@ -3646,7 +3241,6 @@
   },
   {
     "name": "選択独語第一",
-    "major": "情報理工学域",
     "professor": "中橋誠",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3655,7 +3249,6 @@
   },
   {
     "name": "選択中国語第一",
-    "major": "情報理工学域",
     "professor": "小野響",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3664,7 +3257,6 @@
   },
   {
     "name": "日本文化Ｅ",
-    "major": "情報理工学域",
     "professor": "志賀幹郎",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -3673,7 +3265,6 @@
   },
   {
     "name": "文化干渉論",
-    "major": "情報理工学域",
     "professor": "金沢友緒",
     "semester": "前学期",
     "grade": "3/4",
@@ -3682,7 +3273,6 @@
   },
   {
     "name": "日本語表現法",
-    "major": "情報理工学域",
     "professor": "栗田岳",
     "semester": "前学期",
     "grade": "3/4",
@@ -3691,7 +3281,6 @@
   },
   {
     "name": "Advanced Engineering ScienceⅢ(Exercises in Advanced Computational Science)",
-    "major": "Ⅲ類",
     "professor": "遠藤、大淵、尾関、斎藤（弘）、白川（英）、中村（淳）、長谷川、森下",
     "semester": "前学期",
     "grade": "3",
@@ -3700,7 +3289,6 @@
   },
   {
     "name": "イノベイティブ総合コミュニケーションデザイン1",
-    "major": "情報理工学域",
     "professor": "山田祥之",
     "semester": "前学期",
     "grade": "3",
@@ -3709,7 +3297,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（再履2_ICT）",
-    "major": "情報理工学域",
     "professor": "○Yu・史",
     "semester": "前学期",
     "grade": "3/4",
@@ -3718,7 +3305,6 @@
   },
   {
     "name": "基礎物理学演習第一",
-    "major": "情報理工学域",
     "professor": "中井日佐司",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3727,7 +3313,6 @@
   },
   {
     "name": "教育実習・事前事後指導(2週間実習者/3単位)",
-    "major": "情報理工学域",
     "professor": "武石・赤澤",
     "semester": "前学期",
     "grade": "4",
@@ -3736,7 +3321,6 @@
   },
   {
     "name": "教育実習・事前事後指導((2)・3・4週間実習者/5単位)",
-    "major": "情報理工学域",
     "professor": "武石・赤澤",
     "semester": "前学期",
     "grade": "4",
@@ -3745,7 +3329,6 @@
   },
   {
     "name": "上級コンピュータ演習",
-    "major": "Ⅲ類",
     "professor": "遠藤、大淵、尾関、斎藤（弘）、白川（英）、中村（淳）、長谷川、森下",
     "semester": "前学期",
     "grade": "3",
@@ -3754,7 +3337,6 @@
   },
   {
     "name": "基礎科学実験A（再履）",
-    "major": "情報理工学域",
     "professor": "中村（仁）・佐藤（隆）・小久保・○近藤・○大石・○矢野・○小林",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -3763,7 +3345,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金1・F）",
-    "major": "情報理工学域",
     "professor": "JoshiRatalaDineshPrasad",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3772,7 +3353,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金1・E）",
-    "major": "情報理工学域",
     "professor": "ScottMclellan",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3781,7 +3361,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金1・B）",
-    "major": "情報理工学域",
     "professor": "NeilConway",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3790,7 +3369,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金1・C）",
-    "major": "情報理工学域",
     "professor": "田中智子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3799,7 +3377,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金1・D）",
-    "major": "情報理工学域",
     "professor": "HIGUCHISONIA",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3808,7 +3385,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金1・A）",
-    "major": "情報理工学域",
     "professor": "AtsukoMarieJeffreys",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3817,7 +3393,6 @@
   },
   {
     "name": "コンピュータリテラシー（クラス７）",
-    "major": "情報理工学域",
     "professor": "松野省吾",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3826,7 +3401,6 @@
   },
   {
     "name": "線形代数学第一（クラス８）",
-    "major": "情報理工学域",
     "professor": "中井洋史",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3835,7 +3409,6 @@
   },
   {
     "name": "基礎物理学演習第一",
-    "major": "情報理工学域",
     "professor": "濱野哲子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3844,7 +3417,6 @@
   },
   {
     "name": "情報領域演習第二",
-    "major": "Ⅰ類",
     "professor": "菅原・高木(正)・髙木(一)・長濱",
     "semester": "前学期",
     "grade": "2",
@@ -3853,7 +3425,6 @@
   },
   {
     "name": "離散数学",
-    "major": "Ⅱ類",
     "professor": "岩本貢",
     "semester": "前学期",
     "grade": "2",
@@ -3862,7 +3433,6 @@
   },
   {
     "name": "波動と光",
-    "major": "Ⅱ類",
     "professor": "松浦基晴",
     "semester": "前学期",
     "grade": "2",
@@ -3871,7 +3441,6 @@
   },
   {
     "name": "基礎制御工学および演習（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "澤田賢治",
     "semester": "前学期",
     "grade": "3",
@@ -3880,7 +3449,6 @@
   },
   {
     "name": "工学基礎数学および演習",
-    "major": "Ⅲ類",
     "professor": "千葉一永",
     "semester": "前学期",
     "grade": "2",
@@ -3889,7 +3457,6 @@
   },
   {
     "name": "工学基礎数学および演習",
-    "major": "Ⅲ類",
     "professor": "張贇",
     "semester": "前学期",
     "grade": "2",
@@ -3898,7 +3465,6 @@
   },
   {
     "name": "工学基礎数学および演習",
-    "major": "Ⅲ類",
     "professor": "塚本貴広",
     "semester": "前学期",
     "grade": "2",
@@ -3907,7 +3473,6 @@
   },
   {
     "name": "工学基礎数学および演習",
-    "major": "Ⅲ類",
     "professor": "加藤峰士",
     "semester": "前学期",
     "grade": "2",
@@ -3916,7 +3481,6 @@
   },
   {
     "name": "基礎制御工学および演習（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "澤田賢治",
     "semester": "前学期",
     "grade": "3",
@@ -3925,7 +3489,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金2・F）",
-    "major": "情報理工学域",
     "professor": "中田真巳子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3934,7 +3497,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金2・A）",
-    "major": "情報理工学域",
     "professor": "ScottMclellan",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3943,7 +3505,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金2・B）",
-    "major": "情報理工学域",
     "professor": "上原寿和子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3952,7 +3513,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金2・C）",
-    "major": "情報理工学域",
     "professor": "HIGUCHISONIA",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3961,7 +3521,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金2・D）",
-    "major": "情報理工学域",
     "professor": "田中智子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3970,7 +3529,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金2・E）",
-    "major": "情報理工学域",
     "professor": "MikhailAlicChuaGo",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3979,7 +3537,6 @@
   },
   {
     "name": "コンピュータリテラシー（クラス８）",
-    "major": "情報理工学域",
     "professor": "栗原正純",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -3988,7 +3545,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I11ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "唐琳",
     "semester": "前学期",
     "grade": "3",
@@ -3997,7 +3553,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I12ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "DabrowskiAdam",
     "semester": "前学期",
     "grade": "3",
@@ -4006,7 +3561,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I21ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "前学期",
     "grade": "3",
@@ -4015,7 +3569,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（I22ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "高坂洋史",
     "semester": "前学期",
     "grade": "3",
@@ -4024,7 +3577,6 @@
   },
   {
     "name": "微分積分学第一（クラス６）",
-    "major": "情報理工学域",
     "professor": "国定亮一",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4033,7 +3585,6 @@
   },
   {
     "name": "線形代数学第一（クラス３）",
-    "major": "情報理工学域",
     "professor": "山田裕一",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4042,7 +3593,6 @@
   },
   {
     "name": "線形代数学第一（クラス１１）",
-    "major": "情報理工学域",
     "professor": "中井洋史",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4051,7 +3601,6 @@
   },
   {
     "name": "線形代数学第一（クラス１２）",
-    "major": "情報理工学域",
     "professor": "榎本直也",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4060,7 +3609,6 @@
   },
   {
     "name": "化学概論第一（クラス２）",
-    "major": "情報理工学域",
     "professor": "石田尚行",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4069,7 +3617,6 @@
   },
   {
     "name": "計算機通論",
-    "major": "Ⅰ類",
     "professor": "仲谷栄伸",
     "semester": "前学期",
     "grade": "2",
@@ -4078,7 +3625,6 @@
   },
   {
     "name": "論理設計学",
-    "major": "Ⅰ類",
     "professor": "三輪忍",
     "semester": "前学期",
     "grade": "2",
@@ -4087,7 +3633,6 @@
   },
   {
     "name": "多変量解析",
-    "major": "Ⅰ類",
     "professor": "原田慧",
     "semester": "前学期",
     "grade": "3",
@@ -4096,7 +3641,6 @@
   },
   {
     "name": "アルゴリズム論第二",
-    "major": "Ⅰ類",
     "professor": "小林聡",
     "semester": "前学期",
     "grade": "3",
@@ -4105,7 +3649,6 @@
   },
   {
     "name": "応用数学Ａ（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "佐藤俊治",
     "semester": "前学期",
     "grade": "2",
@@ -4114,7 +3657,6 @@
   },
   {
     "name": "基礎電気回路（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "張熙",
     "semester": "前学期",
     "grade": "2",
@@ -4123,7 +3665,6 @@
   },
   {
     "name": "基礎電磁気学（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "肖鳳超",
     "semester": "前学期",
     "grade": "2",
@@ -4132,7 +3673,6 @@
   },
   {
     "name": "力学演習（Mエリア）",
-    "major": "Ⅱ類",
     "professor": "明・杉",
     "semester": "前学期",
     "grade": "2",
@@ -4141,7 +3681,6 @@
   },
   {
     "name": "Modern Engineering and Science",
-    "major": "Ⅲ類",
     "professor": "○SANDHUAdarsh",
     "semester": "前学期",
     "grade": "3",
@@ -4150,7 +3689,6 @@
   },
   {
     "name": "情報通信工学実験Ａ",
-    "major": "Ⅱ類",
     "professor": "木寺正平",
     "semester": "前学期",
     "grade": "3",
@@ -4159,7 +3697,6 @@
   },
   {
     "name": "電子情報学実験Ａ",
-    "major": "Ⅱ類",
     "professor": "木寺正平",
     "semester": "前学期",
     "grade": "3",
@@ -4168,7 +3705,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金3・B）",
-    "major": "情報理工学域",
     "professor": "中田真巳子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4177,7 +3713,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金3・C）",
-    "major": "情報理工学域",
     "professor": "上原寿和子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4186,7 +3721,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金3・D）",
-    "major": "情報理工学域",
     "professor": "JosephRobertTabolt",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4195,7 +3729,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金3・E）",
-    "major": "情報理工学域",
     "professor": "田中智子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4204,7 +3737,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金3・A）",
-    "major": "情報理工学域",
     "professor": "JoshiRatalaDineshPrasad",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4213,7 +3745,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金3・F）",
-    "major": "情報理工学域",
     "professor": "ScottMclellan",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4222,7 +3753,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金3・G）",
-    "major": "情報理工学域",
     "professor": "HIGUCHISONIA",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4231,7 +3761,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金3・H）",
-    "major": "情報理工学域",
     "professor": "NeilConway",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4240,7 +3769,6 @@
   },
   {
     "name": "健康論",
-    "major": "情報理工学域",
     "professor": "安藤（創）・狩野・星野・栃木・○早川",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4249,7 +3777,6 @@
   },
   {
     "name": "Advanced Engineering Science Ⅱ（Photonics and Opto-electronics）（学域）",
-    "major": "Ⅲ類",
     "professor": "上野芳康",
     "semester": "前学期",
     "grade": "3/4",
@@ -4258,7 +3785,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E37ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "唐琳",
     "semester": "前学期",
     "grade": "3",
@@ -4267,7 +3793,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E38ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "DabrowskiAdam",
     "semester": "前学期",
     "grade": "3",
@@ -4276,7 +3801,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E39ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "前学期",
     "grade": "3",
@@ -4285,7 +3809,6 @@
   },
   {
     "name": "微分積分学第一（クラス1２）",
-    "major": "情報理工学域",
     "professor": "国定亮一",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4294,7 +3817,6 @@
   },
   {
     "name": "線形代数学第一（クラス７）",
-    "major": "情報理工学域",
     "professor": "石田晴久",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4303,7 +3825,6 @@
   },
   {
     "name": "確率論",
-    "major": "Ⅰ類",
     "professor": "加藤省吾",
     "semester": "前学期",
     "grade": "2",
@@ -4312,7 +3833,6 @@
   },
   {
     "name": "人間工学",
-    "major": "Ⅰ類",
     "professor": "板倉・水戸",
     "semester": "前学期",
     "grade": "3",
@@ -4321,7 +3841,6 @@
   },
   {
     "name": "グラフとネットワーク",
-    "major": "Ⅰ類",
     "professor": "武永康彦",
     "semester": "前学期",
     "grade": "3",
@@ -4330,7 +3849,6 @@
   },
   {
     "name": "確率統計",
-    "major": "Ⅱ類",
     "professor": "小川朋宏",
     "semester": "前学期",
     "grade": "2",
@@ -4339,7 +3857,6 @@
   },
   {
     "name": "確率統計",
-    "major": "Ⅱ類",
     "professor": "大濱靖匡",
     "semester": "前学期",
     "grade": "2",
@@ -4348,7 +3865,6 @@
   },
   {
     "name": "確率統計",
-    "major": "Ⅱ類",
     "professor": "SANTOSOBAGUS",
     "semester": "前学期",
     "grade": "2",
@@ -4357,7 +3873,6 @@
   },
   {
     "name": "基礎電気回路",
-    "major": "Ⅲ類",
     "professor": "武者満",
     "semester": "前学期",
     "grade": "2",
@@ -4366,7 +3881,6 @@
   },
   {
     "name": "基礎電気回路",
-    "major": "Ⅲ類",
     "professor": "中川賢一",
     "semester": "前学期",
     "grade": "2",
@@ -4375,7 +3889,6 @@
   },
   {
     "name": "基礎電気回路",
-    "major": "Ⅲ類",
     "professor": "曽我部東馬",
     "semester": "前学期",
     "grade": "2",
@@ -4384,7 +3897,6 @@
   },
   {
     "name": "プログラミング言語実験",
-    "major": "Ⅱ類",
     "professor": "松本・市野・宮原",
     "semester": "前学期",
     "grade": "3",
@@ -4393,7 +3905,6 @@
   },
   {
     "name": "メカトロニクス基礎実験Ａ",
-    "major": "Ⅱ類",
     "professor": "篠原・定本・＊梶川（竜）・姜・田中（基）・新竹・中村（友）・東郷・金森・松村ほか",
     "semester": "前学期",
     "grade": "3",
@@ -4402,7 +3913,6 @@
   },
   {
     "name": "知能機械工学基礎実験第一",
-    "major": "Ⅲ類",
     "professor": "篠原・定本・＊梶川（竜）・姜・田中（基）・新竹・中村（友）・東郷・金森・松村ほか",
     "semester": "前学期",
     "grade": "3",
@@ -4411,7 +3921,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金4・D）",
-    "major": "情報理工学域",
     "professor": "上原寿和子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4420,7 +3929,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金4・B）",
-    "major": "情報理工学域",
     "professor": "NeilConway",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4429,7 +3937,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金4・C）",
-    "major": "情報理工学域",
     "professor": "JosephRobertTabolt",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4438,7 +3945,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金4・A）",
-    "major": "情報理工学域",
     "professor": "DanielGeorgeDusza",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4447,7 +3953,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金4・E）",
-    "major": "情報理工学域",
     "professor": "中田真巳子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4456,7 +3961,6 @@
   },
   {
     "name": "Academic Written EnglishⅠ（金4・F）",
-    "major": "情報理工学域",
     "professor": "JoshiRatalaDineshPrasad",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4465,7 +3969,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "HauserEric",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -4474,7 +3977,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "大石由紀子",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -4483,7 +3985,6 @@
   },
   {
     "name": "独語演習",
-    "major": "情報理工学域",
     "professor": "野内聡",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -4492,7 +3993,6 @@
   },
   {
     "name": "健康論",
-    "major": "情報理工学域",
     "professor": "安藤（創）・狩野・星野・栃木・○早川",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4501,7 +4001,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E33ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "唐琳",
     "semester": "前学期",
     "grade": "3",
@@ -4510,7 +4009,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E34ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "DabrowskiAdam",
     "semester": "前学期",
     "grade": "3",
@@ -4519,7 +4017,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E35ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "前学期",
     "grade": "3",
@@ -4528,7 +4025,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（E36ｸﾗｽ)",
-    "major": "情報理工学域",
     "professor": "于燕（YuYan）",
     "semester": "前学期",
     "grade": "3",
@@ -4537,7 +4033,6 @@
   },
   {
     "name": "マルチメディア処理（Ⅰ類）",
-    "major": "Ⅰ類",
     "professor": "高木（一）・廣田",
     "semester": "前学期",
     "grade": "3",
@@ -4546,7 +4041,6 @@
   },
   {
     "name": "シミュレーション理工学",
-    "major": "Ⅰ類",
     "professor": "仲谷・龍野",
     "semester": "前学期",
     "grade": "3",
@@ -4555,7 +4049,6 @@
   },
   {
     "name": "固体物理工学第一",
-    "major": "Ⅲ類",
     "professor": "小久保伸人",
     "semester": "前学期",
     "grade": "3",
@@ -4564,7 +4057,6 @@
   },
   {
     "name": "化学生命工学演習第一",
-    "major": "Ⅲ類",
     "professor": "石田（尚）・瀧",
     "semester": "前学期",
     "grade": "3",
@@ -4573,7 +4065,6 @@
   },
   {
     "name": "選択独語第一",
-    "major": "情報理工学域",
     "professor": "野内聡",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4582,7 +4073,6 @@
   },
   {
     "name": "日本文化Ａ",
-    "major": "情報理工学域",
     "professor": "中嶋めぐみ",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4591,7 +4081,6 @@
   },
   {
     "name": "Technical English － Basic English for Science（再履1_Engineering）",
-    "major": "情報理工学域",
     "professor": "○Yu・史",
     "semester": "前学期",
     "grade": "3/4",
@@ -4600,7 +4089,6 @@
   },
   {
     "name": "教育相談",
-    "major": "情報理工学域",
     "professor": "宇部弘子",
     "semester": "前学期",
     "grade": "1/2/3/4",
@@ -4609,7 +4097,6 @@
   },
   {
     "name": "数学科教育法III",
-    "major": "情報理工学域",
     "professor": "○小野・○柴田・伊東",
     "semester": "前学期",
     "grade": "2/3/4",
@@ -4618,7 +4105,6 @@
   },
   {
     "name": "English for Intercultural Communication（R6開講なし）",
-    "major": "情報理工学域",
     "professor": "未定",
     "semester": "前学期",
     "grade": "3/4",
@@ -4627,7 +4113,6 @@
   },
   {
     "name": "Preparation for Overseas Study（R6開講なし）",
-    "major": "情報理工学域",
     "professor": "未定",
     "semester": "前学期",
     "grade": "3/4",
@@ -4636,7 +4121,6 @@
   },
   {
     "name": "総合コミュニケーション科学",
-    "major": "情報理工学域",
     "professor": "奥野剛史",
     "semester": "前学期",
     "grade": "2",
@@ -4645,7 +4129,6 @@
   },
   {
     "name": "データサイエンス演習",
-    "major": "情報理工学域",
     "professor": "庄野逸",
     "semester": "前学期",
     "grade": "3",
@@ -4654,7 +4137,6 @@
   },
   {
     "name": "論理設計学",
-    "major": "Ⅰ類",
     "professor": "佐藤証",
     "semester": "前学期",
     "grade": "2",
@@ -4663,7 +4145,6 @@
   },
   {
     "name": "輪講A（Ⅰ類）",
-    "major": "Ⅰ類",
     "professor": "小林聡",
     "semester": "前学期",
     "grade": "4",
@@ -4672,7 +4153,6 @@
   },
   {
     "name": "卒業研究A（Ⅰ類）",
-    "major": "Ⅰ類",
     "professor": "小林聡",
     "semester": "前学期",
     "grade": "4",
@@ -4681,7 +4161,6 @@
   },
   {
     "name": "GLTPラボワーク（Ⅰ類）",
-    "major": "情報理工学域",
     "professor": "奥野剛史",
     "semester": "前学期",
     "grade": "3",
@@ -4690,7 +4169,6 @@
   },
   {
     "name": "基礎電気回路（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "西一樹",
     "semester": "前学期",
     "grade": "2",
@@ -4699,7 +4177,6 @@
   },
   {
     "name": "輪講A（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "野村英之",
     "semester": "前学期",
     "grade": "4",
@@ -4708,7 +4185,6 @@
   },
   {
     "name": "卒業研究A（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "野村英之",
     "semester": "前学期",
     "grade": "4",
@@ -4717,7 +4193,6 @@
   },
   {
     "name": "GLTPラボワーク（Ⅱ類）",
-    "major": "情報理工学域",
     "professor": "奥野剛史",
     "semester": "前学期",
     "grade": "3",
@@ -4726,7 +4201,6 @@
   },
   {
     "name": "有機化学第一",
-    "major": "Ⅲ類",
     "professor": "瀧真清",
     "semester": "前学期",
     "grade": "3",
@@ -4735,7 +4209,6 @@
   },
   {
     "name": "輪講A（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "志賀智一",
     "semester": "前学期",
     "grade": "4",
@@ -4744,7 +4217,6 @@
   },
   {
     "name": "卒業研究A（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "志賀智一",
     "semester": "前学期",
     "grade": "4",
@@ -4753,7 +4225,6 @@
   },
   {
     "name": "GLTPラボワーク（Ⅲ類）",
-    "major": "情報理工学域",
     "professor": "奥野剛史",
     "semester": "前学期",
     "grade": "3",
@@ -4762,7 +4233,6 @@
   },
   {
     "name": "UECパスポートプログラムB（前期月２・後期月４）",
-    "major": "Ⅲ類",
     "professor": "鈴木勝",
     "semester": "通年",
     "grade": "3",
@@ -4771,7 +4241,6 @@
   },
   {
     "name": "UECパスポートプログラムA",
-    "major": "Ⅲ類",
     "professor": "鈴木勝",
     "semester": "通年",
     "grade": "2",
@@ -4780,7 +4249,6 @@
   },
   {
     "name": "UECパスポートプログラムB（前期月２・後期水４）",
-    "major": "Ⅲ類",
     "professor": "鈴木勝",
     "semester": "通年",
     "grade": "3",
@@ -4789,7 +4257,6 @@
   },
   {
     "name": "情報工学工房A（学域）",
-    "major": "Ⅰ類",
     "professor": "山﨑匡",
     "semester": "通年",
     "grade": "1/2/3/4",
@@ -4798,7 +4265,6 @@
   },
   {
     "name": "情報工学工房B（学域）",
-    "major": "Ⅰ類",
     "professor": "山﨑匡",
     "semester": "通年",
     "grade": "2/3/4",
@@ -4807,7 +4273,6 @@
   },
   {
     "name": "情報工学工房C（学域）（R6開講なし）",
-    "major": "Ⅰ類",
     "professor": "未定",
     "semester": "通年",
     "grade": "3/4",
@@ -4816,7 +4281,6 @@
   },
   {
     "name": "電子工学工房（学域）",
-    "major": "Ⅱ類",
     "professor": "高橋（弘）・野村・石川（亮）・安藤（芳）・萓野・小島・鷲沢",
     "semester": "通年",
     "grade": "1/2/3/4",
@@ -4825,7 +4289,6 @@
   },
   {
     "name": "宇宙通信工学（学域）",
-    "major": "Ⅱ類",
     "professor": "芳原・菊池・細川・津田・小島・安藤・肖",
     "semester": "通年",
     "grade": "3",
@@ -4834,7 +4297,6 @@
   },
   {
     "name": "UECパスポートプログラムA（その他）",
-    "major": "Ⅲ類",
     "professor": "鈴木勝",
     "semester": "通年",
     "grade": "2",
@@ -4843,7 +4305,6 @@
   },
   {
     "name": "UECパスポートプログラムB（その他）",
-    "major": "Ⅲ類",
     "professor": "鈴木勝",
     "semester": "通年",
     "grade": "3",
@@ -4852,7 +4313,6 @@
   },
   {
     "name": "生涯スポーツ演習Ｃ（ゴルフ集中）",
-    "major": "情報理工学域",
     "professor": "大河原・狩野・星野・○長峰・○上遠野",
     "semester": "前学期集中",
     "grade": "2/3/4",
@@ -4861,7 +4321,6 @@
   },
   {
     "name": "サイエンス・コミュニケーション演習（集中）",
-    "major": "情報理工学域",
     "professor": "鈴木勝",
     "semester": "前学期集中",
     "grade": "3/4",
@@ -4870,7 +4329,6 @@
   },
   {
     "name": "海外語学研修Ⅰ（学域）（集中）",
-    "major": "情報理工学域",
     "professor": "安西・笠原・濱野",
     "semester": "前学期集中",
     "grade": "1/2/3/4",
@@ -4879,7 +4337,6 @@
   },
   {
     "name": "海外語学研修Ⅱ（学域）（集中）",
-    "major": "情報理工学域",
     "professor": "安西・笠原・濱野",
     "semester": "前学期集中",
     "grade": "1/2/3/4",
@@ -4888,7 +4345,6 @@
   },
   {
     "name": "学域特別講義A（3大学協働基礎ゼミ’２４：考えて学ぶ歩行ロボット入門）",
-    "major": "情報理工学域",
     "professor": "佐藤隆紀",
     "semester": "前学期集中",
     "grade": "2024/01/0200:00:00",
@@ -4897,7 +4353,6 @@
   },
   {
     "name": "学域特別講義A（3大学協働基礎ゼミ’２４：盗聴者を発見せよ！～量子暗号の仕組み～）",
-    "major": "情報理工学域",
     "professor": "清水亮介",
     "semester": "前学期集中",
     "grade": "2024/01/0200:00:00",
@@ -4906,7 +4361,6 @@
   },
   {
     "name": "学域特別講義A（基礎物理学実験）(Introduction to Physics Laboratory) ",
-    "major": "情報理工学域",
     "professor": "中村仁",
     "semester": "前学期集中",
     "grade": "2/3/4",
@@ -4915,7 +4369,6 @@
   },
   {
     "name": "学域特別講義A（基礎化学実験）（Introduction to Chemistry Laboratory)",
-    "major": "情報理工学域",
     "professor": "小林義男",
     "semester": "前学期集中",
     "grade": "2/3/4",
@@ -4924,7 +4377,6 @@
   },
   {
     "name": "学域特別講義A(アルゴリズムの基礎) (Fundamentals of Algorithms)",
-    "major": "情報理工学域",
     "professor": "小林聡",
     "semester": "前学期集中",
     "grade": "1/2/3/4",
@@ -4933,7 +4385,6 @@
   },
   {
     "name": "学域特別講義A（融合領域の最新動向Ｂ）Current Topics in Emerging Multi-interdisciplinary Engineering A)",
-    "major": "情報理工学域",
     "professor": "菅原・李・岩本・バグス・尚・萱野・小木曽・孫・姜",
     "semester": "前学期集中",
     "grade": "1/2/3/4",
@@ -4942,7 +4393,6 @@
   },
   {
     "name": "学域特別講義A（基盤理工学B） (Current Topics in Fundamental Science and Engineering B)",
-    "major": "情報理工学域",
     "professor": "松林和幸",
     "semester": "前学期集中",
     "grade": "1/2/3/4",
@@ -4951,7 +4401,6 @@
   },
   {
     "name": "学域特別講義B（デザイン思考実践）（集中）",
-    "major": "情報理工学域",
     "professor": "南地秀哉",
     "semester": "前学期集中",
     "grade": "1/2/3/4",
@@ -4960,7 +4409,6 @@
   },
   {
     "name": "インターンシップ（Ⅰ類）",
-    "major": "情報理工学域",
     "professor": "原田慧・関新之助",
     "semester": "前学期集中",
     "grade": "3",
@@ -4969,7 +4417,6 @@
   },
   {
     "name": "インターンシップ（Ⅱ類）",
-    "major": "情報理工学域",
     "professor": "安藤芳晃・舩戸徹郎",
     "semester": "前学期集中",
     "grade": "3",
@@ -4978,7 +4425,6 @@
   },
   {
     "name": "インターンシップ（Ⅲ類）",
-    "major": "情報理工学域",
     "professor": "中根大介・篠原百合・加藤峰士",
     "semester": "前学期集中",
     "grade": "3",
@@ -4987,7 +4433,6 @@
   },
   {
     "name": "インターンシップ（海外）（Ⅰ類）",
-    "major": "情報理工学域",
     "professor": "原田慧・関新之助",
     "semester": "前学期集中",
     "grade": "3",
@@ -4996,7 +4441,6 @@
   },
   {
     "name": "インターンシップ（海外）（Ⅱ類）",
-    "major": "情報理工学域",
     "professor": "安藤芳晃・舩戸徹郎",
     "semester": "前学期集中",
     "grade": "3",
@@ -5005,7 +4449,6 @@
   },
   {
     "name": "インターンシップ（海外）（Ⅲ類）",
-    "major": "情報理工学域",
     "professor": "中根大介・篠原百合・加藤峰士",
     "semester": "前学期集中",
     "grade": "3",
@@ -5014,7 +4457,6 @@
   },
   {
     "name": "特別活動・総合的な学習の時間の指導法（集中）",
-    "major": "情報理工学域",
     "professor": "堀越耀介",
     "semester": "前学期集中",
     "grade": "1/2/3/4",
@@ -5023,7 +4465,6 @@
   },
   {
     "name": "特別活動（集中）（H30年度以前入学生）",
-    "major": "情報理工学域",
     "professor": "武石典史",
     "semester": "前学期集中",
     "grade": "1/2/3/4",
@@ -5032,7 +4473,6 @@
   },
   {
     "name": "教育課程編成論B（集中）",
-    "major": "情報理工学域",
     "professor": "澤田稔",
     "semester": "前学期集中",
     "grade": "1/2/3/4",
@@ -5041,7 +4481,6 @@
   },
   {
     "name": "情報科教育法I（集中）",
-    "major": "情報理工学域",
     "professor": "小原格",
     "semester": "前学期集中",
     "grade": "2/3/4",
@@ -5050,7 +4489,6 @@
   },
   {
     "name": "教育制度論B（集中）",
-    "major": "情報理工学域",
     "professor": "堤孝晃",
     "semester": "前学期集中",
     "grade": "1/2/3/4",
@@ -5059,7 +4497,6 @@
   },
   {
     "name": "数学科教育法I（集中）",
-    "major": "情報理工学域",
     "professor": "田村篤史",
     "semester": "前学期集中",
     "grade": "2/3/4",
@@ -5068,7 +4505,6 @@
   },
   {
     "name": "生物学実験（Ⅱ類・Ｍ）",
-    "major": "Ⅱ類",
     "professor": "狩野・星野",
     "semester": "前学期集中",
     "grade": "3",
@@ -5077,7 +4513,6 @@
   },
   {
     "name": "生物学実験（Ⅲ類・Ｓ）",
-    "major": "Ⅲ類",
     "professor": "狩野・星野",
     "semester": "前学期集中",
     "grade": "3",
@@ -5086,7 +4521,6 @@
   },
   {
     "name": "教育原理A（集中）",
-    "major": "情報理工学域",
     "professor": "山下達也",
     "semester": "前学期集中",
     "grade": "1/2/3/4",
@@ -5095,7 +4529,6 @@
   },
   {
     "name": "特別支援教育総論（集中）",
-    "major": "情報理工学域",
     "professor": "宇部弘子",
     "semester": "前学期集中",
     "grade": "1/2/3/4",
@@ -5104,7 +4537,6 @@
   },
   {
     "name": "理科教育法II（集中）",
-    "major": "情報理工学域",
     "professor": "島野誠大",
     "semester": "前学期集中",
     "grade": "2/3/4",
@@ -5113,7 +4545,6 @@
   },
   {
     "name": "回折結晶学（集中）",
-    "major": "Ⅲ類",
     "professor": "大石一城",
     "semester": "前学期集中",
     "grade": "3",
@@ -5122,7 +4553,6 @@
   },
   {
     "name": "キャリアデザイン",
-    "major": "情報理工学域",
     "professor": "松木利憲",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5131,7 +4561,6 @@
   },
   {
     "name": "知的財産権",
-    "major": "情報理工学域",
     "professor": "本間・○重森",
     "semester": "後学期",
     "grade": "3/4",
@@ -5140,7 +4569,6 @@
   },
   {
     "name": "離散数学",
-    "major": "Ⅰ類",
     "professor": "植野真臣",
     "semester": "後学期",
     "grade": "1",
@@ -5149,7 +4577,6 @@
   },
   {
     "name": "離散数学",
-    "major": "Ⅰ類",
     "professor": "高橋里司",
     "semester": "後学期",
     "grade": "1",
@@ -5158,7 +4585,6 @@
   },
   {
     "name": "情報領域演習第一",
-    "major": "Ⅰ類",
     "professor": "水野（統）・宮本・三重野",
     "semester": "後学期",
     "grade": "1",
@@ -5167,7 +4593,6 @@
   },
   {
     "name": "力学",
-    "major": "Ⅱ類",
     "professor": "津田卓雄",
     "semester": "後学期",
     "grade": "1",
@@ -5176,7 +4601,6 @@
   },
   {
     "name": "力学",
-    "major": "Ⅱ類",
     "professor": "杉正夫",
     "semester": "後学期",
     "grade": "1",
@@ -5185,7 +4609,6 @@
   },
   {
     "name": "電子回路学",
-    "major": "Ⅱ類",
     "professor": "内田雅文",
     "semester": "後学期",
     "grade": "3",
@@ -5194,7 +4617,6 @@
   },
   {
     "name": "力学",
-    "major": "Ⅲ類",
     "professor": "島田宏",
     "semester": "後学期",
     "grade": "1",
@@ -5203,7 +4625,6 @@
   },
   {
     "name": "力学",
-    "major": "Ⅲ類",
     "professor": "酒井剛",
     "semester": "後学期",
     "grade": "1",
@@ -5212,7 +4633,6 @@
   },
   {
     "name": "力学",
-    "major": "Ⅲ類",
     "professor": "中川賢一",
     "semester": "後学期",
     "grade": "1",
@@ -5221,7 +4641,6 @@
   },
   {
     "name": "力学",
-    "major": "Ⅲ類",
     "professor": "千葉一永",
     "semester": "後学期",
     "grade": "1",
@@ -5230,7 +4649,6 @@
   },
   {
     "name": "独語第二",
-    "major": "情報理工学域",
     "professor": "中山純一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5239,7 +4657,6 @@
   },
   {
     "name": "独語第二",
-    "major": "情報理工学域",
     "professor": "岡野宏",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5248,7 +4665,6 @@
   },
   {
     "name": "独語第二",
-    "major": "情報理工学域",
     "professor": "白木和美",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5257,7 +4673,6 @@
   },
   {
     "name": "仏語第二",
-    "major": "情報理工学域",
     "professor": "福島亮",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5266,7 +4681,6 @@
   },
   {
     "name": "露語第二",
-    "major": "情報理工学域",
     "professor": "金沢友緒",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5275,7 +4689,6 @@
   },
   {
     "name": "中国語第二",
-    "major": "情報理工学域",
     "professor": "中村孝子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5284,7 +4697,6 @@
   },
   {
     "name": "中国語第二",
-    "major": "情報理工学域",
     "professor": "鷲巣益美",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5293,7 +4705,6 @@
   },
   {
     "name": "中国語第二",
-    "major": "情報理工学域",
     "professor": "三浦雄城",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5302,7 +4713,6 @@
   },
   {
     "name": "中国語第二",
-    "major": "情報理工学域",
     "professor": "木村奈津子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5311,7 +4721,6 @@
   },
   {
     "name": "韓国朝鮮語第二",
-    "major": "情報理工学域",
     "professor": "張河林",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5320,7 +4729,6 @@
   },
   {
     "name": "Topics in Informatics Ⅰ（Evolutionary Computation）（学域）",
-    "major": "Ⅰ類/Ⅱ類",
     "professor": "佐藤寛之",
     "semester": "後学期",
     "grade": "3/4",
@@ -5329,7 +4737,6 @@
   },
   {
     "name": "線形代数学第二（クラス５）",
-    "major": "情報理工学域",
     "professor": "中野直人",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5338,7 +4745,6 @@
   },
   {
     "name": "線形代数学第二（クラス６）",
-    "major": "情報理工学域",
     "professor": "大野真裕",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5347,7 +4753,6 @@
   },
   {
     "name": "解析学（クラス４）",
-    "major": "情報理工学域",
     "professor": "緒方秀教",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5356,7 +4761,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（クラス９）",
-    "major": "情報理工学域",
     "professor": "江木啓訓",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5365,7 +4769,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（クラス１０）",
-    "major": "情報理工学域",
     "professor": "藤田秀之",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5374,7 +4777,6 @@
   },
   {
     "name": "コンピュータネットワーク",
-    "major": "Ⅰ類",
     "professor": "田原康之",
     "semester": "後学期",
     "grade": "2",
@@ -5383,7 +4785,6 @@
   },
   {
     "name": "コンピュータネットワーク",
-    "major": "Ⅰ類",
     "professor": "湯素華",
     "semester": "後学期",
     "grade": "2",
@@ -5392,7 +4793,6 @@
   },
   {
     "name": "音響信号処理",
-    "major": "Ⅰ類",
     "professor": "羽田陽一",
     "semester": "後学期",
     "grade": "3",
@@ -5401,7 +4801,6 @@
   },
   {
     "name": "ゲーム情報学",
-    "major": "Ⅰ類",
     "professor": "保木邦仁",
     "semester": "後学期",
     "grade": "3",
@@ -5410,7 +4809,6 @@
   },
   {
     "name": "電磁気学第一",
-    "major": "Ⅱ類",
     "professor": "安藤芳晃",
     "semester": "後学期",
     "grade": "2",
@@ -5419,7 +4817,6 @@
   },
   {
     "name": "メカトロニクス（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "横井・舩戸",
     "semester": "後学期",
     "grade": "3",
@@ -5428,7 +4825,6 @@
   },
   {
     "name": "計測工学（P2・P3）",
-    "major": "Ⅱ類",
     "professor": "小室貴紀",
     "semester": "後学期",
     "grade": "3",
@@ -5437,7 +4833,6 @@
   },
   {
     "name": "機械計測工学",
-    "major": "Ⅱ類",
     "professor": "菅哲朗",
     "semester": "後学期",
     "grade": "2",
@@ -5446,7 +4841,6 @@
   },
   {
     "name": "分子生物学（クラスA）",
-    "major": "Ⅲ類",
     "professor": "三瓶嚴一",
     "semester": "後学期",
     "grade": "2",
@@ -5455,7 +4849,6 @@
   },
   {
     "name": "分子生物学（クラスB）",
-    "major": "Ⅲ類",
     "professor": "松田信爾",
     "semester": "後学期",
     "grade": "2",
@@ -5464,7 +4857,6 @@
   },
   {
     "name": "メカトロニクス（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "横井・舩戸",
     "semester": "後学期",
     "grade": "3",
@@ -5473,7 +4865,6 @@
   },
   {
     "name": "画像工学",
-    "major": "Ⅲ類",
     "professor": "志賀智一",
     "semester": "後学期",
     "grade": "3",
@@ -5482,7 +4873,6 @@
   },
   {
     "name": "経営・社会情報学実験",
-    "major": "Ⅰ類",
     "professor": "岡本(一)・長濱・宮本・金・○中嶋・水野",
     "semester": "後学期",
     "grade": "3",
@@ -5491,7 +4881,6 @@
   },
   {
     "name": "物理工学実験第二",
-    "major": "Ⅲ類",
     "professor": "村中・丹治・清水（亮）・森永・松林・中井・*小林・*大家",
     "semester": "後学期",
     "grade": "3",
@@ -5500,7 +4889,6 @@
   },
   {
     "name": "独語第二",
-    "major": "情報理工学域",
     "professor": "中山純一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5509,7 +4897,6 @@
   },
   {
     "name": "独語第二",
-    "major": "情報理工学域",
     "professor": "岡野宏",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5518,7 +4905,6 @@
   },
   {
     "name": "独語第二",
-    "major": "情報理工学域",
     "professor": "白木和美",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5527,7 +4913,6 @@
   },
   {
     "name": "仏語第二",
-    "major": "情報理工学域",
     "professor": "福島亮",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5536,7 +4921,6 @@
   },
   {
     "name": "露語第二",
-    "major": "情報理工学域",
     "professor": "鈴木佑梨",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5545,7 +4929,6 @@
   },
   {
     "name": "中国語第二",
-    "major": "情報理工学域",
     "professor": "中村孝子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5554,7 +4937,6 @@
   },
   {
     "name": "中国語第二",
-    "major": "情報理工学域",
     "professor": "鷲巣益美",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5563,7 +4945,6 @@
   },
   {
     "name": "中国語第二",
-    "major": "情報理工学域",
     "professor": "三浦雄城",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5572,7 +4953,6 @@
   },
   {
     "name": "中国語第二",
-    "major": "情報理工学域",
     "professor": "木村奈津子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5581,7 +4961,6 @@
   },
   {
     "name": "韓国朝鮮語第二",
-    "major": "情報理工学域",
     "professor": "張河林",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5590,7 +4969,6 @@
   },
   {
     "name": "健康・体力つくり実習",
-    "major": "情報理工学域",
     "professor": "大河原・○竹内・○八百・○青木",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5599,7 +4977,6 @@
   },
   {
     "name": "統計学",
-    "major": "Ⅰ類",
     "professor": "加藤省吾",
     "semester": "後学期",
     "grade": "2",
@@ -5608,7 +4985,6 @@
   },
   {
     "name": "社会情報論",
-    "major": "Ⅰ類",
     "professor": "山本佳世子",
     "semester": "後学期",
     "grade": "2",
@@ -5617,7 +4993,6 @@
   },
   {
     "name": "進化計算論",
-    "major": "Ⅰ類",
     "professor": "髙玉圭樹",
     "semester": "後学期",
     "grade": "3",
@@ -5626,7 +5001,6 @@
   },
   {
     "name": "応用数学Ｂ",
-    "major": "Ⅱ類",
     "professor": "鈴木淳",
     "semester": "後学期",
     "grade": "2",
@@ -5635,7 +5009,6 @@
   },
   {
     "name": "論理回路学",
-    "major": "Ⅱ類",
     "professor": "小島年春",
     "semester": "後学期",
     "grade": "2",
@@ -5644,7 +5017,6 @@
   },
   {
     "name": "ユビキタスネットワーク",
-    "major": "Ⅱ類",
     "professor": "山本嶺",
     "semester": "後学期",
     "grade": "3",
@@ -5653,7 +5025,6 @@
   },
   {
     "name": "電磁波工学（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "安藤芳晃",
     "semester": "後学期",
     "grade": "3",
@@ -5662,7 +5033,6 @@
   },
   {
     "name": "生産システム工学（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "森重功一",
     "semester": "後学期",
     "grade": "3",
@@ -5671,7 +5041,6 @@
   },
   {
     "name": "基礎電子回路（クラスA）",
-    "major": "Ⅲ類",
     "professor": "奥野剛史",
     "semester": "後学期",
     "grade": "2",
@@ -5680,7 +5049,6 @@
   },
   {
     "name": "基礎電子回路（クラスB）",
-    "major": "Ⅲ類",
     "professor": "美濃島薫",
     "semester": "後学期",
     "grade": "2",
@@ -5689,7 +5057,6 @@
   },
   {
     "name": "基礎電子回路（クラスD）",
-    "major": "Ⅲ類",
     "professor": "岩國加奈",
     "semester": "後学期",
     "grade": "2",
@@ -5698,7 +5065,6 @@
   },
   {
     "name": "波動と光（クラスC）",
-    "major": "Ⅲ類",
     "professor": "庄司暁",
     "semester": "後学期",
     "grade": "2",
@@ -5707,7 +5073,6 @@
   },
   {
     "name": "生産システム工学（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "森重功一",
     "semester": "後学期",
     "grade": "3",
@@ -5716,7 +5081,6 @@
   },
   {
     "name": "デジタル信号処理（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "渡邉恵理子",
     "semester": "後学期",
     "grade": "3",
@@ -5725,7 +5089,6 @@
   },
   {
     "name": "物理化学第二",
-    "major": "Ⅲ類",
     "professor": "平田修造",
     "semester": "後学期",
     "grade": "3",
@@ -5734,7 +5097,6 @@
   },
   {
     "name": "独語第二（再履）",
-    "major": "情報理工学域",
     "professor": "白木和美",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5743,7 +5105,6 @@
   },
   {
     "name": "仏語第二（再履）",
-    "major": "情報理工学域",
     "professor": "平野奈津恵",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5752,7 +5113,6 @@
   },
   {
     "name": "露語第二（再履）",
-    "major": "情報理工学域",
     "professor": "鈴木佑梨",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5761,7 +5121,6 @@
   },
   {
     "name": "中国語第二（再履）",
-    "major": "情報理工学域",
     "professor": "鷲巣益美",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5770,7 +5129,6 @@
   },
   {
     "name": "韓国朝鮮語第二（再履）",
-    "major": "情報理工学域",
     "professor": "姜勝薫",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5779,7 +5137,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "高坂洋史",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5788,7 +5145,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "HauserEric",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5797,7 +5153,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "上原寿和子",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5806,7 +5161,6 @@
   },
   {
     "name": "独語運用演習",
-    "major": "情報理工学域",
     "professor": "中橋誠",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5815,7 +5169,6 @@
   },
   {
     "name": "露語運用演習",
-    "major": "情報理工学域",
     "professor": "金沢友緒",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5824,7 +5177,6 @@
   },
   {
     "name": "中国語運用演習",
-    "major": "情報理工学域",
     "professor": "木村奈津子",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5833,7 +5185,6 @@
   },
   {
     "name": "中国語運用演習",
-    "major": "情報理工学域",
     "professor": "小野響",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -5842,7 +5193,6 @@
   },
   {
     "name": "健康・体力つくり実習",
-    "major": "情報理工学域",
     "professor": "大河原・○竹内・○八百・○青木",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5851,7 +5201,6 @@
   },
   {
     "name": "解析学（クラス３）",
-    "major": "情報理工学域",
     "professor": "丸亀泰二",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5860,7 +5209,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（クラス５）",
-    "major": "情報理工学域",
     "professor": "宮本(友)・*笹倉",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5869,7 +5217,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（クラス６）",
-    "major": "情報理工学域",
     "professor": "仲田佳弘",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -5878,7 +5225,6 @@
   },
   {
     "name": "デジタル信号処理（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "金子修",
     "semester": "後学期",
     "grade": "3",
@@ -5887,7 +5233,6 @@
   },
   {
     "name": "符号理論",
-    "major": "Ⅱ類",
     "professor": "八木秀樹",
     "semester": "後学期",
     "grade": "3",
@@ -5896,7 +5241,6 @@
   },
   {
     "name": "電子機器システム学",
-    "major": "Ⅱ類",
     "professor": "李鯤",
     "semester": "後学期",
     "grade": "3",
@@ -5905,7 +5249,6 @@
   },
   {
     "name": "デジタル信号処理（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "金子修",
     "semester": "後学期",
     "grade": "3",
@@ -5914,7 +5257,6 @@
   },
   {
     "name": "電子回路学",
-    "major": "Ⅲ類",
     "professor": "水柿義直",
     "semester": "後学期",
     "grade": "3",
@@ -5923,7 +5265,6 @@
   },
   {
     "name": "心の科学",
-    "major": "情報理工学域",
     "professor": "久野雅樹",
     "semester": "後学期",
     "grade": "3/4",
@@ -5932,7 +5273,6 @@
   },
   {
     "name": "外国語とその運用B 【独語】",
-    "major": "情報理工学域",
     "professor": "中橋誠",
     "semester": "後学期",
     "grade": "3/4",
@@ -5941,7 +5281,6 @@
   },
   {
     "name": "外国語とその運用B 【仏語】",
-    "major": "情報理工学域",
     "professor": "平野奈津恵",
     "semester": "後学期",
     "grade": "3/4",
@@ -5950,7 +5289,6 @@
   },
   {
     "name": "外国語とその運用B 【露語】",
-    "major": "情報理工学域",
     "professor": "金沢友緒",
     "semester": "後学期",
     "grade": "3/4",
@@ -5959,7 +5297,6 @@
   },
   {
     "name": "外国語とその運用B 【中国語】",
-    "major": "情報理工学域",
     "professor": "小野響",
     "semester": "後学期",
     "grade": "3/4",
@@ -5968,7 +5305,6 @@
   },
   {
     "name": "外国語とその運用B 【韓国朝鮮語】",
-    "major": "情報理工学域",
     "professor": "姜勝薫",
     "semester": "後学期",
     "grade": "3/4",
@@ -5977,7 +5313,6 @@
   },
   {
     "name": "日本語とコミュニケーションB",
-    "major": "情報理工学域",
     "professor": "志賀幹郎",
     "semester": "後学期",
     "grade": "3/4",
@@ -5986,7 +5321,6 @@
   },
   {
     "name": "Innovative and Global Leadership Skills（IGLS）",
-    "major": "情報理工学域",
     "professor": "Shi・上原",
     "semester": "後学期",
     "grade": "3/4",
@@ -5995,7 +5329,6 @@
   },
   {
     "name": "学域特別講義B（JAPIA寄附講座）「自動車の大変革（CASE）に必要な技術」",
-    "major": "情報理工学域",
     "professor": "金子修・澤田賢治",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6004,7 +5337,6 @@
   },
   {
     "name": "地学（Ⅱ類・Ｍ）",
-    "major": "Ⅱ類",
     "professor": "○白井・○濱田",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6013,7 +5345,6 @@
   },
   {
     "name": "地学（Ⅲ類・Ｓ）",
-    "major": "Ⅲ類",
     "professor": "○白井・○濱田",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6022,7 +5353,6 @@
   },
   {
     "name": "情報数理工学実験第二A",
-    "major": "Ⅰ類",
     "professor": "三輪忍",
     "semester": "後学期",
     "grade": "3",
@@ -6031,7 +5361,6 @@
   },
   {
     "name": "コンピュータサイエンス実験第二A",
-    "major": "Ⅰ類",
     "professor": "三輪忍",
     "semester": "後学期",
     "grade": "3",
@@ -6040,7 +5369,6 @@
   },
   {
     "name": "情報数理工学実験第二B",
-    "major": "Ⅰ類",
     "professor": "三輪忍",
     "semester": "後学期",
     "grade": "3",
@@ -6049,7 +5377,6 @@
   },
   {
     "name": "コンピュータサイエンス実験第二B",
-    "major": "Ⅰ類",
     "professor": "三輪忍",
     "semester": "後学期",
     "grade": "3",
@@ -6058,7 +5385,6 @@
   },
   {
     "name": "日本語第二（１年）（月２・木２）",
-    "major": "情報理工学域",
     "professor": "内藤・笠原",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6067,7 +5393,6 @@
   },
   {
     "name": "日本語第二（１年）（月３・木２）",
-    "major": "情報理工学域",
     "professor": "内藤・笠原",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6076,7 +5401,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火1・A）",
-    "major": "情報理工学域",
     "professor": "HauserEric",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6085,7 +5409,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火1・B）",
-    "major": "情報理工学域",
     "professor": "EliudKiprop",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6094,7 +5417,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火1・C）",
-    "major": "情報理工学域",
     "professor": "DanielGeorgeDusza",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6103,7 +5425,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火1・D）",
-    "major": "情報理工学域",
     "professor": "StephanieTunçay",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6112,7 +5433,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火1・E）",
-    "major": "情報理工学域",
     "professor": "Derr,Jonathan",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6121,7 +5441,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火1・F）",
-    "major": "情報理工学域",
     "professor": "SadieNitta",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6130,7 +5449,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅰ類・A）",
-    "major": "情報理工学域",
     "professor": "大石由紀子",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6139,7 +5457,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅰ類・C）",
-    "major": "情報理工学域",
     "professor": "FayyazKhan",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6148,7 +5465,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅰ類・I）",
-    "major": "情報理工学域",
     "professor": "ScottMclellan",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6157,7 +5473,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅰ類・D）",
-    "major": "情報理工学域",
     "professor": "本多幸七郎",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6166,7 +5481,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅰ類・E）",
-    "major": "情報理工学域",
     "professor": "HIGUCHISONIA",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6175,7 +5489,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅰ類・F）",
-    "major": "情報理工学域",
     "professor": "岩崎峻一",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6184,7 +5497,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅰ類・G）",
-    "major": "情報理工学域",
     "professor": "AdelaideVambe",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6193,7 +5505,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅰ類・B）",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6202,7 +5513,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅰ類・H）",
-    "major": "情報理工学域",
     "professor": "HoaBaoLai",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6211,7 +5521,6 @@
   },
   {
     "name": "UEC Academic Skills Ⅰ (Computer Literacy) （言語文化）",
-    "major": "情報理工学域",
     "professor": "ChooCheowKeong",
     "semester": "後学期",
     "grade": "2024/01/0200:00:00",
@@ -6220,7 +5529,6 @@
   },
   {
     "name": "UEC Academic Skills Ⅰ (Computer Literacy) （上級科目）",
-    "major": "情報理工学域",
     "professor": "ChooCheowKeong",
     "semester": "後学期",
     "grade": "3/4",
@@ -6229,7 +5537,6 @@
   },
   {
     "name": "微分積分学第二（クラス１２）",
-    "major": "情報理工学域",
     "professor": "林誠",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6238,7 +5545,6 @@
   },
   {
     "name": "基礎物理学演習第二",
-    "major": "情報理工学域",
     "professor": "Hans-GeorgMatuttis",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6247,7 +5553,6 @@
   },
   {
     "name": "離散数理工学",
-    "major": "Ⅰ類",
     "professor": "岡本吉央",
     "semester": "後学期",
     "grade": "3",
@@ -6256,7 +5561,6 @@
   },
   {
     "name": "応用数学Ｂ",
-    "major": "Ⅱ類",
     "professor": "SANTOSOBAGUS",
     "semester": "後学期",
     "grade": "2",
@@ -6265,7 +5569,6 @@
   },
   {
     "name": "論理回路学",
-    "major": "Ⅱ類",
     "professor": "安達宏一",
     "semester": "後学期",
     "grade": "2",
@@ -6274,7 +5577,6 @@
   },
   {
     "name": "ハードウェアセキュリティ",
-    "major": "Ⅱ類",
     "professor": "﨑山一男",
     "semester": "後学期",
     "grade": "3",
@@ -6283,7 +5585,6 @@
   },
   {
     "name": "無機化学",
-    "major": "Ⅲ類",
     "professor": "石田尚行",
     "semester": "後学期",
     "grade": "2",
@@ -6292,7 +5593,6 @@
   },
   {
     "name": "計算数理工学",
-    "major": "Ⅲ類",
     "professor": "中村淳",
     "semester": "後学期",
     "grade": "3",
@@ -6301,7 +5601,6 @@
   },
   {
     "name": "流体力学および演習（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "井上（洋）・守",
     "semester": "後学期",
     "grade": "3",
@@ -6310,7 +5609,6 @@
   },
   {
     "name": "電磁気学および演習（クラスA）",
-    "major": "Ⅲ類",
     "professor": "桂川眞幸",
     "semester": "後学期",
     "grade": "2",
@@ -6319,7 +5617,6 @@
   },
   {
     "name": "流体力学および演習（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "井上（洋）・守",
     "semester": "後学期",
     "grade": "3",
@@ -6328,7 +5625,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火2・A）",
-    "major": "情報理工学域",
     "professor": "StephanieTunçay",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6337,7 +5633,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火2・B）",
-    "major": "情報理工学域",
     "professor": "JohnnyTimChu",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6346,7 +5641,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火2・C）",
-    "major": "情報理工学域",
     "professor": "AtsukoMarieJeffreys",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6355,7 +5649,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火2・D）",
-    "major": "情報理工学域",
     "professor": "Derr,Jonathan",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6364,7 +5657,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火2・E）",
-    "major": "情報理工学域",
     "professor": "AimiKonoChesky",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6373,7 +5665,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火2・F）",
-    "major": "情報理工学域",
     "professor": "DanielGeorgeDusza",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6382,7 +5673,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅱ類・A）",
-    "major": "情報理工学域",
     "professor": "AdelaideVambe",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6391,7 +5681,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅱ類・B）",
-    "major": "情報理工学域",
     "professor": "大石由紀子",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6400,7 +5689,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅱ類・C）",
-    "major": "情報理工学域",
     "professor": "本多幸七郎",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6409,7 +5697,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅱ類・D）",
-    "major": "情報理工学域",
     "professor": "HIGUCHISONIA",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6418,7 +5705,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅱ類・E）",
-    "major": "情報理工学域",
     "professor": "EliudKiprop",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6427,7 +5713,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅱ類・F）",
-    "major": "情報理工学域",
     "professor": "FayyazKhan",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6436,7 +5721,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅱ類・G）",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6445,7 +5729,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅱ類・H）",
-    "major": "情報理工学域",
     "professor": "岩崎峻一",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6454,7 +5737,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅱ類・I）",
-    "major": "情報理工学域",
     "professor": "ScottMclellan",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6463,7 +5745,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅱ類・J）",
-    "major": "情報理工学域",
     "professor": "HoaBaoLai",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6472,7 +5753,6 @@
   },
   {
     "name": "生涯スポーツ演習Ｂ（Ⅰ類）",
-    "major": "情報理工学域",
     "professor": "○田中（茂）・○金子・○宮崎・○大辻・○八幡",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6481,7 +5761,6 @@
   },
   {
     "name": "UEC Academic Skills II (Information Literacy and Research) （言語文化）",
-    "major": "情報理工学域",
     "professor": "ChooCheowKeong",
     "semester": "後学期",
     "grade": "2",
@@ -6490,7 +5769,6 @@
   },
   {
     "name": "UEC Academic Skills II (Information Literacy and Research) （上級科目）",
-    "major": "情報理工学域",
     "professor": "ChooCheowKeong",
     "semester": "後学期",
     "grade": "3/4",
@@ -6499,7 +5777,6 @@
   },
   {
     "name": "微分積分学第二（クラス7）",
-    "major": "情報理工学域",
     "professor": "大野真裕",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6508,7 +5785,6 @@
   },
   {
     "name": "微分積分学第二（クラス９）",
-    "major": "情報理工学域",
     "professor": "林誠",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6517,7 +5793,6 @@
   },
   {
     "name": "線形代数学第二（クラス８）",
-    "major": "情報理工学域",
     "professor": "山田裕一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6526,7 +5801,6 @@
   },
   {
     "name": "物理学概論第二（クラス３）",
-    "major": "情報理工学域",
     "professor": "岸本哲夫",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6535,7 +5809,6 @@
   },
   {
     "name": "物理学概論第二（クラス６）",
-    "major": "情報理工学域",
     "professor": "大川富雄",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6544,7 +5817,6 @@
   },
   {
     "name": "物理学概論第二（クラス１０）",
-    "major": "情報理工学域",
     "professor": "阪口豊",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6553,7 +5825,6 @@
   },
   {
     "name": "物理学概論第二（クラス１１）",
-    "major": "情報理工学域",
     "professor": "石橋功至",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6562,7 +5833,6 @@
   },
   {
     "name": "物理学概論第二（クラス１２）",
-    "major": "情報理工学域",
     "professor": "美濃島薫",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6571,7 +5841,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（クラス４）",
-    "major": "情報理工学域",
     "professor": "工藤俊亮",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6580,7 +5849,6 @@
   },
   {
     "name": "ソフトウェア工学",
-    "major": "Ⅰ類",
     "professor": "佐藤重幸",
     "semester": "後学期",
     "grade": "3",
@@ -6589,7 +5857,6 @@
   },
   {
     "name": "言語認知工学",
-    "major": "Ⅰ類",
     "professor": "内海彰",
     "semester": "後学期",
     "grade": "3",
@@ -6598,7 +5865,6 @@
   },
   {
     "name": "伝送回路論",
-    "major": "Ⅱ類",
     "professor": "和田光司",
     "semester": "後学期",
     "grade": "3",
@@ -6607,7 +5873,6 @@
   },
   {
     "name": "基礎物理化学（クラスA）",
-    "major": "Ⅲ類",
     "professor": "安井正憲",
     "semester": "後学期",
     "grade": "2",
@@ -6616,7 +5881,6 @@
   },
   {
     "name": "基礎物理化学（クラスB）",
-    "major": "Ⅲ類",
     "professor": "平田修造",
     "semester": "後学期",
     "grade": "2",
@@ -6625,7 +5889,6 @@
   },
   {
     "name": "光波工学",
-    "major": "Ⅲ類",
     "professor": "庄司暁",
     "semester": "後学期",
     "grade": "3",
@@ -6634,7 +5897,6 @@
   },
   {
     "name": "セキュリティ情報学実験",
-    "major": "Ⅱ類",
     "professor": "渡邉（洋）・李・﨑山・市野",
     "semester": "後学期",
     "grade": "3",
@@ -6643,7 +5905,6 @@
   },
   {
     "name": "電子工学実験第二",
-    "major": "Ⅲ類",
     "professor": "一色・志賀・古川(怜)・宮下・坂本・塚本・曽我部・○小野",
     "semester": "後学期",
     "grade": "3",
@@ -6652,7 +5913,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火3・A）",
-    "major": "情報理工学域",
     "professor": "AimiKonoChesky",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6661,7 +5921,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火3・B）",
-    "major": "情報理工学域",
     "professor": "JosephRobertTabolt",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6670,7 +5929,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火3・C）",
-    "major": "情報理工学域",
     "professor": "HauserEric",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6679,7 +5937,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火3・D）",
-    "major": "情報理工学域",
     "professor": "JoshiRatalaDineshPrasad",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6688,7 +5945,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火3・E）",
-    "major": "情報理工学域",
     "professor": "StephanieTunçay",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6697,7 +5953,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火3・F）",
-    "major": "情報理工学域",
     "professor": "Derr,Jonathan",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6706,7 +5961,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火3・G）",
-    "major": "情報理工学域",
     "professor": "SadieNitta",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6715,7 +5969,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅲ類・A）",
-    "major": "情報理工学域",
     "professor": "EliudKiprop",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6724,7 +5977,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅲ類・C）",
-    "major": "情報理工学域",
     "professor": "大石由紀子",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6733,7 +5985,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅲ類・B）",
-    "major": "情報理工学域",
     "professor": "HoaBaoLai",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6742,7 +5993,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅲ類・D）",
-    "major": "情報理工学域",
     "professor": "本多幸七郎",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6751,7 +6001,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅲ類・E）",
-    "major": "情報理工学域",
     "professor": "AdelaideVambe",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6760,7 +6009,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅲ類・F）",
-    "major": "情報理工学域",
     "professor": "HIGUCHISONIA",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6769,7 +6017,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅲ類・G）",
-    "major": "情報理工学域",
     "professor": "JohnnyTimChu",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6778,7 +6025,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅲ類・H）",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6787,7 +6033,6 @@
   },
   {
     "name": "Academic English for the Second Year Ⅱ（Ⅲ類・I）",
-    "major": "情報理工学域",
     "professor": "ScottMclellan",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6796,7 +6041,6 @@
   },
   {
     "name": "生涯スポーツ演習Ｂ（Ⅱ類）",
-    "major": "情報理工学域",
     "professor": "○田中（茂）・○金子・○宮崎・○大辻・○八幡",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -6805,7 +6049,6 @@
   },
   {
     "name": "微分積分学第二（クラス３）",
-    "major": "情報理工学域",
     "professor": "大野真裕",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6814,7 +6057,6 @@
   },
   {
     "name": "微分積分学第二（クラス6）",
-    "major": "情報理工学域",
     "professor": "石上嘉康",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6823,7 +6065,6 @@
   },
   {
     "name": "線形代数学第二（クラス１１）",
-    "major": "情報理工学域",
     "professor": "山田裕一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6832,7 +6073,6 @@
   },
   {
     "name": "解析学（クラス１）",
-    "major": "情報理工学域",
     "professor": "齋藤平和",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6841,7 +6081,6 @@
   },
   {
     "name": "物理学概論第二（クラス２）",
-    "major": "情報理工学域",
     "professor": "村松大陸",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6850,7 +6089,6 @@
   },
   {
     "name": "物理学概論第二（クラス４）",
-    "major": "情報理工学域",
     "professor": "尚方",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6859,7 +6097,6 @@
   },
   {
     "name": "物理学概論第二（クラス９）",
-    "major": "情報理工学域",
     "professor": "芳原容英",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6868,7 +6105,6 @@
   },
   {
     "name": "形式言語理論",
-    "major": "Ⅰ類",
     "professor": "西野哲朗",
     "semester": "後学期",
     "grade": "2",
@@ -6877,7 +6113,6 @@
   },
   {
     "name": "品質管理第一",
-    "major": "Ⅰ類",
     "professor": "横川・金",
     "semester": "後学期",
     "grade": "2",
@@ -6886,7 +6121,6 @@
   },
   {
     "name": "数値計算",
-    "major": "Ⅰ類",
     "professor": "緒方秀教",
     "semester": "後学期",
     "grade": "2",
@@ -6895,7 +6129,6 @@
   },
   {
     "name": "メディア論",
-    "major": "Ⅰ類",
     "professor": "兒玉幸子",
     "semester": "後学期",
     "grade": "3",
@@ -6904,7 +6137,6 @@
   },
   {
     "name": "マーケティング科学",
-    "major": "Ⅰ類",
     "professor": "岡本一志",
     "semester": "後学期",
     "grade": "3",
@@ -6913,7 +6145,6 @@
   },
   {
     "name": "数理計画法",
-    "major": "Ⅰ類",
     "professor": "高橋里司",
     "semester": "後学期",
     "grade": "3",
@@ -6922,7 +6153,6 @@
   },
   {
     "name": "電子回路学",
-    "major": "Ⅱ類",
     "professor": "小野哲",
     "semester": "後学期",
     "grade": "3",
@@ -6931,7 +6161,6 @@
   },
   {
     "name": "高分子有機化学",
-    "major": "Ⅲ類",
     "professor": "平野誉",
     "semester": "後学期",
     "grade": "3",
@@ -6940,7 +6169,6 @@
   },
   {
     "name": "マシンデザインＢ（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "増田宏",
     "semester": "後学期",
     "grade": "3",
@@ -6949,7 +6177,6 @@
   },
   {
     "name": "マシンデザインＢ（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "増田宏",
     "semester": "後学期",
     "grade": "3",
@@ -6958,7 +6185,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火4・B）",
-    "major": "情報理工学域",
     "professor": "AimiKonoChesky",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6967,7 +6193,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火4・C）",
-    "major": "情報理工学域",
     "professor": "HauserEric",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6976,7 +6201,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火4・D）",
-    "major": "情報理工学域",
     "professor": "AtsukoMarieJeffreys",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6985,7 +6209,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火4・E）",
-    "major": "情報理工学域",
     "professor": "SadieNitta",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -6994,7 +6217,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火4・F）",
-    "major": "情報理工学域",
     "professor": "JoshiRatalaDineshPrasad",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7003,7 +6225,6 @@
   },
   {
     "name": "Academic Spoken English Ⅱ（火4・A）",
-    "major": "情報理工学域",
     "professor": "JosephRobertTabolt",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7012,7 +6233,6 @@
   },
   {
     "name": "生涯スポーツ演習Ｂ（Ⅲ類）",
-    "major": "情報理工学域",
     "professor": "○田中（茂）・○金子・○宮崎・○大辻・○八幡",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7021,7 +6241,6 @@
   },
   {
     "name": "解析学（クラス２）",
-    "major": "情報理工学域",
     "professor": "伊東裕也",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7030,7 +6249,6 @@
   },
   {
     "name": "物理学概論第二（クラス１）",
-    "major": "情報理工学域",
     "professor": "阪口豊",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7039,7 +6257,6 @@
   },
   {
     "name": "物理学概論第二（クラス５）",
-    "major": "情報理工学域",
     "professor": "小久保伸人",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7048,7 +6265,6 @@
   },
   {
     "name": "物理学概論第二（クラス７）",
-    "major": "情報理工学域",
     "professor": "沈青",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7057,7 +6273,6 @@
   },
   {
     "name": "物理学概論第二（クラス８）",
-    "major": "情報理工学域",
     "professor": "野村英之",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7066,7 +6281,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（クラス11）",
-    "major": "情報理工学域",
     "professor": "小宮常康",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7075,7 +6289,6 @@
   },
   {
     "name": "基礎数学演習第二",
-    "major": "情報理工学域",
     "professor": "濱野哲子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7084,7 +6297,6 @@
   },
   {
     "name": "情報領域演習第三（１クラス）",
-    "major": "Ⅰ類",
     "professor": "小泉直也",
     "semester": "後学期",
     "grade": "2",
@@ -7093,7 +6305,6 @@
   },
   {
     "name": "アルゴリズム論第一（３クラス）",
-    "major": "Ⅰ類",
     "professor": "大森・新谷",
     "semester": "後学期",
     "grade": "2",
@@ -7102,7 +6313,6 @@
   },
   {
     "name": "物体認識論",
-    "major": "Ⅰ類",
     "professor": "柳井啓司",
     "semester": "後学期",
     "grade": "3",
@@ -7111,7 +6321,6 @@
   },
   {
     "name": "知的情報処理",
-    "major": "Ⅰ類",
     "professor": "古賀久志",
     "semester": "後学期",
     "grade": "3",
@@ -7120,7 +6329,6 @@
   },
   {
     "name": "計算機アーキテクチャー",
-    "major": "Ⅱ類",
     "professor": "﨑山一男",
     "semester": "後学期",
     "grade": "2",
@@ -7129,7 +6337,6 @@
   },
   {
     "name": "コンテンツセキュリティ",
-    "major": "Ⅱ類",
     "professor": "宮原大輝",
     "semester": "後学期",
     "grade": "3",
@@ -7138,7 +6345,6 @@
   },
   {
     "name": "通信法規",
-    "major": "Ⅱ類",
     "professor": "北原和民",
     "semester": "後学期",
     "grade": "4",
@@ -7147,7 +6353,6 @@
   },
   {
     "name": "光電子材料学",
-    "major": "Ⅲ類",
     "professor": "上野芳康",
     "semester": "後学期",
     "grade": "3",
@@ -7156,7 +6361,6 @@
   },
   {
     "name": "固体物理工学第二",
-    "major": "Ⅲ類",
     "professor": "松林和幸",
     "semester": "後学期",
     "grade": "3",
@@ -7165,7 +6369,6 @@
   },
   {
     "name": "神経科学",
-    "major": "Ⅲ類",
     "professor": "松田信爾",
     "semester": "後学期",
     "grade": "3",
@@ -7174,7 +6377,6 @@
   },
   {
     "name": "教育の歴史",
-    "major": "情報理工学域",
     "professor": "武石典史",
     "semester": "後学期",
     "grade": "3/4",
@@ -7183,7 +6385,6 @@
   },
   {
     "name": "Preparation for Graduate School",
-    "major": "情報理工学域",
     "professor": "AtsukoMarieJeffreys",
     "semester": "後学期",
     "grade": "3/4",
@@ -7192,7 +6393,6 @@
   },
   {
     "name": "応用代数学",
-    "major": "情報理工学域",
     "professor": "榎本直也",
     "semester": "後学期",
     "grade": "3/4",
@@ -7201,7 +6401,6 @@
   },
   {
     "name": "現代化学",
-    "major": "情報理工学域",
     "professor": "加固昌寛他",
     "semester": "後学期",
     "grade": "3/4",
@@ -7210,7 +6409,6 @@
   },
   {
     "name": "日本の科学と技術B",
-    "major": "情報理工学域",
     "professor": "濱野・マトゥティス",
     "semester": "後学期",
     "grade": "3/4",
@@ -7219,7 +6417,6 @@
   },
   {
     "name": "健康の科学（R6開講なし）",
-    "major": "情報理工学域",
     "professor": "未定",
     "semester": "後学期",
     "grade": "3/4",
@@ -7228,7 +6425,6 @@
   },
   {
     "name": "体力の科学",
-    "major": "情報理工学域",
     "professor": "星野太佑",
     "semester": "後学期",
     "grade": "3/4",
@@ -7237,7 +6433,6 @@
   },
   {
     "name": "物理学概論第一（再履）（クラスⅠ）",
-    "major": "情報理工学域",
     "professor": "○佐野・佐々木・小久保",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7246,7 +6441,6 @@
   },
   {
     "name": "物理学概論第一（再履）（クラスⅡ）",
-    "major": "情報理工学域",
     "professor": "○阿部・佐々木・小久保",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7255,7 +6449,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（再履）",
-    "major": "情報理工学域",
     "professor": "江木・渡辺",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7264,7 +6457,6 @@
   },
   {
     "name": "理科教育法Ⅲ",
-    "major": "情報理工学域",
     "professor": "高橋典嗣",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7273,7 +6465,6 @@
   },
   {
     "name": "情報科教育法II",
-    "major": "情報理工学域",
     "professor": "中山泰一",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7282,7 +6473,6 @@
   },
   {
     "name": "哲学Ｂ",
-    "major": "情報理工学域",
     "professor": "田中凌",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7291,7 +6481,6 @@
   },
   {
     "name": "心理学Ｂ",
-    "major": "情報理工学域",
     "professor": "久野雅樹",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7300,7 +6489,6 @@
   },
   {
     "name": "音楽Ｂ",
-    "major": "情報理工学域",
     "professor": "長岡英",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7309,7 +6497,6 @@
   },
   {
     "name": "地理学Ｂ",
-    "major": "情報理工学域",
     "professor": "戸田真夏",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7318,7 +6505,6 @@
   },
   {
     "name": "日本文化Ｄ",
-    "major": "情報理工学域",
     "professor": "小山慎治",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7327,7 +6513,6 @@
   },
   {
     "name": "生涯スポーツ演習Ｂ（３年生以上・再履）",
-    "major": "情報理工学域",
     "professor": "大河原・〇渡邊（裕）",
     "semester": "後学期",
     "grade": "3/4",
@@ -7336,7 +6521,6 @@
   },
   {
     "name": "環境論",
-    "major": "情報理工学域",
     "professor": "栗田岳ほか",
     "semester": "後学期",
     "grade": "3/4",
@@ -7345,7 +6529,6 @@
   },
   {
     "name": "技術者倫理",
-    "major": "情報理工学域",
     "professor": "窄頭匡之",
     "semester": "後学期",
     "grade": "3/4",
@@ -7354,7 +6537,6 @@
   },
   {
     "name": "離散数学",
-    "major": "Ⅰ類",
     "professor": "伊藤大雄",
     "semester": "後学期",
     "grade": "1",
@@ -7363,7 +6545,6 @@
   },
   {
     "name": "情報領域演習第一",
-    "major": "Ⅰ類",
     "professor": "中鹿・工藤",
     "semester": "後学期",
     "grade": "1",
@@ -7372,7 +6553,6 @@
   },
   {
     "name": "情報領域演習第一",
-    "major": "Ⅰ類",
     "professor": "若月・清・小山（大）",
     "semester": "後学期",
     "grade": "1",
@@ -7381,7 +6561,6 @@
   },
   {
     "name": "力学",
-    "major": "Ⅱ類",
     "professor": "津田卓雄",
     "semester": "後学期",
     "grade": "1",
@@ -7390,7 +6569,6 @@
   },
   {
     "name": "力学",
-    "major": "Ⅱ類",
     "professor": "明愛国",
     "semester": "後学期",
     "grade": "1",
@@ -7399,7 +6577,6 @@
   },
   {
     "name": "力学演習",
-    "major": "Ⅲ類",
     "professor": "島田宏",
     "semester": "後学期",
     "grade": "1",
@@ -7408,7 +6585,6 @@
   },
   {
     "name": "力学演習",
-    "major": "Ⅲ類",
     "professor": "酒井剛",
     "semester": "後学期",
     "grade": "1",
@@ -7417,7 +6593,6 @@
   },
   {
     "name": "力学演習",
-    "major": "Ⅲ類",
     "professor": "中川賢一",
     "semester": "後学期",
     "grade": "1",
@@ -7426,7 +6601,6 @@
   },
   {
     "name": "力学演習",
-    "major": "Ⅲ類",
     "professor": "守裕也",
     "semester": "後学期",
     "grade": "1",
@@ -7435,7 +6609,6 @@
   },
   {
     "name": "科学史Ｂ",
-    "major": "情報理工学域",
     "professor": "佐藤賢一",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7444,7 +6617,6 @@
   },
   {
     "name": "文学Ｂ",
-    "major": "情報理工学域",
     "professor": "栗田岳",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7453,7 +6625,6 @@
   },
   {
     "name": "美術Ｂ",
-    "major": "情報理工学域",
     "professor": "櫻庭美咲",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7462,7 +6633,6 @@
   },
   {
     "name": "社会学Ｂ",
-    "major": "情報理工学域",
     "professor": "渡辺彰規",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7471,7 +6641,6 @@
   },
   {
     "name": "法学Ｂ",
-    "major": "情報理工学域",
     "professor": "植田俊太郎",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7480,7 +6649,6 @@
   },
   {
     "name": "文化人類学Ｂ",
-    "major": "情報理工学域",
     "professor": "森雅文",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7489,7 +6657,6 @@
   },
   {
     "name": "日本語演習",
-    "major": "情報理工学域",
     "professor": "小山慎治",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7498,7 +6665,6 @@
   },
   {
     "name": "生涯スポーツ演習Ｂ（３年生以上・再履）",
-    "major": "情報理工学域",
     "professor": "岡田（英）・〇渡邊（裕）",
     "semester": "後学期",
     "grade": "3/4",
@@ -7507,7 +6673,6 @@
   },
   {
     "name": "微分積分学第二（クラス４）",
-    "major": "情報理工学域",
     "professor": "山田裕一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7516,7 +6681,6 @@
   },
   {
     "name": "微分積分学第二（クラス５）",
-    "major": "情報理工学域",
     "professor": "榎本直也",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7525,7 +6689,6 @@
   },
   {
     "name": "微分積分学第二（クラス１０）",
-    "major": "情報理工学域",
     "professor": "天野友之",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7534,7 +6697,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（クラス３）",
-    "major": "情報理工学域",
     "professor": "橋山・*竹内",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7543,7 +6705,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（クラス１２）",
-    "major": "情報理工学域",
     "professor": "李傲寒",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7552,7 +6713,6 @@
   },
   {
     "name": "基礎数学演習第二",
-    "major": "情報理工学域",
     "professor": "濱野哲子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7561,7 +6721,6 @@
   },
   {
     "name": "ソフトウェア工学",
-    "major": "Ⅰ類",
     "professor": "岩﨑英哉",
     "semester": "後学期",
     "grade": "3",
@@ -7570,7 +6729,6 @@
   },
   {
     "name": "現代制御工学（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "小木曽公尚",
     "semester": "後学期",
     "grade": "3",
@@ -7579,7 +6737,6 @@
   },
   {
     "name": "現代制御工学（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "小木曽公尚",
     "semester": "後学期",
     "grade": "3",
@@ -7588,7 +6745,6 @@
   },
   {
     "name": "量子力学第二",
-    "major": "Ⅲ類",
     "professor": "森下亨",
     "semester": "後学期",
     "grade": "3",
@@ -7597,7 +6753,6 @@
   },
   {
     "name": "光工学実験第二",
-    "major": "Ⅲ類",
     "professor": "渡辺（恵）・美濃島・加藤（峰）・張・武者・米田・戸倉川・道根・田渕",
     "semester": "後学期",
     "grade": "3",
@@ -7606,7 +6761,6 @@
   },
   {
     "name": "化学生命工学実験第二",
-    "major": "Ⅲ類",
     "professor": "白川英・仲村・田仲・松田・石田尚・平野・狩野・安井・瀧・三瓶・星野・○島田・*菅",
     "semester": "後学期",
     "grade": "3",
@@ -7615,7 +6769,6 @@
   },
   {
     "name": "数学演習第二（クラス３）",
-    "major": "情報理工学域",
     "professor": "関根正幸",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7624,7 +6777,6 @@
   },
   {
     "name": "数学演習第二（クラス４）",
-    "major": "情報理工学域",
     "professor": "中村友哉",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7633,7 +6785,6 @@
   },
   {
     "name": "数学演習第二（クラス５）",
-    "major": "情報理工学域",
     "professor": "工藤陸",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7642,7 +6793,6 @@
   },
   {
     "name": "数学演習第二（クラス８）",
-    "major": "情報理工学域",
     "professor": "石田晴久",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7651,7 +6801,6 @@
   },
   {
     "name": "数学演習第二（クラス１１）",
-    "major": "情報理工学域",
     "professor": "伊藤賢一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7660,7 +6809,6 @@
   },
   {
     "name": "数学演習第二（クラス１２）",
-    "major": "情報理工学域",
     "professor": "伊東裕也",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7669,7 +6817,6 @@
   },
   {
     "name": "物理学演習第二",
-    "major": "情報理工学域",
     "professor": "鈴木（勝）・佐々木（成）・中村（仁）",
     "semester": "後学期",
     "grade": "1",
@@ -7678,7 +6825,6 @@
   },
   {
     "name": "生産管理",
-    "major": "Ⅰ類",
     "professor": "山田哲男",
     "semester": "後学期",
     "grade": "2",
@@ -7687,7 +6833,6 @@
   },
   {
     "name": "回路システム学第一",
-    "major": "Ⅱ類",
     "professor": "範公可",
     "semester": "後学期",
     "grade": "2",
@@ -7696,7 +6841,6 @@
   },
   {
     "name": "波動と光（クラスD）",
-    "major": "Ⅲ類",
     "professor": "浅原彰文",
     "semester": "後学期",
     "grade": "2",
@@ -7705,7 +6849,6 @@
   },
   {
     "name": "電子デバイス",
-    "major": "Ⅲ類",
     "professor": "一色・塚本",
     "semester": "後学期",
     "grade": "3",
@@ -7714,7 +6857,6 @@
   },
   {
     "name": "メカノデザイン（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "小泉（憲）・井上・梶川・永松・*藤本",
     "semester": "後学期",
     "grade": "2",
@@ -7723,7 +6865,6 @@
   },
   {
     "name": "マシンデザインＢ（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "森重功一",
     "semester": "後学期",
     "grade": "3",
@@ -7732,7 +6873,6 @@
   },
   {
     "name": "電磁気学および演習（クラスC）",
-    "major": "Ⅲ類",
     "professor": "斎藤弘樹",
     "semester": "後学期",
     "grade": "2",
@@ -7741,7 +6881,6 @@
   },
   {
     "name": "電磁気学および演習（クラスB）",
-    "major": "Ⅲ類",
     "professor": "谷口淳子",
     "semester": "後学期",
     "grade": "2",
@@ -7750,7 +6889,6 @@
   },
   {
     "name": "メカノデザイン（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "小泉・井上・梶川・永松・*藤本",
     "semester": "後学期",
     "grade": "2",
@@ -7759,7 +6897,6 @@
   },
   {
     "name": "マシンデザインＢ（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "森重功一",
     "semester": "後学期",
     "grade": "3",
@@ -7768,7 +6905,6 @@
   },
   {
     "name": "数学演習第二（クラス１）",
-    "major": "情報理工学域",
     "professor": "工藤陸",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7777,7 +6913,6 @@
   },
   {
     "name": "数学演習第二（クラス２）",
-    "major": "情報理工学域",
     "professor": "石田晴久",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7786,7 +6921,6 @@
   },
   {
     "name": "数学演習第二（クラス６）",
-    "major": "情報理工学域",
     "professor": "伊藤賢一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7795,7 +6929,6 @@
   },
   {
     "name": "数学演習第二（クラス７）",
-    "major": "情報理工学域",
     "professor": "関根正幸",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7804,7 +6937,6 @@
   },
   {
     "name": "数学演習第二（クラス９）",
-    "major": "情報理工学域",
     "professor": "丸亀泰二",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7813,7 +6945,6 @@
   },
   {
     "name": "数学演習第二（クラス１０）",
-    "major": "情報理工学域",
     "professor": "中村友哉",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7822,7 +6953,6 @@
   },
   {
     "name": "物理学演習第二",
-    "major": "情報理工学域",
     "professor": "鈴木（勝）・佐々木（成）・中村（仁）",
     "semester": "後学期",
     "grade": "1",
@@ -7831,7 +6961,6 @@
   },
   {
     "name": "アルゴリズム論第一（２クラス）",
-    "major": "Ⅰ類",
     "professor": "伊藤大雄",
     "semester": "後学期",
     "grade": "2",
@@ -7840,7 +6969,6 @@
   },
   {
     "name": "基礎演習Ｂ",
-    "major": "Ⅱ類",
     "professor": "範・サントソ",
     "semester": "後学期",
     "grade": "2",
@@ -7849,7 +6977,6 @@
   },
   {
     "name": "回路システム学第一",
-    "major": "Ⅱ類",
     "professor": "和田光司",
     "semester": "後学期",
     "grade": "2",
@@ -7858,7 +6985,6 @@
   },
   {
     "name": "ネットワークセキュリティ",
-    "major": "Ⅱ類",
     "professor": "高田哲司",
     "semester": "後学期",
     "grade": "3",
@@ -7867,7 +6993,6 @@
   },
   {
     "name": "倫理学Ｂ",
-    "major": "情報理工学域",
     "professor": "増山浩人",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7876,7 +7001,6 @@
   },
   {
     "name": "歴史学Ｂ",
-    "major": "情報理工学域",
     "professor": "倉橋良伸",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7885,7 +7009,6 @@
   },
   {
     "name": "経済学Ｂ",
-    "major": "情報理工学域",
     "professor": "鈴木邦成",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7894,7 +7017,6 @@
   },
   {
     "name": "政治学Ｂ",
-    "major": "情報理工学域",
     "professor": "竹内桂",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7903,7 +7025,6 @@
   },
   {
     "name": "社会思想史Ｂ",
-    "major": "情報理工学域",
     "professor": "庄司俊之",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7912,7 +7033,6 @@
   },
   {
     "name": "伝統科学と近代科学の相克",
-    "major": "情報理工学域",
     "professor": "佐藤賢一",
     "semester": "後学期",
     "grade": "3/4",
@@ -7921,7 +7041,6 @@
   },
   {
     "name": "英米倫理学",
-    "major": "情報理工学域",
     "professor": "中山弘太郎",
     "semester": "後学期",
     "grade": "3/4",
@@ -7930,7 +7049,6 @@
   },
   {
     "name": "文化と言語",
-    "major": "情報理工学域",
     "professor": "八木橋久実子",
     "semester": "後学期",
     "grade": "3/4",
@@ -7939,7 +7057,6 @@
   },
   {
     "name": "スポーツとコミュニケーション",
-    "major": "情報理工学域",
     "professor": "大河原一憲",
     "semester": "後学期",
     "grade": "3/4",
@@ -7948,7 +7065,6 @@
   },
   {
     "name": "ベンチャービジネス概論",
-    "major": "情報理工学域",
     "professor": "高木克人",
     "semester": "後学期",
     "grade": "3/4",
@@ -7957,7 +7073,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（上級）",
-    "major": "情報理工学域",
     "professor": "ShiJie",
     "semester": "後学期",
     "grade": "3/4",
@@ -7966,7 +7081,6 @@
   },
   {
     "name": "基礎数学演習第二",
-    "major": "情報理工学域",
     "professor": "濱野哲子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7975,7 +7089,6 @@
   },
   {
     "name": "教育原理B",
-    "major": "情報理工学域",
     "professor": "武石典史",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -7984,7 +7097,6 @@
   },
   {
     "name": "理科教育法Ⅳ",
-    "major": "情報理工学域",
     "professor": "鈴木（勝）・○内記",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -7993,7 +7105,6 @@
   },
   {
     "name": "情報処理演習第二",
-    "major": "情報理工学域",
     "professor": "中井日佐司",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -8002,7 +7113,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "AtsukoMarieJeffreys",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -8011,7 +7121,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "大石由紀子",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -8020,7 +7129,6 @@
   },
   {
     "name": "独語運用演習",
-    "major": "情報理工学域",
     "professor": "浜田郷史",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -8029,7 +7137,6 @@
   },
   {
     "name": "仏語運用演習",
-    "major": "情報理工学域",
     "professor": "八木橋久実子",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -8038,7 +7145,6 @@
   },
   {
     "name": "中国語運用演習",
-    "major": "情報理工学域",
     "professor": "千葉偉一",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -8047,7 +7153,6 @@
   },
   {
     "name": "中国語運用演習",
-    "major": "情報理工学域",
     "professor": "李偉",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -8056,7 +7161,6 @@
   },
   {
     "name": "韓国朝鮮語運用演習",
-    "major": "情報理工学域",
     "professor": "姜勝薫",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -8065,7 +7169,6 @@
   },
   {
     "name": "宇宙・地球科学（学籍番号偶数クラス）",
-    "major": "情報理工学域",
     "professor": "菊田智史",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8074,7 +7177,6 @@
   },
   {
     "name": "宇宙・地球科学（学籍番号奇数クラス）",
-    "major": "情報理工学域",
     "professor": "柏野大地",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8083,7 +7185,6 @@
   },
   {
     "name": "生物学",
-    "major": "情報理工学域",
     "professor": "瀧真清・松田信爾",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8092,7 +7193,6 @@
   },
   {
     "name": "材料化学",
-    "major": "情報理工学域",
     "professor": "小林義男",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8101,7 +7201,6 @@
   },
   {
     "name": "UEC Academic Skills III (Publishing Literacy and Research) ",
-    "major": "情報理工学域",
     "professor": "ChooCheowKeong",
     "semester": "後学期",
     "grade": "3/4",
@@ -8110,7 +7209,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I21）",
-    "major": "情報理工学域",
     "professor": "DermotLonergan",
     "semester": "後学期",
     "grade": "3",
@@ -8119,7 +7217,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I22）",
-    "major": "情報理工学域",
     "professor": "MikhailAlicChuaGo",
     "semester": "後学期",
     "grade": "3",
@@ -8128,7 +7225,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E32）",
-    "major": "情報理工学域",
     "professor": "唐琳",
     "semester": "後学期",
     "grade": "3",
@@ -8137,7 +7233,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E31）",
-    "major": "情報理工学域",
     "professor": "HeleneKarmaYim",
     "semester": "後学期",
     "grade": "3",
@@ -8146,7 +7241,6 @@
   },
   {
     "name": "光通信工学（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "來住直人",
     "semester": "後学期",
     "grade": "3",
@@ -8155,7 +7249,6 @@
   },
   {
     "name": "光通信工学（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "來住直人",
     "semester": "後学期",
     "grade": "3",
@@ -8164,7 +7257,6 @@
   },
   {
     "name": "選択独語第二",
-    "major": "情報理工学域",
     "professor": "中橋誠",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8173,7 +7265,6 @@
   },
   {
     "name": "選択独語第二",
-    "major": "情報理工学域",
     "professor": "浜田郷史",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8182,7 +7273,6 @@
   },
   {
     "name": "選択仏語第二",
-    "major": "情報理工学域",
     "professor": "八木橋久実子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8191,7 +7281,6 @@
   },
   {
     "name": "選択露語第二",
-    "major": "情報理工学域",
     "professor": "金沢友緒",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8200,7 +7289,6 @@
   },
   {
     "name": "選択中国語第二",
-    "major": "情報理工学域",
     "professor": "小野響",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8209,7 +7297,6 @@
   },
   {
     "name": "選択中国語第二",
-    "major": "情報理工学域",
     "professor": "李偉",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8218,7 +7305,6 @@
   },
   {
     "name": "選択中国語第二",
-    "major": "情報理工学域",
     "professor": "千葉偉一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8227,7 +7313,6 @@
   },
   {
     "name": "選択韓国朝鮮語第二",
-    "major": "情報理工学域",
     "professor": "姜勝薫",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8236,7 +7321,6 @@
   },
   {
     "name": "Advanced Communication Engineering and Informatics Ⅲ（Computational Complexity）（学域）",
-    "major": "Ⅰ類/Ⅱ類",
     "professor": "垂井淳",
     "semester": "後学期",
     "grade": "3/4",
@@ -8245,7 +7329,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E26）",
-    "major": "情報理工学域",
     "professor": "DermotLonergan",
     "semester": "後学期",
     "grade": "3",
@@ -8254,7 +7337,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E27）",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "後学期",
     "grade": "3",
@@ -8263,7 +7345,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E28）",
-    "major": "情報理工学域",
     "professor": "MikhailAlicChuaGo",
     "semester": "後学期",
     "grade": "3",
@@ -8272,7 +7353,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E29）",
-    "major": "情報理工学域",
     "professor": "唐琳",
     "semester": "後学期",
     "grade": "3",
@@ -8281,7 +7361,6 @@
   },
   {
     "name": "オペレーションズ・リサーチ基礎",
-    "major": "Ⅰ類",
     "professor": "岩﨑敦",
     "semester": "後学期",
     "grade": "2",
@@ -8290,7 +7369,6 @@
   },
   {
     "name": "形式言語理論",
-    "major": "Ⅰ類",
     "professor": "関新之助",
     "semester": "後学期",
     "grade": "2",
@@ -8299,7 +7377,6 @@
   },
   {
     "name": "信頼性工学",
-    "major": "Ⅰ類",
     "professor": "横川慎二",
     "semester": "後学期",
     "grade": "3",
@@ -8308,7 +7385,6 @@
   },
   {
     "name": "数理統計（Mエリア）",
-    "major": "Ⅱ類",
     "professor": "鷲沢嘉一",
     "semester": "後学期",
     "grade": "2",
@@ -8317,7 +7393,6 @@
   },
   {
     "name": "基礎情報通信（情報通信工学プログラム）",
-    "major": "Ⅱ類",
     "professor": "藤井威生",
     "semester": "後学期",
     "grade": "2",
@@ -8326,7 +7401,6 @@
   },
   {
     "name": "基礎電子工学（電子情報学プログラム）",
-    "major": "Ⅱ類",
     "professor": "内田和男",
     "semester": "後学期",
     "grade": "2",
@@ -8335,7 +7409,6 @@
   },
   {
     "name": "暗号理論",
-    "major": "Ⅱ類",
     "professor": "岩本貢",
     "semester": "後学期",
     "grade": "3",
@@ -8344,7 +7417,6 @@
   },
   {
     "name": "線形システム理論",
-    "major": "Ⅱ類",
     "professor": "小田弘",
     "semester": "後学期",
     "grade": "3",
@@ -8353,7 +7425,6 @@
   },
   {
     "name": "プログラミング演習（クラスA）",
-    "major": "Ⅲ類",
     "professor": "結城宏信",
     "semester": "後学期",
     "grade": "2",
@@ -8362,7 +7433,6 @@
   },
   {
     "name": "プログラミング演習（クラスB）",
-    "major": "Ⅲ類",
     "professor": "遠藤晋平",
     "semester": "後学期",
     "grade": "2",
@@ -8371,7 +7441,6 @@
   },
   {
     "name": "半導体工学",
-    "major": "Ⅲ類",
     "professor": "奥野剛史",
     "semester": "後学期",
     "grade": "3",
@@ -8380,7 +7449,6 @@
   },
   {
     "name": "有機化学第二",
-    "major": "Ⅲ類",
     "professor": "牧昌次郎",
     "semester": "後学期",
     "grade": "3",
@@ -8389,7 +7457,6 @@
   },
   {
     "name": "メディア情報学実験",
-    "major": "Ⅰ類",
     "professor": "小泉・坂本・高木・橋本・若月・庄野・柳井・（世話人）野嶋",
     "semester": "後学期",
     "grade": "3",
@@ -8398,7 +7465,6 @@
   },
   {
     "name": "健康・体力つくり実習",
-    "major": "情報理工学域",
     "professor": "岡田（英）・○今野・○服部・○小泉",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8407,7 +7473,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E37）",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "後学期",
     "grade": "3",
@@ -8416,7 +7481,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E38）",
-    "major": "情報理工学域",
     "professor": "DermotLonergan",
     "semester": "後学期",
     "grade": "3",
@@ -8425,7 +7489,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E39）",
-    "major": "情報理工学域",
     "professor": "橋本信一",
     "semester": "後学期",
     "grade": "3",
@@ -8434,7 +7497,6 @@
   },
   {
     "name": "線形代数学第二（クラス１）",
-    "major": "情報理工学域",
     "professor": "陸名雄一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8443,7 +7505,6 @@
   },
   {
     "name": "線形代数学第二（クラス２）",
-    "major": "情報理工学域",
     "professor": "三好啓也",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8452,7 +7513,6 @@
   },
   {
     "name": "解析学（クラス９）",
-    "major": "情報理工学域",
     "professor": "伊東裕也",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8461,7 +7521,6 @@
   },
   {
     "name": "解析学（クラス１０）",
-    "major": "情報理工学域",
     "professor": "石田晴久",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8470,7 +7529,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（クラス７）",
-    "major": "情報理工学域",
     "professor": "稲葉通将",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8479,7 +7537,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（クラス８）",
-    "major": "情報理工学域",
     "professor": "本多弘樹",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8488,7 +7545,6 @@
   },
   {
     "name": "オペレーションズ・リサーチ基礎",
-    "major": "Ⅰ類",
     "professor": "○由良憲二",
     "semester": "後学期",
     "grade": "2",
@@ -8497,7 +7553,6 @@
   },
   {
     "name": "応用数学第一",
-    "major": "Ⅰ類",
     "professor": "梶本裕之",
     "semester": "後学期",
     "grade": "2",
@@ -8506,7 +7561,6 @@
   },
   {
     "name": "オペレーションズ・リサーチ第二",
-    "major": "Ⅰ類",
     "professor": "岩﨑敦",
     "semester": "後学期",
     "grade": "3",
@@ -8515,7 +7569,6 @@
   },
   {
     "name": "計算理論",
-    "major": "Ⅰ類",
     "professor": "垂井・武永",
     "semester": "後学期",
     "grade": "3",
@@ -8524,7 +7577,6 @@
   },
   {
     "name": "通信システム学",
-    "major": "Ⅱ類",
     "professor": "石橋功至",
     "semester": "後学期",
     "grade": "3",
@@ -8533,7 +7585,6 @@
   },
   {
     "name": "光電子材料学",
-    "major": "Ⅲ類",
     "professor": "山口浩一",
     "semester": "後学期",
     "grade": "3",
@@ -8542,7 +7593,6 @@
   },
   {
     "name": "量子エレクトロニクス",
-    "major": "Ⅲ類",
     "professor": "張贇",
     "semester": "後学期",
     "grade": "3",
@@ -8551,7 +7601,6 @@
   },
   {
     "name": "Experimental Electronics Laboratory（学域）",
-    "major": "Ⅲ類",
     "professor": "岸本・Nayak",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -8560,7 +7609,6 @@
   },
   {
     "name": "機械力学および演習（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "田中一男",
     "semester": "後学期",
     "grade": "2",
@@ -8569,7 +7617,6 @@
   },
   {
     "name": "材料力学および演習（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "松村隆",
     "semester": "後学期",
     "grade": "2",
@@ -8578,7 +7625,6 @@
   },
   {
     "name": "機械力学および演習（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "田中一男",
     "semester": "後学期",
     "grade": "2",
@@ -8587,7 +7633,6 @@
   },
   {
     "name": "材料力学および演習（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "松村隆",
     "semester": "後学期",
     "grade": "2",
@@ -8596,7 +7641,6 @@
   },
   {
     "name": "理工学基礎実験",
-    "major": "Ⅲ類",
     "professor": "奥野・大饗・水柿・坂本・桂川・岸本・Nayak・*落合・*小林・*早川",
     "semester": "後学期",
     "grade": "2",
@@ -8605,7 +7649,6 @@
   },
   {
     "name": "健康・体力つくり実習",
-    "major": "情報理工学域",
     "professor": "岡田（英）・○今野・○服部・○小泉",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8614,7 +7657,6 @@
   },
   {
     "name": "国際文化論",
-    "major": "情報理工学域",
     "professor": "小野響",
     "semester": "後学期",
     "grade": "3/4",
@@ -8623,7 +7665,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I23）",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "後学期",
     "grade": "3",
@@ -8632,7 +7673,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I24）",
-    "major": "情報理工学域",
     "professor": "橋本信一",
     "semester": "後学期",
     "grade": "3",
@@ -8641,7 +7681,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I25）",
-    "major": "情報理工学域",
     "professor": "于燕（YuYan）",
     "semester": "後学期",
     "grade": "3",
@@ -8650,7 +7689,6 @@
   },
   {
     "name": "線形代数学第二（クラス９）",
-    "major": "情報理工学域",
     "professor": "三好啓也",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8659,7 +7697,6 @@
   },
   {
     "name": "線形代数学第二（クラス１０）",
-    "major": "情報理工学域",
     "professor": "陸名雄一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8668,7 +7705,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（クラス１）",
-    "major": "情報理工学域",
     "professor": "織田健",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8677,7 +7713,6 @@
   },
   {
     "name": "基礎プログラミングおよび演習（クラス２）",
-    "major": "情報理工学域",
     "professor": "兼岩憲",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8686,7 +7721,6 @@
   },
   {
     "name": "情報領域演習第三（２クラス）",
-    "major": "Ⅰ類",
     "professor": "赤池英夫",
     "semester": "後学期",
     "grade": "2",
@@ -8695,7 +7729,6 @@
   },
   {
     "name": "情報領域演習第三（３クラス）",
-    "major": "Ⅰ類",
     "professor": "三重野琢也",
     "semester": "後学期",
     "grade": "2",
@@ -8704,7 +7737,6 @@
   },
   {
     "name": "アルゴリズム論第一（１クラス）",
-    "major": "Ⅰ類",
     "professor": "庄野逸",
     "semester": "後学期",
     "grade": "2",
@@ -8713,7 +7745,6 @@
   },
   {
     "name": "基礎演習Ｂ",
-    "major": "Ⅱ類",
     "professor": "和田・鈴木(淳)",
     "semester": "後学期",
     "grade": "2",
@@ -8722,7 +7753,6 @@
   },
   {
     "name": "電磁気学第一",
-    "major": "Ⅱ類",
     "professor": "肖鳳超",
     "semester": "後学期",
     "grade": "2",
@@ -8731,7 +7761,6 @@
   },
   {
     "name": "生体システム工学（Ⅱ類）（M科）",
-    "major": "Ⅱ類",
     "professor": "小池卓二",
     "semester": "後学期",
     "grade": "3",
@@ -8740,7 +7769,6 @@
   },
   {
     "name": "生体システム工学（Ⅲ類）（S科）",
-    "major": "Ⅲ類",
     "professor": "小池卓二",
     "semester": "後学期",
     "grade": "3",
@@ -8749,7 +7777,6 @@
   },
   {
     "name": "熱・統計物理学応用",
-    "major": "Ⅲ類",
     "professor": "佐々木成朗",
     "semester": "後学期",
     "grade": "3",
@@ -8758,7 +7785,6 @@
   },
   {
     "name": "熱・統計物理学応用",
-    "major": "Ⅲ類",
     "professor": "長谷川景郁",
     "semester": "後学期",
     "grade": "3",
@@ -8767,7 +7793,6 @@
   },
   {
     "name": "選択独語第二",
-    "major": "情報理工学域",
     "professor": "中橋誠",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8776,7 +7801,6 @@
   },
   {
     "name": "選択中国語第二",
-    "major": "情報理工学域",
     "professor": "小野響",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8785,7 +7809,6 @@
   },
   {
     "name": "地域文化論",
-    "major": "情報理工学域",
     "professor": "金沢友緒",
     "semester": "後学期",
     "grade": "3/4",
@@ -8794,7 +7817,6 @@
   },
   {
     "name": "メンタルヘルス論",
-    "major": "情報理工学域",
     "professor": "栃木衛",
     "semester": "後学期",
     "grade": "3/4",
@@ -8803,7 +7825,6 @@
   },
   {
     "name": "日本語読解法",
-    "major": "情報理工学域",
     "professor": "栗田岳",
     "semester": "後学期",
     "grade": "3/4",
@@ -8812,7 +7833,6 @@
   },
   {
     "name": "Topics in Mechanical and Intelligent Systems Engineering Ⅱ（The human brain as intelligent machines）（学域）",
-    "major": "Ⅱ類/Ⅲ類",
     "professor": "宮脇陽一",
     "semester": "後学期",
     "grade": "3/4",
@@ -8821,7 +7841,6 @@
   },
   {
     "name": "学域特別講義B（日本音楽出版社協会寄附講座）",
-    "major": "情報理工学域",
     "professor": "渡邉恵理子・鈴木勝",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8830,7 +7849,6 @@
   },
   {
     "name": "イノベイティブ総合コミュニケーションデザイン２",
-    "major": "情報理工学域",
     "professor": "山田祥之",
     "semester": "後学期",
     "grade": "3",
@@ -8839,7 +7857,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（再履2_ICT）",
-    "major": "情報理工学域",
     "professor": "于・史",
     "semester": "後学期",
     "grade": "3/4",
@@ -8848,7 +7865,6 @@
   },
   {
     "name": "化学概論第二",
-    "major": "情報理工学域",
     "professor": "加固昌寛",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8857,7 +7873,6 @@
   },
   {
     "name": "基礎物理学演習第二",
-    "major": "情報理工学域",
     "professor": "中井日佐司",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8866,7 +7881,6 @@
   },
   {
     "name": "数理統計（Ｉエリア）",
-    "major": "Ⅱ類",
     "professor": "鈴木淳",
     "semester": "後学期",
     "grade": "2",
@@ -8875,7 +7889,6 @@
   },
   {
     "name": "プログラミング演習（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "秋田学",
     "semester": "後学期",
     "grade": "2",
@@ -8884,7 +7897,6 @@
   },
   {
     "name": "教職実践演習（Ａ１・Ｂ１・Ｃ）",
-    "major": "情報理工学域",
     "professor": "武石・中山・○赤澤・○山口・○井上",
     "semester": "後学期",
     "grade": "4",
@@ -8893,7 +7905,6 @@
   },
   {
     "name": "教職実践演習（Ａ２・Ｂ１・Ｃ）",
-    "major": "情報理工学域",
     "professor": "武石・中山・○赤澤・○山口・○井上",
     "semester": "後学期",
     "grade": "4",
@@ -8902,7 +7913,6 @@
   },
   {
     "name": "教職実践演習（Ａ１・Ｂ２・Ｃ）",
-    "major": "情報理工学域",
     "professor": "武石・中山・○赤澤・○山口・○井上",
     "semester": "後学期",
     "grade": "4",
@@ -8911,7 +7921,6 @@
   },
   {
     "name": "教職実践演習（Ａ２・Ｂ２・Ｃ）",
-    "major": "情報理工学域",
     "professor": "武石・中山・○赤澤・○山口・○井上",
     "semester": "後学期",
     "grade": "4",
@@ -8920,7 +7929,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金1・F）",
-    "major": "情報理工学域",
     "professor": "JoshiRatalaDineshPrasad",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8929,7 +7937,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金1・A）",
-    "major": "情報理工学域",
     "professor": "AtsukoMarieJeffreys",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8938,7 +7945,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金1・B）",
-    "major": "情報理工学域",
     "professor": "NeilConway",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8947,7 +7953,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金1・C）",
-    "major": "情報理工学域",
     "professor": "田中智子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8956,7 +7961,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金1・D）",
-    "major": "情報理工学域",
     "professor": "HIGUCHISONIA",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8965,7 +7969,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金1・E）",
-    "major": "情報理工学域",
     "professor": "ScottMclellan",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8974,7 +7977,6 @@
   },
   {
     "name": "線形代数学第二（クラス４）",
-    "major": "情報理工学域",
     "professor": "中井洋史",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8983,7 +7985,6 @@
   },
   {
     "name": "解析学（クラス１１）",
-    "major": "情報理工学域",
     "professor": "池田和正",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -8992,7 +7993,6 @@
   },
   {
     "name": "解析学（クラス１２）",
-    "major": "情報理工学域",
     "professor": "加治佐博幸",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9001,7 +8001,6 @@
   },
   {
     "name": "基礎物理学演習第二",
-    "major": "情報理工学域",
     "professor": "濱野哲子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9010,7 +8009,6 @@
   },
   {
     "name": "統計学",
-    "major": "Ⅰ類",
     "professor": "加藤省吾",
     "semester": "後学期",
     "grade": "2",
@@ -9019,7 +8017,6 @@
   },
   {
     "name": "応用数学第一",
-    "major": "Ⅰ類",
     "professor": "西山悠",
     "semester": "後学期",
     "grade": "2",
@@ -9028,7 +8025,6 @@
   },
   {
     "name": "コンピュータグラフィックス",
-    "major": "Ⅰ類",
     "professor": "成見哲",
     "semester": "後学期",
     "grade": "3",
@@ -9037,7 +8033,6 @@
   },
   {
     "name": "計算機工学（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "遠藤幸一",
     "semester": "後学期",
     "grade": "2",
@@ -9046,7 +8041,6 @@
   },
   {
     "name": "材料工学（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "松村隆",
     "semester": "後学期",
     "grade": "3",
@@ -9055,7 +8049,6 @@
   },
   {
     "name": "計算機工学（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "遠藤幸一",
     "semester": "後学期",
     "grade": "2",
@@ -9064,7 +8057,6 @@
   },
   {
     "name": "材料工学（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "松村隆",
     "semester": "後学期",
     "grade": "3",
@@ -9073,7 +8065,6 @@
   },
   {
     "name": "熱・統計物理学基礎",
-    "major": "Ⅲ類",
     "professor": "尾関之康",
     "semester": "後学期",
     "grade": "3",
@@ -9082,7 +8073,6 @@
   },
   {
     "name": "アルゴリズムとデータ構造およびプログラミング演習",
-    "major": "Ⅱ類",
     "professor": "小川朋宏",
     "semester": "後学期",
     "grade": "2",
@@ -9091,7 +8081,6 @@
   },
   {
     "name": "アルゴリズムとデータ構造およびプログラミング演習",
-    "major": "Ⅱ類",
     "professor": "WANGYUNTAO",
     "semester": "後学期",
     "grade": "2",
@@ -9100,7 +8089,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金2・F）",
-    "major": "情報理工学域",
     "professor": "中田真巳子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9109,7 +8097,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金2・A）",
-    "major": "情報理工学域",
     "professor": "ScottMclellan",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9118,7 +8105,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金2・E）",
-    "major": "情報理工学域",
     "professor": "MikhailAlicChuaGo",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9127,7 +8113,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金2・C）",
-    "major": "情報理工学域",
     "professor": "HIGUCHISONIA",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9136,7 +8121,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金2・D）",
-    "major": "情報理工学域",
     "professor": "田中智子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9145,7 +8129,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金2・B）",
-    "major": "情報理工学域",
     "professor": "上原寿和子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9154,7 +8137,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I15）",
-    "major": "情報理工学域",
     "professor": "唐琳",
     "semester": "後学期",
     "grade": "3",
@@ -9163,7 +8145,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I16）",
-    "major": "情報理工学域",
     "professor": "EugeneHayfordAddo",
     "semester": "後学期",
     "grade": "3",
@@ -9172,7 +8153,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I17）",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "後学期",
     "grade": "3",
@@ -9181,7 +8161,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I18）",
-    "major": "情報理工学域",
     "professor": "高坂洋史",
     "semester": "後学期",
     "grade": "3",
@@ -9190,7 +8169,6 @@
   },
   {
     "name": "微分積分学第二（クラス１）",
-    "major": "情報理工学域",
     "professor": "国定亮一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9199,7 +8177,6 @@
   },
   {
     "name": "微分積分学第二（クラス２）",
-    "major": "情報理工学域",
     "professor": "天野友之",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9208,7 +8185,6 @@
   },
   {
     "name": "線形代数学第二（クラス３）",
-    "major": "情報理工学域",
     "professor": "中井洋史",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9217,7 +8193,6 @@
   },
   {
     "name": "線形代数学第二（クラス７）",
-    "major": "情報理工学域",
     "professor": "阪口豊",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9226,7 +8201,6 @@
   },
   {
     "name": "線形代数学第二（クラス１２）",
-    "major": "情報理工学域",
     "professor": "齋藤平和",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9235,7 +8209,6 @@
   },
   {
     "name": "解析学（クラス5）",
-    "major": "情報理工学域",
     "professor": "羽賀淳一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9244,7 +8217,6 @@
   },
   {
     "name": "解析学（クラス６）",
-    "major": "情報理工学域",
     "professor": "池田和正",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9253,7 +8225,6 @@
   },
   {
     "name": "解析学（クラス８）",
-    "major": "情報理工学域",
     "professor": "加治佐博幸",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9262,7 +8233,6 @@
   },
   {
     "name": "コンピュータ設計論",
-    "major": "Ⅰ類",
     "professor": "吉永努",
     "semester": "後学期",
     "grade": "2",
@@ -9271,7 +8241,6 @@
   },
   {
     "name": "数値計算",
-    "major": "Ⅰ類",
     "professor": "山﨑匡",
     "semester": "後学期",
     "grade": "2",
@@ -9280,7 +8249,6 @@
   },
   {
     "name": "品質管理第二",
-    "major": "Ⅰ類",
     "professor": "金・山本(渉)",
     "semester": "後学期",
     "grade": "3",
@@ -9289,7 +8257,6 @@
   },
   {
     "name": "知能ロボット工学（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "田中一男",
     "semester": "後学期",
     "grade": "3",
@@ -9298,7 +8265,6 @@
   },
   {
     "name": "基礎電子回路（クラスC）",
-    "major": "Ⅲ類",
     "professor": "沈青",
     "semester": "後学期",
     "grade": "2",
@@ -9307,7 +8273,6 @@
   },
   {
     "name": "波動と光（クラスB）",
-    "major": "Ⅲ類",
     "professor": "山口浩一",
     "semester": "後学期",
     "grade": "2",
@@ -9316,7 +8281,6 @@
   },
   {
     "name": "知能ロボット工学（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "田中一男",
     "semester": "後学期",
     "grade": "3",
@@ -9325,7 +8289,6 @@
   },
   {
     "name": "電子回路学",
-    "major": "Ⅲ類",
     "professor": "志賀智一",
     "semester": "後学期",
     "grade": "3",
@@ -9334,7 +8297,6 @@
   },
   {
     "name": "線形システム理論",
-    "major": "Ⅲ類",
     "professor": "曽我部東馬",
     "semester": "後学期",
     "grade": "3",
@@ -9343,7 +8305,6 @@
   },
   {
     "name": "機械力学および演習（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "小池卓二",
     "semester": "後学期",
     "grade": "2",
@@ -9352,7 +8313,6 @@
   },
   {
     "name": "材料力学および演習（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "久保木孝",
     "semester": "後学期",
     "grade": "2",
@@ -9361,7 +8321,6 @@
   },
   {
     "name": "情報通信工学実験Ｂ１",
-    "major": "Ⅱ類",
     "professor": "木寺正平",
     "semester": "後学期",
     "grade": "3",
@@ -9370,7 +8329,6 @@
   },
   {
     "name": "電子情報学実験Ｂ１",
-    "major": "Ⅱ類",
     "professor": "木寺正平",
     "semester": "後学期",
     "grade": "3",
@@ -9379,7 +8337,6 @@
   },
   {
     "name": "電磁気学および演習（クラスD）",
-    "major": "Ⅲ類",
     "professor": "森永実",
     "semester": "後学期",
     "grade": "2",
@@ -9388,7 +8345,6 @@
   },
   {
     "name": "機械力学および演習（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "小池卓二",
     "semester": "後学期",
     "grade": "2",
@@ -9397,7 +8353,6 @@
   },
   {
     "name": "材料力学および演習（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "久保木孝",
     "semester": "後学期",
     "grade": "2",
@@ -9406,7 +8361,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金3・C）",
-    "major": "情報理工学域",
     "professor": "上原寿和子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9415,7 +8369,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金3・D）",
-    "major": "情報理工学域",
     "professor": "JosephRobertTabolt",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9424,7 +8377,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金3・E）",
-    "major": "情報理工学域",
     "professor": "田中智子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9433,7 +8385,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金3・F）",
-    "major": "情報理工学域",
     "professor": "ScottMclellan",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9442,7 +8393,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金3・B）",
-    "major": "情報理工学域",
     "professor": "中田真巳子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9451,7 +8401,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金3・A）",
-    "major": "情報理工学域",
     "professor": "JoshiRatalaDineshPrasad",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9460,7 +8409,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金3・G）",
-    "major": "情報理工学域",
     "professor": "HIGUCHISONIA",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9469,7 +8417,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金3・H）",
-    "major": "情報理工学域",
     "professor": "NeilConway",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9478,7 +8425,6 @@
   },
   {
     "name": "健康・体力つくり実習",
-    "major": "情報理工学域",
     "professor": "安藤（創）・狩野・星野・○早川",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9487,7 +8433,6 @@
   },
   {
     "name": "Advanced Communication Engineering and Informatics Ⅳ（Computer Algorithms）（学域）",
-    "major": "Ⅰ類/Ⅱ類",
     "professor": "小林聡",
     "semester": "後学期",
     "grade": "3/4",
@@ -9496,7 +8441,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I12）",
-    "major": "情報理工学域",
     "professor": "唐琳",
     "semester": "後学期",
     "grade": "3",
@@ -9505,7 +8449,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I11）",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "後学期",
     "grade": "3",
@@ -9514,7 +8457,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I13）",
-    "major": "情報理工学域",
     "professor": "EugeneHayfordAddo",
     "semester": "後学期",
     "grade": "3",
@@ -9523,7 +8465,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（I14）",
-    "major": "情報理工学域",
     "professor": "高坂洋史",
     "semester": "後学期",
     "grade": "3",
@@ -9532,7 +8473,6 @@
   },
   {
     "name": "微分積分学第二（クラス８）",
-    "major": "情報理工学域",
     "professor": "国定亮一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9541,7 +8481,6 @@
   },
   {
     "name": "解析学（クラス７）",
-    "major": "情報理工学域",
     "professor": "羽賀淳一",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9550,7 +8489,6 @@
   },
   {
     "name": "コンピュータ設計論",
-    "major": "Ⅰ類",
     "professor": "策力木格",
     "semester": "後学期",
     "grade": "2",
@@ -9559,7 +8497,6 @@
   },
   {
     "name": "メディア情報学プログラミング演習",
-    "major": "Ⅰ類",
     "professor": "柳井啓司",
     "semester": "後学期",
     "grade": "2",
@@ -9568,7 +8505,6 @@
   },
   {
     "name": "基礎電子工学（情報通信工学プログラム）",
-    "major": "Ⅱ類",
     "professor": "内田和男",
     "semester": "後学期",
     "grade": "2",
@@ -9577,7 +8513,6 @@
   },
   {
     "name": "情報通信と符号化（電子情報学プログラム）",
-    "major": "Ⅱ類",
     "professor": "石橋功至",
     "semester": "後学期",
     "grade": "2",
@@ -9586,7 +8521,6 @@
   },
   {
     "name": "量子エレクトロニクス",
-    "major": "Ⅲ類",
     "professor": "清水亮介",
     "semester": "後学期",
     "grade": "3",
@@ -9595,7 +8529,6 @@
   },
   {
     "name": "システム生物学",
-    "major": "Ⅲ類",
     "professor": "三瓶・田仲・中根",
     "semester": "後学期",
     "grade": "3",
@@ -9604,7 +8537,6 @@
   },
   {
     "name": "メカトロニクス基礎実験Ｂ",
-    "major": "Ⅱ類",
     "professor": "篠原・舩戸・＊梶川（竜）・杉・田中（基）・新竹・佐藤（俊）・東郷・金森・松村ほか",
     "semester": "後学期",
     "grade": "3",
@@ -9613,7 +8545,6 @@
   },
   {
     "name": "知能機械工学基礎実験第二",
-    "major": "Ⅲ類",
     "professor": "篠原・舩戸・＊梶川（竜）・杉・田中（基）・新竹・佐藤（俊）・東郷・金森・松村ほか",
     "semester": "後学期",
     "grade": "3",
@@ -9622,7 +8553,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金4・B）",
-    "major": "情報理工学域",
     "professor": "NeilConway",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9631,7 +8561,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金4・C）",
-    "major": "情報理工学域",
     "professor": "JosephRobertTabolt",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9640,7 +8569,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金4・A）",
-    "major": "情報理工学域",
     "professor": "DanielGeorgeDusza",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9649,7 +8577,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金4・F）",
-    "major": "情報理工学域",
     "professor": "JoshiRatalaDineshPrasad",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9658,7 +8585,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金4・D）",
-    "major": "情報理工学域",
     "professor": "上原寿和子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9667,7 +8593,6 @@
   },
   {
     "name": "Academic Written English Ⅱ（金4・E）",
-    "major": "情報理工学域",
     "professor": "中田真巳子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9676,7 +8601,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "HauserEric",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -9685,7 +8609,6 @@
   },
   {
     "name": "英語演習",
-    "major": "情報理工学域",
     "professor": "大石由紀子",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -9694,7 +8617,6 @@
   },
   {
     "name": "独語運用演習",
-    "major": "情報理工学域",
     "professor": "野内聡",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -9703,7 +8625,6 @@
   },
   {
     "name": "健康・体力つくり実習",
-    "major": "情報理工学域",
     "professor": "安藤（創）・狩野・星野・○早川",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9712,7 +8633,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E36）",
-    "major": "情報理工学域",
     "professor": "高坂洋史",
     "semester": "後学期",
     "grade": "3",
@@ -9721,7 +8641,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E33）",
-    "major": "情報理工学域",
     "professor": "于燕（YuYan）",
     "semester": "後学期",
     "grade": "3",
@@ -9730,7 +8649,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E35）",
-    "major": "情報理工学域",
     "professor": "EugeneHayfordAddo",
     "semester": "後学期",
     "grade": "3",
@@ -9739,7 +8657,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（E34）",
-    "major": "情報理工学域",
     "professor": "RoderickLange",
     "semester": "後学期",
     "grade": "3",
@@ -9748,7 +8665,6 @@
   },
   {
     "name": "微分積分学第二（クラス１１）",
-    "major": "情報理工学域",
     "professor": "石田晴久",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9757,7 +8673,6 @@
   },
   {
     "name": "ソフトウェアセキュリティ",
-    "major": "Ⅱ類",
     "professor": "市野将嗣",
     "semester": "後学期",
     "grade": "3",
@@ -9766,7 +8681,6 @@
   },
   {
     "name": "情報通信工学実験Ｂ２",
-    "major": "Ⅱ類",
     "professor": "木寺正平",
     "semester": "後学期",
     "grade": "3",
@@ -9775,7 +8689,6 @@
   },
   {
     "name": "電子情報学実験Ｂ２",
-    "major": "Ⅱ類",
     "professor": "木寺正平",
     "semester": "後学期",
     "grade": "3",
@@ -9784,7 +8697,6 @@
   },
   {
     "name": "量子力学第二演習",
-    "major": "Ⅲ類",
     "professor": "中村信行",
     "semester": "後学期",
     "grade": "3",
@@ -9793,7 +8705,6 @@
   },
   {
     "name": "化学生命工学演習第二",
-    "major": "Ⅲ類",
     "professor": "石田（尚）・白川（英）・中根",
     "semester": "後学期",
     "grade": "3",
@@ -9802,7 +8713,6 @@
   },
   {
     "name": "選択独語第二",
-    "major": "情報理工学域",
     "professor": "野内聡",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9811,7 +8721,6 @@
   },
   {
     "name": "日本文化Ｂ",
-    "major": "情報理工学域",
     "professor": "中嶋めぐみ",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9820,7 +8729,6 @@
   },
   {
     "name": "現代物理学を創った人々（R6開講なし）",
-    "major": "情報理工学域",
     "professor": "未定",
     "semester": "後学期",
     "grade": "3/4",
@@ -9829,7 +8737,6 @@
   },
   {
     "name": "現代の世界政治",
-    "major": "情報理工学域",
     "professor": "金森俊樹",
     "semester": "後学期",
     "grade": "3/4",
@@ -9838,7 +8745,6 @@
   },
   {
     "name": "倫理学と哲学の間",
-    "major": "情報理工学域",
     "professor": "中野愛理",
     "semester": "後学期",
     "grade": "3/4",
@@ -9847,7 +8753,6 @@
   },
   {
     "name": "学域特別講義B（学研ホールディングス寄附講義）「学研の実例に学ぶビジネスマーケティング論」",
-    "major": "情報理工学域",
     "professor": "○渡辺（悟）・岡田（英）",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9856,7 +8761,6 @@
   },
   {
     "name": "Technical English － Intermediate English for Science（再履1_Engineering）",
-    "major": "情報理工学域",
     "professor": "○Yu・史",
     "semester": "後学期",
     "grade": "3/4",
@@ -9865,7 +8769,6 @@
   },
   {
     "name": "生物学概論（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "白川英樹",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9874,7 +8777,6 @@
   },
   {
     "name": "生徒指導・進路指導論",
-    "major": "情報理工学域",
     "professor": "山口晶子",
     "semester": "後学期",
     "grade": "1/2/3/4",
@@ -9883,7 +8785,6 @@
   },
   {
     "name": "数学科教育法II",
-    "major": "情報理工学域",
     "professor": "○小野・○柴田",
     "semester": "後学期",
     "grade": "2/3/4",
@@ -9892,7 +8793,6 @@
   },
   {
     "name": "アルゴリズムとデータ構造およびプログラミング演習（再履）",
-    "major": "Ⅱ類",
     "professor": "李陽",
     "semester": "後学期",
     "grade": "2",
@@ -9901,7 +8801,6 @@
   },
   {
     "name": "人間と教育（R6開講なし）",
-    "major": "情報理工学域",
     "professor": "未定",
     "semester": "後学期",
     "grade": "3/4",
@@ -9910,7 +8809,6 @@
   },
   {
     "name": "Research Writing（R6開講なし）",
-    "major": "情報理工学域",
     "professor": "未定",
     "semester": "後学期",
     "grade": "3/4",
@@ -9919,7 +8817,6 @@
   },
   {
     "name": "Advanced Reading in Academic English（R6開講なし）",
-    "major": "情報理工学域",
     "professor": "未定",
     "semester": "後学期",
     "grade": "3/4",
@@ -9928,7 +8825,6 @@
   },
   {
     "name": "物理学の発展と最前線（R6開講なし）",
-    "major": "情報理工学域",
     "professor": "未定",
     "semester": "後学期",
     "grade": "3/4",
@@ -9937,7 +8833,6 @@
   },
   {
     "name": "総合コミュニケーション科学（再履）",
-    "major": "情報理工学域",
     "professor": "奥野剛史",
     "semester": "後学期",
     "grade": "2",
@@ -9946,7 +8841,6 @@
   },
   {
     "name": "ハイパフォーマンスコンピューティング",
-    "major": "Ⅰ類",
     "professor": "山本有作",
     "semester": "後学期",
     "grade": "3",
@@ -9955,7 +8849,6 @@
   },
   {
     "name": "輪講B（Ⅰ類）",
-    "major": "Ⅰ類",
     "professor": "小林聡",
     "semester": "後学期",
     "grade": "4",
@@ -9964,7 +8857,6 @@
   },
   {
     "name": "卒業研究B（Ⅰ類）",
-    "major": "Ⅰ類",
     "professor": "小林聡",
     "semester": "後学期",
     "grade": "4",
@@ -9973,7 +8865,6 @@
   },
   {
     "name": "確率統計（再履）",
-    "major": "Ⅱ類",
     "professor": "尚方",
     "semester": "後学期",
     "grade": "2",
@@ -9982,7 +8873,6 @@
   },
   {
     "name": "輪講B（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "野村英之",
     "semester": "後学期",
     "grade": "4",
@@ -9991,7 +8881,6 @@
   },
   {
     "name": "卒業研究B（Ⅱ類）",
-    "major": "Ⅱ類",
     "professor": "野村英之",
     "semester": "後学期",
     "grade": "4",
@@ -10000,7 +8889,6 @@
   },
   {
     "name": "輪講B（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "志賀智一",
     "semester": "後学期",
     "grade": "4",
@@ -10009,7 +8897,6 @@
   },
   {
     "name": "卒業研究B（Ⅲ類）",
-    "major": "Ⅲ類",
     "professor": "志賀智一",
     "semester": "後学期",
     "grade": "4",
@@ -10018,7 +8905,6 @@
   },
   {
     "name": "生涯スポーツ演習Ｄ（スキー集中）",
-    "major": "情報理工学域",
     "professor": "大河原・安藤・岡田・狩野・星野・○新井・○布目・○千足・○今野・○佐々木",
     "semester": "後学期集中",
     "grade": "2/3/4",
@@ -10027,7 +8913,6 @@
   },
   {
     "name": "教育と憲法（日本国憲法）（集中）",
-    "major": "情報理工学域",
     "professor": "関畑崇之",
     "semester": "後学期集中",
     "grade": "3/4",
@@ -10036,7 +8921,6 @@
   },
   {
     "name": "海外語学研修Ⅰ（学域）（集中）",
-    "major": "情報理工学域",
     "professor": "安西亮",
     "semester": "後学期集中",
     "grade": "1/2/3",
@@ -10045,7 +8929,6 @@
   },
   {
     "name": "海外語学研修Ⅱ（学域）（集中）",
-    "major": "情報理工学域",
     "professor": "安西亮",
     "semester": "後学期集中",
     "grade": "1/2/3",
@@ -10054,7 +8937,6 @@
   },
   {
     "name": "道徳教育論（集中）",
-    "major": "情報理工学域",
     "professor": "西野真由美",
     "semester": "後学期集中",
     "grade": "1/2/3/4",
@@ -10063,7 +8945,6 @@
   },
   {
     "name": "教育方法・技術論（集中）",
-    "major": "情報理工学域",
     "professor": "福本徹",
     "semester": "後学期集中",
     "grade": "1/2/3/4",
@@ -10072,7 +8953,6 @@
   },
   {
     "name": "教職論B（集中）",
-    "major": "情報理工学域",
     "professor": "○松井・○赤澤",
     "semester": "後学期集中",
     "grade": "1/2/3/4",
@@ -10081,7 +8961,6 @@
   },
   {
     "name": "教育心理学（集中）",
-    "major": "情報理工学域",
     "professor": "青山征彦",
     "semester": "後学期集中",
     "grade": "1/2/3/4",
@@ -10090,7 +8969,6 @@
   },
   {
     "name": "数学科教育法IV（集中）",
-    "major": "情報理工学域",
     "professor": "牧下英世",
     "semester": "後学期集中",
     "grade": "2/3/4",
@@ -10099,7 +8977,6 @@
   },
   {
     "name": "教育とICT活用（集中）",
-    "major": "情報理工学域",
     "professor": "西﨑実穂",
     "semester": "後学期集中",
     "grade": "2/3/4",
@@ -10108,7 +8985,6 @@
   },
   {
     "name": "金融工学（集中）",
-    "major": "Ⅰ類",
     "professor": "内藤颯海",
     "semester": "後学期集中",
     "grade": "3",
@@ -10117,7 +8993,6 @@
   },
   {
     "name": "基礎科学実験A1（春）",
-    "major": "情報理工学域",
     "professor": "大饗・菊池・田島・饗庭・〇吉村・〇須田・*高田",
     "semester": "春ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10126,7 +9001,6 @@
   },
   {
     "name": "基礎科学実験B1（春）",
-    "major": "情報理工学域",
     "professor": "石田尚行",
     "semester": "春ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10135,7 +9009,6 @@
   },
   {
     "name": "エイジングの健康科学",
-    "major": "情報理工学域",
     "professor": "安藤創一",
     "semester": "春ﾀｰﾑ",
     "grade": "3/4",
@@ -10144,7 +9017,6 @@
   },
   {
     "name": "基礎科学実験A1（春）",
-    "major": "情報理工学域",
     "professor": "奥野・松倉・田尻・梶川・〇近藤・〇大石",
     "semester": "春ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10153,7 +9025,6 @@
   },
   {
     "name": "基礎科学実験B1（春）",
-    "major": "情報理工学域",
     "professor": "山北佳宏",
     "semester": "春ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10162,7 +9033,6 @@
   },
   {
     "name": "基礎科学実験A1（再履）（春）",
-    "major": "情報理工学域",
     "professor": "中村（仁）・佐藤（隆）・小久保・○近藤・○大石・○矢野・○小林",
     "semester": "春ﾀｰﾑ",
     "grade": "2/3/4",
@@ -10171,7 +9041,6 @@
   },
   {
     "name": "基礎科学実験A1（春）",
-    "major": "情報理工学域",
     "professor": "中村(信)・溝口・村上・永松・〇富田・〇内田",
     "semester": "春ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10180,7 +9049,6 @@
   },
   {
     "name": "基礎科学実験B1（春）",
-    "major": "情報理工学域",
     "professor": "小林義男",
     "semester": "春ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10189,7 +9057,6 @@
   },
   {
     "name": "基礎科学実験A1（夏）",
-    "major": "情報理工学域",
     "professor": "大饗・菊池・田島・饗庭・〇吉村・〇須田・*高田",
     "semester": "夏ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10198,7 +9065,6 @@
   },
   {
     "name": "基礎科学実験B1（夏）",
-    "major": "情報理工学域",
     "professor": "石田尚行",
     "semester": "夏ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10207,7 +9073,6 @@
   },
   {
     "name": "基礎科学実験A1（夏）",
-    "major": "情報理工学域",
     "professor": "奥野・松倉・田尻・梶川・〇近藤・〇大石",
     "semester": "夏ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10216,7 +9081,6 @@
   },
   {
     "name": "基礎科学実験B1（夏）",
-    "major": "情報理工学域",
     "professor": "山北佳宏",
     "semester": "夏ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10225,7 +9089,6 @@
   },
   {
     "name": "基礎科学実験A2（再履）（夏）",
-    "major": "情報理工学域",
     "professor": "中村（仁）・佐藤（隆）・小久保・○近藤・○大石・○矢野・○小林",
     "semester": "夏ﾀｰﾑ",
     "grade": "2/3/4",
@@ -10234,7 +9097,6 @@
   },
   {
     "name": "基礎科学実験A1（夏）",
-    "major": "情報理工学域",
     "professor": "中村(信)・溝口・村上・永松・〇富田・〇内田",
     "semester": "夏ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10243,7 +9105,6 @@
   },
   {
     "name": "基礎科学実験B1（夏）",
-    "major": "情報理工学域",
     "professor": "小林義男",
     "semester": "夏ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10252,7 +9113,6 @@
   },
   {
     "name": "基礎科学実験A2（秋）",
-    "major": "情報理工学域",
     "professor": "中村(仁)・板倉・横川・饗庭・〇吉村・〇矢野",
     "semester": "秋ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10261,7 +9121,6 @@
   },
   {
     "name": "基礎科学実験B2（秋）",
-    "major": "情報理工学域",
     "professor": "加固昌寛",
     "semester": "秋ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10270,7 +9129,6 @@
   },
   {
     "name": "アカデミックスキルズ（秋）",
-    "major": "情報理工学域",
     "professor": "松木利憲",
     "semester": "秋ﾀｰﾑ",
     "grade": "1",
@@ -10279,7 +9137,6 @@
   },
   {
     "name": "基礎科学実験A2（秋）",
-    "major": "情報理工学域",
     "professor": "伏屋・木村・伊藤(毅)・井上・姜・○近藤・○大石",
     "semester": "秋ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10288,7 +9145,6 @@
   },
   {
     "name": "基礎科学実験B2（秋）",
-    "major": "情報理工学域",
     "professor": "山北佳宏",
     "semester": "秋ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10297,7 +9153,6 @@
   },
   {
     "name": "基礎科学実験A2（秋）",
-    "major": "情報理工学域",
     "professor": "佐々木(成)・菅原・吉田・小久保・〇内田・〇須田",
     "semester": "秋ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10306,7 +9161,6 @@
   },
   {
     "name": "基礎科学実験B2（秋）",
-    "major": "情報理工学域",
     "professor": "小林義男",
     "semester": "秋ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10315,7 +9169,6 @@
   },
   {
     "name": "基礎科学実験A2（冬）",
-    "major": "情報理工学域",
     "professor": "中村(仁)・板倉・横川・饗庭・〇吉村・〇矢野",
     "semester": "冬ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10324,7 +9177,6 @@
   },
   {
     "name": "基礎科学実験B2（冬）",
-    "major": "情報理工学域",
     "professor": "加固昌寛",
     "semester": "冬ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10333,7 +9185,6 @@
   },
   {
     "name": "アカデミックスキルズ（冬）",
-    "major": "情報理工学域",
     "professor": "松木利憲",
     "semester": "冬ﾀｰﾑ",
     "grade": "1",
@@ -10342,7 +9193,6 @@
   },
   {
     "name": "基礎科学実験A2（冬）",
-    "major": "情報理工学域",
     "professor": "伏屋・木村・伊藤(毅)・井上・姜・○近藤・○大石",
     "semester": "冬ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10351,7 +9201,6 @@
   },
   {
     "name": "基礎科学実験B2（冬）",
-    "major": "情報理工学域",
     "professor": "山北佳宏",
     "semester": "冬ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10360,7 +9209,6 @@
   },
   {
     "name": "基礎科学実験A2（冬）",
-    "major": "情報理工学域",
     "professor": "佐々木(成)・菅原・吉田・未定・〇内田・〇須田",
     "semester": "冬ﾀｰﾑ",
     "grade": "1/2/3/4",
@@ -10369,7 +9217,6 @@
   },
   {
     "name": "基礎科学実験B2（冬）",
-    "major": "情報理工学域",
     "professor": "小林義男",
     "semester": "冬ﾀｰﾑ",
     "grade": "1/2/3/4",

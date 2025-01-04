@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:utrack/view/settings_page.dart';
 
 class CustomDrawer extends StatelessWidget {
   final String? userEmail;
@@ -32,6 +33,19 @@ class CustomDrawer extends StatelessWidget {
                 ),
               ],
             ),
+          ),
+          ListTile(
+            leading: const Icon(Icons.settings),
+            title: const Text('設定'),
+            onTap: () {
+              Navigator.pop(context); // ドロワーを閉じる
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const SettingsPage(),
+                ),
+              );
+            },
           ),
           ListTile(
             leading: const Icon(Icons.logout),

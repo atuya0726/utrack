@@ -4,7 +4,7 @@ import 'package:utrack/model/timetable.dart';
 import 'package:utrack/repository/class.dart';
 import 'package:utrack/repository/task.dart';
 import 'package:utrack/repository/user.dart';
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 
 class ClassUsecase {
   final ClassRepository _classRepository;
@@ -35,6 +35,8 @@ class ClassUsecase {
     final filteredClasses = await filterClasses(
       classes: classes,
       grade: null,
+      semester: null,
+      major: null,
       period: period,
       dayOfWeek: dayOfWeek,
     );
@@ -47,16 +49,24 @@ class ClassUsecase {
   Future<List<ClassModel>> filterClasses({
     required List<ClassModel> classes,
     required Grade? grade,
+    required Semester? semester,
+    required Major? major,
     required Period period,
     required Week dayOfWeek,
   }) async {
     return classes.where((element) {
       final matchesGrade =
           grade == null || element.grade.contains(grade.number);
+      final matchesSemester = semester == null || element.semester == semester;
+      final matchesMajor = major == null || element.major == major;
       final matchesPeriod = element.period.contains(period);
       final matchesDay = element.dayOfWeek == dayOfWeek;
 
-      return matchesGrade && matchesPeriod && matchesDay;
+      return matchesGrade &&
+          matchesSemester &&
+          matchesMajor &&
+          matchesPeriod &&
+          matchesDay;
     }).toList();
   }
 

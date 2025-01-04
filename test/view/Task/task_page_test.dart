@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 import 'package:utrack/model/class.dart';
 import 'package:utrack/view/Task/add_task.dart';
 import 'package:utrack/view/Task/list_task.dart';

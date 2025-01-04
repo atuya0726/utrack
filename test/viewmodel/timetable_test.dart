@@ -2,7 +2,7 @@ import 'package:firebase_auth_mocks/firebase_auth_mocks.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 import 'package:utrack/model/class.dart';
 import 'package:utrack/viewmodel/timetable.dart';
 

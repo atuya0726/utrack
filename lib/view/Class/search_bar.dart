@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 import 'package:utrack/viewmodel/class.dart';
 
 class RealTimeSearchBar extends StatefulWidget {

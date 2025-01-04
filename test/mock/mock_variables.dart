@@ -1,4 +1,4 @@
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 import 'package:utrack/model/class.dart';
 import 'package:utrack/model/task.dart';
 

@@ -4,7 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:utrack/view/Class/search_bar.dart';
 import 'package:utrack/viewmodel/class.dart';
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 
 import '../mock/notifier.mocks.dart';
 

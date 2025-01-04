@@ -1,6 +1,6 @@
 import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 import 'package:utrack/model/class.dart';
 import 'package:utrack/view/Class/class_page.dart';
 import 'package:utrack/view/Task/task_page.dart';
@@ -70,14 +70,18 @@ class TimetableCell extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center, // 縦方向で中央に配置
             crossAxisAlignment: CrossAxisAlignment.center, // 横方向で中央に配置
             children: [
-              Text(
-                cls.name,
-                textAlign: TextAlign.center,
-                maxLines: 4,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                  color: Theme.of(context).colorScheme.onPrimaryFixed,
-                  height: 1.0,
+              Expanded(
+                child: Center(
+                  child: Text(
+                    cls.name,
+                    textAlign: TextAlign.center,
+                    maxLines: 4,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      color: Theme.of(context).colorScheme.onPrimaryFixed,
+                      height: 1.0,
+                    ),
+                  ),
                 ),
               ),
               const SizedBox(height: 8.0),

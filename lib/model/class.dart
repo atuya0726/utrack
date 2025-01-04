@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/material.dart';
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 
 class ClassModel {
   // クラスのフィールドを定義
@@ -10,7 +9,8 @@ class ClassModel {
   final String place; // 教室の場所
   final List<Period> period; // 時限 (例: 1, 2, 3...）
   final Week dayOfWeek; // 曜日 (例: "Monday", "Tuesday"...)
-  final String semester; // 学期 ("前期" または "後期")
+  final Semester semester; // 学期
+  final Major major; // 学部
   final List<int> grade; // 開講年次
   final List<String> users;
   bool get isContinuous => period.length > 1; // getter として定義
@@ -24,6 +24,7 @@ class ClassModel {
     required this.period,
     required this.dayOfWeek,
     required this.semester,
+    required this.major,
     required this.grade,
     required this.users,
   }); // isContinuous は不要
@@ -37,7 +38,8 @@ class ClassModel {
       place: '',
       period: [],
       dayOfWeek: Week.mon, // デフォルト値として月曜日を設定
-      semester: '',
+      semester: Semester.first, // デフォルト値として前期を設定
+      major: Major.none,
       grade: [],
       users: [],
     );
@@ -57,7 +59,8 @@ class ClassModel {
       place: data?['place'] ?? '',
       period: PeriodExtension.fromJson((data?['period'] ?? []).cast<int>()),
       dayOfWeek: WeekExtension.fromJson(data?['dayOfWeek'] ?? 0),
-      semester: data?['semester'] ?? '',
+      semester: SemesterExtension.fromLabel(data?['semester'] ?? ''),
+      major: MajorExtension.fromLabel(data?['major'] ?? ''),
       grade: (data?['grade'] ?? []).cast<int>(),
       users: (data?['users'] ?? []).cast<String>(),
     );
@@ -72,6 +75,7 @@ class ClassModel {
       "period": period.map((p) => p.number).toList(),
       "dayOfWeek": dayOfWeek.number,
       "semester": semester,
+      "major": major,
       "grade": grade,
       "users": users,
     };

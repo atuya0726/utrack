@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:utrack/model/task.dart';
 import 'package:utrack/viewmodel/class.dart';
 import 'package:utrack/viewmodel/task.dart';
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 
 class ListTask extends ConsumerStatefulWidget {
   final String? classId;
@@ -29,6 +29,13 @@ class _ListTaskState extends ConsumerState<ListTask> {
   @override
   Widget build(BuildContext context) {
     final taskList = ref.watch(taskProvider);
+    if (ref.watch(taskProvider.notifier).noTask()) {
+      return const Expanded(
+        child: Center(
+          child: Text('タスクがありません'),
+        ),
+      );
+    }
     return Expanded(
       child: Column(
         children: [
@@ -190,56 +197,15 @@ class _ListTaskState extends ConsumerState<ListTask> {
     return TextButton(
       onPressed: () {
         Navigator.pop(context);
-        _showTimeSpentDialog(context, task);
+        ref.read(taskProvider.notifier).updateTaskStatus(
+              taskId: task.id,
+              status: TaskStatus.completed,
+            );
+        ref.read(taskProvider.notifier).filterTasks(
+            classId: widget.classId, status: TaskStatus.inProgress);
       },
       child: const Text('完了'),
     );
-  }
-
-  void _showTimeSpentDialog(BuildContext context, TaskModel task) {
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: const Text('タスクの所要時間を選択してください'),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              ListTile(
-                title: const Text('1時間未満'),
-                onTap: () {
-                  _completeTask(context, task, TimeSpent.lessThanHour);
-                },
-              ),
-              ListTile(
-                title: const Text('1~4時間'),
-                onTap: () {
-                  _completeTask(context, task, TimeSpent.oneToFour);
-                },
-              ),
-              ListTile(
-                title: const Text('4時間以上'),
-                onTap: () {
-                  _completeTask(context, task, TimeSpent.moreThanFour);
-                },
-              ),
-            ],
-          ),
-        );
-      },
-    );
-  }
-
-  void _completeTask(
-      BuildContext context, TaskModel task, TimeSpent timeSpent) {
-    ref.read(taskProvider.notifier).updateTaskStatus(
-          taskId: task.id,
-          status: TaskStatus.completed,
-        );
-    ref
-        .read(taskProvider.notifier)
-        .filterTasks(classId: widget.classId, status: TaskStatus.inProgress);
-    Navigator.pop(context);
   }
 
   _snackBar(BuildContext context) {

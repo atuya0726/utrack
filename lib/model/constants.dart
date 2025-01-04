@@ -219,32 +219,6 @@ extension TaskTypeExtension on TaskType {
   }
 }
 
-enum TimeSpent {
-  lessThanHour, // 1時間未満
-  oneToFour, // 1-4時間
-  moreThanFour // 4時間以上
-}
-
-extension TimeSpentExtension on TimeSpent {
-  String get label {
-    switch (this) {
-      case TimeSpent.lessThanHour:
-        return '1時間未満';
-      case TimeSpent.oneToFour:
-        return '1-4時間';
-      case TimeSpent.moreThanFour:
-        return '4時間以上';
-    }
-  }
-
-  static TimeSpent fromLabel(String label) {
-    return TimeSpent.values.firstWhere(
-      (timeSpent) => timeSpent.label == label,
-      orElse: () => TimeSpent.lessThanHour,
-    );
-  }
-}
-
 enum TaskStatus {
   canceled,
   expired,
@@ -264,5 +238,75 @@ extension TaskStatusExtension on TaskStatus {
       case TaskStatus.completed:
         return '完了';
     }
+  }
+}
+
+enum Semester {
+  first,
+  second,
+  spring,
+  summer,
+  autumn,
+  winter,
+  other,
+}
+
+extension SemesterExtension on Semester {
+  String get label {
+    switch (this) {
+      case Semester.first:
+        return '前学期';
+      case Semester.second:
+        return '後学期';
+      case Semester.spring:
+        return '春学期';
+      case Semester.summer:
+        return '夏学期';
+      case Semester.autumn:
+        return '秋学期';
+      case Semester.winter:
+        return '冬学期';
+      case Semester.other:
+        return 'その他';
+    }
+  }
+
+  static Semester fromLabel(String label) {
+    return Semester.values.firstWhere(
+      (semester) => semester.label == label,
+      orElse: () => Semester.other,
+    );
+  }
+}
+
+enum Major {
+  first,
+  second,
+  third,
+  none,
+  other,
+}
+
+extension MajorExtension on Major {
+  String get label {
+    switch (this) {
+      case Major.first:
+        return 'Ⅰ類';
+      case Major.second:
+        return 'Ⅱ類';
+      case Major.third:
+        return 'Ⅲ類';
+      case Major.none:
+        return '情報理工学域';
+      case Major.other:
+        return 'その他';
+    }
+  }
+
+  static Major fromLabel(String label) {
+    return Major.values.firstWhere(
+      (major) => major.label == label,
+      orElse: () => Major.other,
+    );
   }
 }

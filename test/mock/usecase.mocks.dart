@@ -7,7 +7,7 @@ import 'dart:async' as _i3;
 
 import 'package:mockito/mockito.dart' as _i1;
 import 'package:mockito/src/dummies.dart' as _i6;
-import 'package:utrack/constants.dart' as _i5;
+import 'package:utrack/model/constants.dart' as _i5;
 import 'package:utrack/model/class.dart' as _i4;
 import 'package:utrack/model/task.dart' as _i9;
 import 'package:utrack/usecase/class_usecase.dart' as _i2;

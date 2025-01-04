@@ -1,5 +1,5 @@
 import 'package:clock/clock.dart';
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 import 'package:utrack/model/task.dart';
 import 'package:utrack/repository/task.dart';
 
@@ -15,13 +15,14 @@ class TaskUsecase {
     return _updateExpiredTasks(tasks);
   }
 
-  Future<List<TaskModel>> addTask({
+  Future<Map<String, List<TaskModel>>> addTask({
     required String userId,
     required String classId,
     required String name,
     required DateTime deadline,
     required HowToSubmit howToSubmit,
     required List<TaskModel> currentTasks,
+    required List<TaskModel> originTasks,
   }) async {
     final task = TaskModel.addTask(
       classId: classId,
@@ -34,7 +35,12 @@ class TaskUsecase {
 
     await _taskRepository.addTask(task: task);
     final updatedTasks = [...currentTasks, task];
-    return _updateExpiredTasks(updatedTasks);
+    final updatedOriginTasks = [...originTasks, task];
+    final result = {
+      "state": _updateExpiredTasks(updatedTasks),
+      "origin": _updateExpiredTasks(updatedOriginTasks),
+    };
+    return result;
   }
 
   Future<Map<String, List<TaskModel>>> deleteTask({
@@ -54,10 +60,11 @@ class TaskUsecase {
     return result;
   }
 
-  Future<List<TaskModel>> updateTaskStatus({
+  Future<Map<String, List<TaskModel>>> updateTaskStatus({
     required String taskId,
     required TaskStatus status,
     required List<TaskModel> currentTasks,
+    required List<TaskModel> originTasks,
   }) async {
     await _taskRepository.updateTaskStatus(
       taskId: taskId,
@@ -71,7 +78,19 @@ class TaskUsecase {
       return task;
     }).toList();
 
-    return _updateExpiredTasks(updatedTasks);
+    final updatedOriginTasks = originTasks.map((task) {
+      if (task.id == taskId) {
+        return task.copyWith(status: status);
+      }
+      return task;
+    }).toList();
+
+    final result = {
+      "state": _updateExpiredTasks(updatedTasks),
+      "origin": _updateExpiredTasks(updatedOriginTasks),
+    };
+
+    return result;
   }
 
   List<TaskModel> _updateExpiredTasks(List<TaskModel> tasks) {

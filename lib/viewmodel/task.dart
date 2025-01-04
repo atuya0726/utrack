@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 import 'package:utrack/model/task.dart';
 import 'package:utrack/usecase/task_usecase.dart';
 
@@ -50,14 +50,17 @@ class TaskNotifier extends StateNotifier<List<TaskModel>> {
     required HowToSubmit howToSubmit,
   }) async {
     await waitForInitialization();
-    state = await taskUsecase.addTask(
+    final result = await taskUsecase.addTask(
       userId: userId,
       classId: classId,
       name: name,
       deadline: deadline,
       howToSubmit: howToSubmit,
       currentTasks: state,
+      originTasks: originTasks,
     );
+    state = result["state"] ?? [];
+    originTasks = result["origin"] ?? [];
   }
 
   Future<void> deleteTask({required String taskId}) async {
@@ -76,11 +79,14 @@ class TaskNotifier extends StateNotifier<List<TaskModel>> {
     required TaskStatus status,
   }) async {
     await waitForInitialization();
-    state = await taskUsecase.updateTaskStatus(
+    final result = await taskUsecase.updateTaskStatus(
       taskId: taskId,
       status: status,
       currentTasks: state,
+      originTasks: originTasks,
     );
+    state = result["state"] ?? [];
+    originTasks = result["origin"] ?? [];
   }
 
   Future<void> filterTasks({String? classId, TaskStatus? status}) async {
@@ -108,5 +114,9 @@ class TaskNotifier extends StateNotifier<List<TaskModel>> {
       dayOfWeek: dayOfWeek,
       period: period,
     );
+  }
+
+  bool noTask() {
+    return originTasks.isEmpty;
   }
 }

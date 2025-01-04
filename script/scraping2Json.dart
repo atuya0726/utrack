@@ -39,6 +39,7 @@ void main() async {
 
     final classData = {
       'name': result[3],
+      'major': result[13].replaceAll(RegExp(r'\s+'), ''),
       'professor': result[14].replaceAll(RegExp(r'\s+'), ''),
       'semester': result[8],
       'grade': result[7].replaceAll(RegExp(r'\s+'), ''),

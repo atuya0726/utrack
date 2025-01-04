@@ -1,4 +1,4 @@
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 import 'package:utrack/model/class.dart';
 
 typedef Timetable = Map<Week, Map<Period, ClassModel?>>;

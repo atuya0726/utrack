@@ -7,7 +7,7 @@ import 'dart:async' as _i5;
 
 import 'package:cloud_firestore/cloud_firestore.dart' as _i2;
 import 'package:mockito/mockito.dart' as _i1;
-import 'package:utrack/constants.dart' as _i10;
+import 'package:utrack/model/constants.dart' as _i10;
 import 'package:utrack/model/class.dart' as _i4;
 import 'package:utrack/model/task.dart' as _i9;
 import 'package:utrack/model/user.dart' as _i7;

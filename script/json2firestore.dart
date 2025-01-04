@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:dart_firebase_admin/dart_firebase_admin.dart';
 import 'package:dart_firebase_admin/firestore.dart';
-import 'package:utrack/constants.dart';
+import 'package:utrack/model/constants.dart';
 
 // データ処理用の関数
 List<Map<String, dynamic>> processClassData(List<dynamic> jsonData) {
@@ -24,6 +24,7 @@ List<Map<String, dynamic>> processClassData(List<dynamic> jsonData) {
       'semester': classData['semester'],
       'grade': grades,
       'period': periodInfo['period'],
+      'major': classData['major'],
       'dayOfWeek': periodInfo['week'],
       'place': '',
       'users': [],
@@ -44,7 +45,7 @@ Future<void> uploadToFirestore(List<Map<String, dynamic>> processedData) async {
 
   try {
     final firestore = Firestore(admin);
-    final classesRef = firestore.collection('classes/uec/2024');
+    final classesRef = firestore.collection('uec/2024/classes');
     final futures = <Future>[];
 
     for (final data in processedData) {

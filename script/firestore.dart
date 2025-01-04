@@ -12,7 +12,8 @@ Future<void> addClass(Map<String, dynamic> data, String year) async {
   );
 
   final firestore = Firestore(admin);
-  final collection = firestore.collection('classes/uec/$year');
+  final collection = firestore.collection('uec/$year/classes');
+  print('uec/$year/classes にデータを追加します');
 
   await collection.doc().set(data);
 

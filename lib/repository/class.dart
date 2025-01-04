@@ -7,7 +7,7 @@ class ClassRepository {
   late final CollectionReference<ClassModel> docRef;
 
   ClassRepository() {
-    docRef = _firestore.collection('classes/uec/2024').withConverter(
+    docRef = _firestore.collection('uec/2024/classes').withConverter(
           fromFirestore: ClassModel.fromFirestore,
           toFirestore: (ClassModel cls, options) => cls.toFirestore(),
         );
@@ -29,6 +29,9 @@ class ClassRepository {
   Future<List<ClassModel>> fetchClassesByIds({
     required List<String> classIds,
   }) async {
+    if (classIds.isEmpty) {
+      return [];
+    }
     final querySnapshot =
         await docRef.where(FieldPath.documentId, whereIn: classIds).get();
     return querySnapshot.docs.map((doc) => doc.data()).toList();
