@@ -53,17 +53,17 @@ class DefaultFirebaseOptions {
   static FirebaseOptions android = FirebaseOptions(
     apiKey: dotenv.env['FIREBASE_API_KEY_ANDROID']!,
     appId: dotenv.env['FIREBASE_APP_ID_ANDROID']!,
-    messagingSenderId: '619931495891',
-    projectId: 'utrack-dev',
-    storageBucket: 'utrack-dev.firebasestorage.app',
+    messagingSenderId: dotenv.env['FIREBASE_SENDER_ID']!,
+    projectId: dotenv.env['FIREBASE_ENV']!,
+    storageBucket: '${dotenv.env['FIREBASE_ENV']}.firebasestorage.app',
   );
 
   static FirebaseOptions ios = FirebaseOptions(
     apiKey: dotenv.env['FIREBASE_API_KEY_IOS']!,
     appId: dotenv.env['FIREBASE_APP_ID_IOS']!,
-    messagingSenderId: '619931495891',
-    projectId: 'utrack-dev',
-    storageBucket: 'utrack-dev.firebasestorage.app',
+    messagingSenderId: dotenv.env['FIREBASE_SENDER_ID']!,
+    projectId: dotenv.env['FIREBASE_ENV']!,
+    storageBucket: '${dotenv.env['FIREBASE_ENV']}.firebasestorage.app',
     iosBundleId: 'com.nagasunari.utrack',
   );
 }
