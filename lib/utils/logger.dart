@@ -12,13 +12,15 @@ class Logger {
     }
   }
 
-  static void error(String message, {Object? error, StackTrace? stackTrace}) {
+  static void error(String message,
+      {Object? error, StackTrace? stackTrace, String? tag}) {
     if (kReleaseMode) {
       // FirebaseCrashlytics.instance.recordError(error, stackTrace);
     } else {
-      debugPrint('ERROR: $message');
-      if (error != null) debugPrint(error.toString());
-      if (stackTrace != null) debugPrint(stackTrace.toString());
+      debugPrint('[$tag] ERROR: $message');
+      if (error != null)
+        debugPrint('[$tag] Error details: ${error.toString()}');
+      if (stackTrace != null) debugPrint('[$tag] Stack trace:\n$stackTrace');
     }
   }
 }
