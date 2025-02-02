@@ -3,11 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:utrack/theme.dart';
-import 'package:utrack/util.dart';
+import 'package:utrack/utils/theme.dart';
+import 'package:utrack/utils/util.dart';
 import 'package:utrack/view/Auth/AuthWrapper.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_analytics/firebase_analytics.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -17,10 +16,6 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-
-  // Firebase Analyticsの初期化
-  final analytics = FirebaseAnalytics.instance;
-  final analyticsObserver = FirebaseAnalyticsObserver(analytics: analytics);
 
   FirebaseMessaging messaging = FirebaseMessaging.instance;
   if (await Permission.notification.isDenied) {
@@ -32,15 +27,13 @@ void main() async {
     print('通知を受信しました: ${message.notification?.title}');
   });
 
-  runApp(ProviderScope(
-    child: MyApp(analyticsObserver: analyticsObserver),
+  runApp(const ProviderScope(
+    child: MyApp(),
   ));
 }
 
 class MyApp extends StatelessWidget {
-  final FirebaseAnalyticsObserver analyticsObserver;
-
-  const MyApp({super.key, required this.analyticsObserver});
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -52,7 +45,6 @@ class MyApp extends StatelessWidget {
       title: 'UTrack',
       theme: theme.light(),
       home: const AuthWrapper(),
-      navigatorObservers: [analyticsObserver],
     );
   }
 }

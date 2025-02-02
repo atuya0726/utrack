@@ -37,9 +37,9 @@ List<Map<String, dynamic>> processClassData(List<dynamic> jsonData) {
 // Firestoreへのアップロード用の関数
 Future<void> uploadToFirestore(List<Map<String, dynamic>> processedData) async {
   final admin = FirebaseAdminApp.initializeApp(
-    'utrack-dev',
+    'utrack-stg',
     Credential.fromServiceAccount(
-      File('script/credential.json'),
+      File('script/credential-stg.json'),
     ),
   );
 

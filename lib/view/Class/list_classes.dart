@@ -5,6 +5,7 @@ import 'package:utrack/model/class.dart';
 import 'package:utrack/viewmodel/class.dart';
 import 'package:utrack/viewmodel/timetable.dart';
 import 'package:utrack/view/Class/filter_class.dart';
+import 'package:utrack/utils/logger.dart';
 
 class ClassesList extends StatefulWidget {
   const ClassesList({super.key, required this.dayOfWeek, required this.period});
@@ -20,19 +21,28 @@ class _ClassesListState extends State<ClassesList> {
   @override
   void initState() {
     super.initState();
+    Logger.log('ClassesList initialized', tag: 'ClassesList');
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      final ref = ProviderScope.containerOf(context);
-      ref.read(classProvider.notifier).filterClasses(
-            grade: null,
-            major: null,
-            semester: null,
-            dayOfWeek: widget.dayOfWeek,
-            period: widget.period,
-          );
+      try {
+        Logger.log(
+            'Filtering classes for ${widget.dayOfWeek} period ${widget.period}',
+            tag: 'ClassesList');
+        final ref = ProviderScope.containerOf(context);
+        ref.read(classProvider.notifier).filterClasses(
+              grade: null,
+              major: null,
+              semester: null,
+              dayOfWeek: widget.dayOfWeek,
+              period: widget.period,
+            );
+      } catch (e) {
+        Logger.error('Error filtering classes', error: e);
+      }
     });
   }
 
   void _showFilterBottomSheet() {
+    Logger.log('Opening filter bottom sheet', tag: 'ClassesList');
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
@@ -53,6 +63,7 @@ class _ClassesListState extends State<ClassesList> {
 
   @override
   Widget build(BuildContext context) {
+    Logger.log('Building ClassesList widget', tag: 'ClassesList');
     return Expanded(
       child: Stack(
         children: [
@@ -86,6 +97,7 @@ class _ClassesListState extends State<ClassesList> {
 
   ListTile __buildListTile(
       BuildContext context, ClassModel cls, WidgetRef ref) {
+    Logger.log('Building list tile for class: ${cls.name}', tag: 'ClassesList');
     return ListTile(
       title: Text(
         cls.name,
@@ -95,6 +107,8 @@ class _ClassesListState extends State<ClassesList> {
       tileColor: Theme.of(context).colorScheme.surface,
       trailing: IconButton(
         onPressed: () {
+          Logger.log('Adding class to timetable: ${cls.name}',
+              tag: 'ClassesList');
           ref.read(timetableProvider.notifier).addTimetable(cls: cls);
           Navigator.pop(context);
         },
