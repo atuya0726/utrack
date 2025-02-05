@@ -12,26 +12,29 @@ class Timetable extends ConsumerWidget {
     final timetable = ref.watch(timetableProvider);
     return Padding(
       padding: const EdgeInsets.fromLTRB(0, 16, 16, 0),
-      child: Table(
-        // border: TableBorder.all(),
-        defaultVerticalAlignment: TableCellVerticalAlignment.middle,
-        columnWidths: const {
-          0: FlexColumnWidth(0.3), // 曜日の列
-          1: FlexColumnWidth(1), // 各時限の列
-          2: FlexColumnWidth(1),
-          3: FlexColumnWidth(1),
-          4: FlexColumnWidth(1),
-        },
-        children: [
-          _buildHeaderRow(timetable), // ヘッダー行（曜日と時限）
-          ..._buildTimetableRows(timetable), // 時間割データを行に変換
-        ],
+      child: SingleChildScrollView(
+        child: Table(
+          // border: TableBorder.all(),
+          defaultVerticalAlignment: TableCellVerticalAlignment.middle,
+          columnWidths: const {
+            0: FlexColumnWidth(0.3), // 曜日の列
+            1: FlexColumnWidth(1), // 各時限の列
+            2: FlexColumnWidth(1),
+            3: FlexColumnWidth(1),
+            4: FlexColumnWidth(1),
+          },
+          children: [
+            _buildHeaderRow(timetable), // ヘッダー行（曜日と時限）
+            ..._buildTimetableRows(timetable), // 時間割データを行に変換
+          ],
+        ),
       ),
     );
   }
 
   // ヘッダー行（曜日と時限）の作成
   // ヘッダー行（曜日）の作成
+
   TableRow _buildHeaderRow(timetable) {
     return TableRow(
       children: [
