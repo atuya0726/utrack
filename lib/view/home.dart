@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       ),
-      drawer: CustomDrawer(userEmail: user?.uid),
+      drawer: CustomDrawer(userEmail: user?.email),
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[

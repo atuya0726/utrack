@@ -199,7 +199,6 @@ extension HowToSubmitExtension on HowToSubmit {
 
 enum TaskType {
   report,
-  exercise,
   presentation,
   test,
 }
@@ -209,8 +208,6 @@ extension TaskTypeExtension on TaskType {
     switch (this) {
       case TaskType.report:
         return 'レポート';
-      case TaskType.exercise:
-        return '演習';
       case TaskType.presentation:
         return '発表準備';
       case TaskType.test:

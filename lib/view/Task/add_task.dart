@@ -182,7 +182,7 @@ class _AddTaskState extends State<AddTask> {
                   });
                 },
                 child: const Text(
-                  '来週23:59に設定',
+                  '来週の授業前日23:59',
                   textAlign: TextAlign.center,
                 ),
               ),
@@ -207,7 +207,7 @@ class _AddTaskState extends State<AddTask> {
                   _dateController.text = dateFormatter.format(date);
                 },
                 child: const Text(
-                  '来週授業開始前に設定',
+                  '来週の授業開始前',
                   textAlign: TextAlign.center,
                 ),
               ),

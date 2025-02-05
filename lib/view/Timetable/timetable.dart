@@ -17,7 +17,7 @@ class Timetable extends ConsumerWidget {
           // border: TableBorder.all(),
           defaultVerticalAlignment: TableCellVerticalAlignment.middle,
           columnWidths: const {
-            0: FlexColumnWidth(0.3), // 曜日の列
+            0: FlexColumnWidth(0.5), // 曜日の列
             1: FlexColumnWidth(1), // 各時限の列
             2: FlexColumnWidth(1),
             3: FlexColumnWidth(1),

@@ -123,7 +123,7 @@ class TaskUsecase {
     int weekday = date.weekday;
     int daysToThursday = dayOfWeek.number - weekday;
     date = date.add(Duration(days: daysToThursday));
-    DateTime nextWeek = date.add(const Duration(days: 7));
+    DateTime nextWeek = date.add(const Duration(days: 6));
     return DateTime(
       nextWeek.year,
       nextWeek.month,
