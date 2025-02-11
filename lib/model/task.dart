@@ -8,6 +8,7 @@ class TaskModel {
   final String userId;
   final String name;
   final DateTime deadline;
+  final String? memo;
   final HowToSubmit howToSubmit;
   TaskStatus status;
 
@@ -17,6 +18,7 @@ class TaskModel {
     required this.userId,
     required this.name,
     required this.deadline,
+    this.memo,
     required this.howToSubmit,
     required this.status,
   });
@@ -30,6 +32,7 @@ class TaskModel {
       userId: data['userId'],
       name: data['name'],
       deadline: data['deadline'].toDate(),
+      memo: data['memo'] ?? '',
       howToSubmit: HowToSubmit.values.byName(data['howToSubmit'] as String),
       status: TaskStatus.values.byName(data['status'] as String),
     );
@@ -41,6 +44,7 @@ class TaskModel {
       'userId': userId,
       'name': name,
       'deadline': deadline,
+      'memo': memo,
       'howToSubmit': howToSubmit.name,
       'status': status.name,
     };
@@ -51,6 +55,7 @@ class TaskModel {
       required String name,
       required String userId,
       required DateTime deadline,
+      String? memo,
       required HowToSubmit howToSubmit,
       required TaskStatus status}) {
     return TaskModel(
@@ -59,6 +64,7 @@ class TaskModel {
       userId: userId,
       name: name,
       deadline: deadline,
+      memo: memo,
       howToSubmit: howToSubmit,
       status: status,
     );
@@ -83,6 +89,7 @@ class TaskModel {
     String? userId,
     String? name,
     DateTime? deadline,
+    String? memo,
     HowToSubmit? howToSubmit,
     TaskStatus? status,
   }) {
@@ -92,6 +99,7 @@ class TaskModel {
       userId: userId ?? this.userId,
       name: name ?? this.name,
       deadline: deadline ?? this.deadline,
+      memo: memo ?? this.memo,
       howToSubmit: howToSubmit ?? this.howToSubmit,
       status: status ?? this.status,
     );

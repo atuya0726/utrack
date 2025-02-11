@@ -30,6 +30,11 @@ class TaskNotifier extends StateNotifier<List<TaskModel>> {
     fetchTasks();
   }
 
+  @override
+  set state(List<TaskModel> value) {
+    super.state = taskUsecase.validateTasks(tasks: value);
+  }
+
   Future<void> waitForInitialization() => _completer.future;
 
   void fetchTasks() async {
@@ -48,6 +53,7 @@ class TaskNotifier extends StateNotifier<List<TaskModel>> {
     required String name,
     required DateTime deadline,
     required HowToSubmit howToSubmit,
+    String? memo,
   }) async {
     await waitForInitialization();
     final result = await taskUsecase.addTask(
@@ -56,6 +62,7 @@ class TaskNotifier extends StateNotifier<List<TaskModel>> {
       name: name,
       deadline: deadline,
       howToSubmit: howToSubmit,
+      memo: memo,
       currentTasks: state,
       originTasks: originTasks,
     );
@@ -100,6 +107,10 @@ class TaskNotifier extends StateNotifier<List<TaskModel>> {
 
   String calcRemainingDays({required DateTime datetime}) {
     return taskUsecase.calculateRemainingTime(deadline: datetime);
+  }
+
+  Color getColor(DateTime deadline, TaskStatus status) {
+    return taskUsecase.getColor(deadline, status);
   }
 
   DateTime nextWeekAt2359({required Week dayOfWeek}) {

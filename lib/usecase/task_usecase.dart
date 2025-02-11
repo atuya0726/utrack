@@ -1,4 +1,6 @@
 import 'package:clock/clock.dart';
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:utrack/model/constants.dart';
 import 'package:utrack/model/task.dart';
 import 'package:utrack/repository/task.dart';
@@ -12,7 +14,7 @@ class TaskUsecase {
 
   Future<List<TaskModel>> getAllTasks({required String userId}) async {
     final tasks = await _taskRepository.getTasks(userId: userId);
-    return _updateExpiredTasks(tasks);
+    return tasks;
   }
 
   Future<Map<String, List<TaskModel>>> addTask({
@@ -21,6 +23,7 @@ class TaskUsecase {
     required String name,
     required DateTime deadline,
     required HowToSubmit howToSubmit,
+    String? memo,
     required List<TaskModel> currentTasks,
     required List<TaskModel> originTasks,
   }) async {
@@ -31,14 +34,15 @@ class TaskUsecase {
       deadline: deadline,
       howToSubmit: howToSubmit,
       status: TaskStatus.inProgress,
+      memo: memo,
     );
 
     await _taskRepository.addTask(task: task);
     final updatedTasks = [...currentTasks, task];
     final updatedOriginTasks = [...originTasks, task];
     final result = {
-      "state": _updateExpiredTasks(updatedTasks),
-      "origin": _updateExpiredTasks(updatedOriginTasks),
+      "state": updatedTasks,
+      "origin": updatedOriginTasks,
     };
     return result;
   }
@@ -54,8 +58,8 @@ class TaskUsecase {
     final updatedOriginTasks =
         originTasks.where((task) => task.id != taskId).toList();
     final result = {
-      "state": _updateExpiredTasks(updatedTasks),
-      "origin": _updateExpiredTasks(updatedOriginTasks),
+      "state": updatedTasks,
+      "origin": updatedOriginTasks,
     };
     return result;
   }
@@ -86,21 +90,11 @@ class TaskUsecase {
     }).toList();
 
     final result = {
-      "state": _updateExpiredTasks(updatedTasks),
-      "origin": _updateExpiredTasks(updatedOriginTasks),
+      "state": updatedTasks,
+      "origin": updatedOriginTasks,
     };
 
     return result;
-  }
-
-  List<TaskModel> _updateExpiredTasks(List<TaskModel> tasks) {
-    for (var task in tasks) {
-      if (task.deadline.isBefore(clock.now()) &&
-          task.status == TaskStatus.inProgress) {
-        task.status = TaskStatus.expired;
-      }
-    }
-    return tasks;
   }
 
   List<TaskModel> filterTasks({
@@ -115,7 +109,17 @@ class TaskUsecase {
         .toList();
 
     filteredTasks.sort((a, b) => a.deadline.compareTo(b.deadline));
-    return _updateExpiredTasks(filteredTasks);
+    return filteredTasks;
+  }
+
+  List<TaskModel> validateTasks({required List<TaskModel> tasks}) {
+    for (var task in tasks) {
+      if (task.deadline.isBefore(clock.now()) &&
+          task.status == TaskStatus.inProgress) {
+        task.status = TaskStatus.expired;
+      }
+    }
+    return tasks;
   }
 
   DateTime calculateNextWeekAt2359({required Week dayOfWeek}) {
@@ -155,12 +159,33 @@ class TaskUsecase {
   String calculateRemainingTime({required DateTime deadline}) {
     final difference = deadline.difference(clock.now());
 
-    if (difference.inDays == 0 && difference.inHours == 0) {
+    if (difference.isNegative) {
+      final formatter = DateFormat(dateFormat);
+      return '${formatter.format(deadline)} 〆切';
+    } else if (difference.inDays == 0 && difference.inHours == 0) {
       return '${difference.inMinutes % 60}分後';
     } else if (difference.inDays == 0) {
       return '${difference.inHours % 24}時間${difference.inMinutes % 60}分後';
     } else {
       return '${difference.inDays}日${difference.inHours % 24}時間${difference.inMinutes % 60}分後';
+    }
+  }
+
+  Color getColor(DateTime deadline, TaskStatus status) {
+    if (status == TaskStatus.completed) {
+      return Colors.grey;
+    }
+    final difference = deadline.difference(clock.now());
+    if (difference.isNegative) {
+      return Colors.grey;
+    } else if (difference.inDays == 0) {
+      return Colors.red;
+    } else if (difference.inDays == 1) {
+      return Colors.orange;
+    } else if (difference.inDays == 2) {
+      return Colors.yellow;
+    } else {
+      return Colors.green;
     }
   }
 }

@@ -23,6 +23,7 @@ class _AddTaskState extends State<AddTask> {
   HowToSubmit? _selectedSubmitMethod;
   TaskType? _selectedTaskType;
   final TextEditingController _dateController = TextEditingController();
+  final TextEditingController _memoController = TextEditingController();
 
   @override
   void dispose() {
@@ -55,6 +56,10 @@ class _AddTaskState extends State<AddTask> {
             const SizedBox(
               height: 20,
             ),
+            _buildMemo(),
+            const SizedBox(
+              height: 20,
+            ),
             OutlinedButton(
               onPressed: () {
                 if (_selectedTaskType == null ||
@@ -74,11 +79,13 @@ class _AddTaskState extends State<AddTask> {
                       name: _selectedTaskType!.label,
                       deadline: dateFormatter.parse(_dateController.text),
                       howToSubmit: _selectedSubmitMethod!,
+                      memo: _memoController.text,
                     );
                 setState(() {
                   _selectedTaskType = null;
                   _selectedSubmitMethod = null;
                 });
+                _memoController.clear();
                 _dateController.clear();
                 _snackBar();
               },
@@ -251,6 +258,44 @@ class _AddTaskState extends State<AddTask> {
           ),
         ),
       ],
+    );
+  }
+
+  Widget _buildMemo() {
+    return TextField(
+      controller: _memoController,
+      readOnly: true,
+      maxLength: 30,
+      onTap: () {
+        showModalBottomSheet(
+          context: context,
+          isScrollControlled: true,
+          builder: (BuildContext context) {
+            return Padding(
+              padding: EdgeInsets.only(
+                bottom: MediaQuery.of(context).viewInsets.bottom,
+              ),
+              child: Container(
+                padding: const EdgeInsets.all(16),
+                child: TextField(
+                  controller: _memoController,
+                  maxLength: 30,
+                  autofocus: true,
+                  onEditingComplete: () =>
+                      Navigator.pop(context), // Enterキーで閉じる
+                  onTapOutside: (_) => Navigator.pop(context), // フォーカスが外れたら閉じる
+                  decoration: const InputDecoration(
+                    labelText: '一言メモ（30文字以内）',
+                  ),
+                ),
+              ),
+            );
+          },
+        );
+      },
+      decoration: const InputDecoration(
+        labelText: '一言メモ（30文字以内）',
+      ),
     );
   }
 

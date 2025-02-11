@@ -82,7 +82,10 @@ class _ListTaskState extends ConsumerState<ListTask> {
 
   ListTile _buildListTile(BuildContext context, TaskModel task) {
     return ListTile(
-      leading: const Icon(Icons.access_alarm),
+      leading: Icon(Icons.access_alarm,
+          color: ref
+              .read(taskProvider.notifier)
+              .getColor(task.deadline, task.status)),
       title: FutureBuilder<String>(
         future:
             ref.read(classProvider.notifier).getNameById(classId: task.classId),
@@ -94,9 +97,15 @@ class _ListTaskState extends ConsumerState<ListTask> {
           );
         },
       ),
-      subtitle: Text(ref
-          .read(taskProvider.notifier)
-          .calcRemainingDays(datetime: task.deadline)),
+      subtitle: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(ref
+              .read(taskProvider.notifier)
+              .calcRemainingDays(datetime: task.deadline)),
+          Text(task.memo ?? ''),
+        ],
+      ),
       tileColor: Theme.of(context).colorScheme.surface,
       trailing: IconButton(
         onPressed: () {
