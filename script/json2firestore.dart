@@ -22,6 +22,7 @@ List<Map<String, dynamic>> processClassData(List<dynamic> jsonData) {
       'name': classData['name'],
       'professor': classData['professor'],
       'semester': classData['semester'],
+      'year': 2024,
       'grade': grades,
       'period': periodInfo['period'],
       'major': classData['major'],
@@ -45,7 +46,7 @@ Future<void> uploadToFirestore(List<Map<String, dynamic>> processedData) async {
 
   try {
     final firestore = Firestore(admin);
-    final classesRef = firestore.collection('uec/2024/classes');
+    final classesRef = firestore.collection('classes');
     final futures = <Future>[];
 
     for (final data in processedData) {

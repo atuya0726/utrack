@@ -7,11 +7,13 @@ class ClassModel {
   final String name; // クラス名
   final String professor; // 教授名
   final String place; // 教室の場所
+  final int year; // 開講年
+  final String university; // 大学名
   final List<Period> period; // 時限 (例: 1, 2, 3...）
   final Week dayOfWeek; // 曜日 (例: "Monday", "Tuesday"...)
   final Semester semester; // 学期
   final Major major; // 学部
-  final List<int> grade; // 開講年次
+  final List<int> grade; 
   final List<String> users;
   bool get isContinuous => period.length > 1; // getter として定義
 
@@ -21,6 +23,8 @@ class ClassModel {
     required this.name,
     required this.professor,
     required this.place,
+    required this.year,
+    required this.university,
     required this.period,
     required this.dayOfWeek,
     required this.semester,
@@ -36,6 +40,8 @@ class ClassModel {
       name: '',
       professor: '',
       place: '',
+      year: 0,
+      university: '',
       period: [],
       dayOfWeek: Week.mon, // デフォルト値として月曜日を設定
       semester: Semester.first, // デフォルト値として前期を設定
@@ -57,6 +63,8 @@ class ClassModel {
       name: data?['name'] ?? '',
       professor: data?['professor'] ?? '',
       place: data?['place'] ?? '',
+      year: data?['year'] ?? 0,
+      university: data?['university'] ?? '',
       period: PeriodExtension.fromJson((data?['period'] ?? []).cast<int>()),
       dayOfWeek: WeekExtension.fromJson(data?['dayOfWeek'] ?? 0),
       semester: SemesterExtension.fromLabel(data?['semester'] ?? ''),
@@ -72,6 +80,8 @@ class ClassModel {
       "name": name,
       "professor": professor,
       "place": place,
+      "year": year,
+      "university": university,
       "period": period.map((p) => p.number).toList(),
       "dayOfWeek": dayOfWeek.number,
       "semester": semester,
