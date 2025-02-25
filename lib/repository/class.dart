@@ -7,7 +7,7 @@ class ClassRepository {
   late final CollectionReference<ClassModel> docRef;
 
   ClassRepository() {
-    docRef = _firestore.collection('uec/2024/classes').withConverter(
+    docRef = _firestore.collection('classes').withConverter(
           fromFirestore: ClassModel.fromFirestore,
           toFirestore: (ClassModel cls, options) => cls.toFirestore(),
         );
@@ -15,7 +15,10 @@ class ClassRepository {
 
   Future<List<ClassModel>> fetchClasses() async {
     try {
-      final querySnapshot = await docRef.get();
+      final querySnapshot = await docRef
+          .where('university', isEqualTo: 'uec')
+          .where('year', isEqualTo: 2024)
+          .get();
       final classes = querySnapshot.docs.map((doc) => doc.data()).toList();
 
       return classes;
@@ -32,8 +35,11 @@ class ClassRepository {
     if (classIds.isEmpty) {
       return [];
     }
-    final querySnapshot =
-        await docRef.where(FieldPath.documentId, whereIn: classIds).get();
+    final querySnapshot = await docRef
+        .where('university', isEqualTo: 'uec')
+        .where('year', isEqualTo: 2024)
+        .where(FieldPath.documentId, whereIn: classIds)
+        .get();
     return querySnapshot.docs.map((doc) => doc.data()).toList();
   }
 

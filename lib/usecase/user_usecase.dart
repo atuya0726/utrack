@@ -19,4 +19,8 @@ class UserUsecase {
   Future<void> updateUser({required UserModel user}) async {
     await _userRepository.updateUser(user: user);
   }
+
+  Future<void> updateNotificationToken({required String userId, required String token}) async {
+    await _userRepository.updateNotificationToken(userId: userId, token: token);
+  }
 }

@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:utrack/usecase/fcm_usecase.dart';
 import 'package:utrack/view/Auth/login.dart';
 import 'package:utrack/view/home.dart';
 
@@ -15,6 +16,9 @@ class AuthWrapper extends StatelessWidget {
         }
 
         if (snapshot.hasData) {
+          final userId = snapshot.data!.uid;
+          NotificationUseCase().initialize(userId);
+
           // ユーザーがログインしている場合
           return const HomePage();
         }

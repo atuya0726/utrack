@@ -6,12 +6,14 @@ class UserModel {
   final List<String> classes;
   final Grade? grade;
   final Major? major;
+  final String? notificationToken;
 
   UserModel({
     required this.id,
     required this.classes,
     this.grade,
     this.major,
+    this.notificationToken,
   });
 
   static UserModel empty() {
@@ -28,6 +30,7 @@ class UserModel {
       classes: data['classes'].cast<String>() ?? [],
       grade: data['grade'] != null ? Grade.values[data['grade']] : null,
       major: data['major'] != null ? Major.values[data['major']] : null,
+      notificationToken: data['notification_token'] ?? '',
     );
   }
 
@@ -35,17 +38,20 @@ class UserModel {
         'classes': classes,
         'grade': grade?.index,
         'major': major?.index,
+        'notification_token': notificationToken,
       };
 
   UserModel copyWith({
     Grade? grade,
     Major? major,
+    String? notificationToken,
   }) {
     return UserModel(
       id: id,
       classes: classes,
       grade: grade,
       major: major,
+      notificationToken: notificationToken,
     );
   }
 }

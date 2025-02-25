@@ -62,4 +62,10 @@ class UserRepository {
       'major': user.major?.index,
     });
   }
+
+  Future<void> updateNotificationToken({required String userId, required String token}) async {
+    await docRef.doc(userId).update({
+      'notification_token': token,
+    });
+  }
 }

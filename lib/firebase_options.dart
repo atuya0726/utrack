@@ -25,9 +25,9 @@ class DefaultFirebaseOptions {
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        return android;
+        return _getAndroidOptions();
       case TargetPlatform.iOS:
-        return ios;
+        return _getIOSOptions();
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -50,20 +50,24 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static FirebaseOptions android = FirebaseOptions(
-    apiKey: dotenv.env['FIREBASE_API_KEY_ANDROID']!,
-    appId: dotenv.env['FIREBASE_APP_ID_ANDROID']!,
-    messagingSenderId: dotenv.env['FIREBASE_SENDER_ID']!,
-    projectId: dotenv.env['FIREBASE_ENV']!,
-    storageBucket: '${dotenv.env['FIREBASE_ENV']}.firebasestorage.app',
-  );
+  static FirebaseOptions _getAndroidOptions() {
+    return FirebaseOptions(
+      apiKey: dotenv.env['FIREBASE_API_KEY_ANDROID']!,
+      appId: dotenv.env['FIREBASE_APP_ID_ANDROID']!,
+      messagingSenderId: dotenv.env['FIREBASE_SENDER_ID']!,
+      projectId: dotenv.env['FIREBASE_ENV']!,
+      storageBucket: '${dotenv.env['FIREBASE_ENV']}.firebasestorage.app',
+    );
+  }
 
-  static FirebaseOptions ios = FirebaseOptions(
-    apiKey: dotenv.env['FIREBASE_API_KEY_IOS']!,
-    appId: dotenv.env['FIREBASE_APP_ID_IOS']!,
-    messagingSenderId: dotenv.env['FIREBASE_SENDER_ID']!,
-    projectId: dotenv.env['FIREBASE_ENV']!,
-    storageBucket: '${dotenv.env['FIREBASE_ENV']}.firebasestorage.app',
-    iosBundleId: 'com.nagasunari.utrack',
-  );
+  static FirebaseOptions _getIOSOptions() {
+    return FirebaseOptions(
+      apiKey: dotenv.env['FIREBASE_API_KEY_IOS']!,
+      appId: dotenv.env['FIREBASE_APP_ID_IOS']!,
+      messagingSenderId: dotenv.env['FIREBASE_SENDER_ID']!,
+      projectId: dotenv.env['FIREBASE_ENV']!,
+      storageBucket: '${dotenv.env['FIREBASE_ENV']}.firebasestorage.app',
+      iosBundleId: 'com.nagasunari.utrack',
+    );
+  }
 }
