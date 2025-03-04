@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:utrack/view/settings_page.dart';
+import 'package:utrack/view/notification_settings_page.dart';
 
 class CustomDrawer extends StatelessWidget {
   final String? userEmail;
@@ -43,6 +44,19 @@ class CustomDrawer extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) => const SettingsPage(),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.notifications),
+            title: const Text('通知'),
+            onTap: () {
+              Navigator.pop(context); // ドロワーを閉じる
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const NotificationSettingsPage(),
                 ),
               );
             },

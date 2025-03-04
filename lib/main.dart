@@ -1,9 +1,6 @@
-// import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:utrack/utils/theme.dart';
 import 'package:utrack/utils/util.dart';
 import 'package:utrack/view/Auth/AuthWrapper.dart';
@@ -21,24 +18,6 @@ void main() async {
   } catch (e) {
     Firebase.app(); // 既に初期化されている場合は既存のインスタンスを取得
   }
-
-  FirebaseMessaging messaging = FirebaseMessaging.instance;
-
-  await messaging.requestPermission(
-      alert: true,
-      announcement: false,
-      badge: true,
-      carPlay: false,
-      criticalAlert: false,
-      provisional: false,
-      sound: true,
-    );
-
-  String? token = await messaging.getToken();
-  print("token: $token");
-  FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-    print('通知を受信しました: ${message.notification?.title}');
-  });
 
   runApp(const ProviderScope(
     child: MyApp(),
